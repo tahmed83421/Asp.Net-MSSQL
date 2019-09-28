@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AmericanPoolBilliard" xml:space="preserve">
+    <value>N° Pool billiard *</value>
+  </data>
+  <data name="CellPhone" xml:space="preserve">
+    <value>Cell phone *</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City *</value>
+  </data>
+  <data name="ClubHeading" xml:space="preserve">
+    <value>Club</value>
+  </data>
+  <data name="ClubLogo" xml:space="preserve">
+    <value>Logo of Club &lt;font color="#FF0000"&gt;&lt;span&gt;(i)&lt;/span&gt;&lt;/font&gt; *</value>
+  </data>
+  <data name="ClubName" xml:space="preserve">
+    <value>Name of Club *</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>Company Name *</value>
+  </data>
+  <data name="ContactPerson" xml:space="preserve">
+    <value>Contact Person *</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail *</value>
+  </data>
+  <data name="Federation" xml:space="preserve">
+    <value>Federation Membership *</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="InternationalBilliard" xml:space="preserve">
+    <value>N° Inter. billiard *</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Logintext" xml:space="preserve">
+    <value>Edit your account</value>
+  </data>
+  <data name="LookingSponsor" xml:space="preserve">
+    <value>Looking for Sponsor ? *</value>
+  </data>
+  <data name="N" xml:space="preserve">
+    <value>N° *</value>
+  </data>
+  <data name="Nation" xml:space="preserve">
+    <value>Country *</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password *</value>
+  </data>
+  <data name="PCategoryLevel" xml:space="preserve">
+    <value>Category Level &lt;font color="#FF0000"&gt;&lt;span&gt;(i)&lt;/span&gt;&lt;/font&gt; *</value>
+  </data>
+  <data name="PCellPhone" xml:space="preserve">
+    <value>Cell phone *</value>
+  </data>
+  <data name="PCity" xml:space="preserve">
+    <value>City *</value>
+  </data>
+  <data name="PClubName" xml:space="preserve">
+    <value>Name of Club Membership *</value>
+  </data>
+  <data name="PEmail" xml:space="preserve">
+    <value>E-mail *</value>
+  </data>
+  <data name="PFamilyName" xml:space="preserve">
+    <value>Family Name *</value>
+  </data>
+  <data name="PFederation" xml:space="preserve">
+    <value>Federation Membership *</value>
+  </data>
+  <data name="PGameSpeciality" xml:space="preserve">
+    <value>Game Speciality *</value>
+  </data>
+  <data name="PGender" xml:space="preserve">
+    <value>Gender *</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="PId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="PlayerHeading" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="PLogin" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="PLogintext" xml:space="preserve">
+    <value>Edit your account</value>
+  </data>
+  <data name="PLookingSponsor" xml:space="preserve">
+    <value>Looking for Sponsor ? *</value>
+  </data>
+  <data name="PN" xml:space="preserve">
+    <value>N° *</value>
+  </data>
+  <data name="PName" xml:space="preserve">
+    <value>Name *</value>
+  </data>
+  <data name="PNation" xml:space="preserve">
+    <value>Country *</value>
+  </data>
+  <data name="PPassword" xml:space="preserve">
+    <value>Password  *</value>
+  </data>
+  <data name="PPhone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="PPlayerPicture" xml:space="preserve">
+    <value>Photo of Player &lt;font color="#FF0000"&gt;&lt;span&gt;(i)&lt;/span&gt;&lt;/font&gt; *</value>
+  </data>
+  <data name="PPw" xml:space="preserve">
+    <value>PW</value>
+  </data>
+  <data name="PScoreSponsor" xml:space="preserve">
+    <value>Score Sponsor Brand *</value>
+  </data>
+  <data name="PShare" xml:space="preserve">
+    <value>Share data in Internet &lt;font color="#FF0000"&gt;&lt;span&gt;(i)&lt;/span&gt;&lt;/font&gt; *</value>
+  </data>
+  <data name="PSignup" xml:space="preserve">
+    <value>Signup</value>
+  </data>
+  <data name="PSignuptext" xml:space="preserve">
+    <value>Create your account</value>
+  </data>
+  <data name="PStreet" xml:space="preserve">
+    <value>Street *</value>
+  </data>
+  <data name="PTelevisonImage" xml:space="preserve">
+    <value>Rights Television Image &lt;font color="#FF0000"&gt;&lt;span&gt;(i)&lt;/span&gt;&lt;/font&gt; *</value>
+  </data>
+  <data name="PTermandcondition" xml:space="preserve">
+    <value>Accept the contract &lt;font color="#FF0000"&gt;&lt;span&gt;(i)&lt;/span&gt;&lt;/font&gt; *</value>
+  </data>
+  <data name="PFiscalCode" xml:space="preserve">
+    <value>Fiscal Code *</value>
+  </data>
+  <data name="Pw" xml:space="preserve">
+    <value>PW</value>
+  </data>
+  <data name="PWebsite" xml:space="preserve">
+    <value>Personal Web Site *</value>
+  </data>
+  <data name="PZip" xml:space="preserve">
+    <value>ZIP *</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Share data in Internet &lt;font color="#FF0000"&gt;&lt;span&gt;(i)&lt;/span&gt;&lt;/font&gt; *</value>
+  </data>
+  <data name="Signup" xml:space="preserve">
+    <value>Signup</value>
+  </data>
+  <data name="Signuptext" xml:space="preserve">
+    <value>Create your account</value>
+  </data>
+  <data name="SnookerBilliard" xml:space="preserve">
+    <value>N° Snooker billiard *</value>
+  </data>
+  <data name="SponsorBrand" xml:space="preserve">
+    <value>Score Sponsor Brand ? *</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Street *</value>
+  </data>
+  <data name="TelevisonImage" xml:space="preserve">
+    <value>Rights Television Image &lt;font color="#FF0000"&gt;&lt;span&gt;(i)&lt;/span&gt;&lt;/font&gt;  *</value>
+  </data>
+  <data name="Termandcondition" xml:space="preserve">
+    <value>Accept the contract &lt;font color="#FF0000"&gt;&lt;span&gt;(i)&lt;/span&gt;&lt;/font&gt;  *</value>
+  </data>
+  <data name="VAT" xml:space="preserve">
+    <value>VAT number *</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Club Website *</value>
+  </data>
+  <data name="Zip" xml:space="preserve">
+    <value>ZIP *</value>
+  </data>
+  <data name="ForgetPassword" xml:space="preserve">
+    <value>Forget Password ?</value>
+  </data>
+  <data name="ForgetPasswordSend" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="PForgetPassword" xml:space="preserve">
+    <value> Forget Password ?</value>
+  </data>
+  <data name="PForgetPasswordSend" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="ForgetPass" xml:space="preserve">
+    <value>Your E-mail</value>
+  </data>
+  <data name="PForgetPass" xml:space="preserve">
+    <value>Your E-mail</value>
+  </data>
+  <data name="PasswordPopup" xml:space="preserve">
+    <value>UPPERCASE and NUMBER restriction (Max. 7 digits)</value>
+  </data>
+  <data name="ClubUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="PlayerUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="ClubSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="PlayerSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ImagePopup" xml:space="preserve">
+    <value>For a good image and in order to avoid distortion use 125x150 px png file</value>
+  </data>
+  <data name="SharePopup" xml:space="preserve">
+    <value>Only the data of your games and competitions will shared in Internet. If you select No button the registration will not accepted</value>
+  </data>
+  <data name="TelevisionPopup" xml:space="preserve">
+    <value>The consent to share your image in Internet will be request from us every time we need. We will send an e-mail, you are free to accept or not accept. If you select No button, the registration will not accepted.</value>
+  </data>
+  <data name="CategoryPopup" xml:space="preserve">
+    <value>From 1 to 10 levels. For example 1 = is the highest level established by the Federation of your Country.</value>
+  </data>
+  <data name="PTermsPop" xml:space="preserve">
+    <value>All registration data are processed in accordance with the applicable National and International Laws
+
+with full respect for privacy.</value>
+  </data>
+  <data name="Unlock" xml:space="preserve">
+    <value>Unlock</value>
+  </data>
+</root>

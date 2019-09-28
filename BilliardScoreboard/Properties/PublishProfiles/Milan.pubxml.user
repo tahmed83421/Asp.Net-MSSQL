@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Activate.aspx">
+      <publishTime>10/08/2015 21:36:19</publishTime>
+    </File>
+    <File Include="Admin/Dashboard.aspx">
+      <publishTime>10/26/2015 21:51:15</publishTime>
+    </File>
+    <File Include="BilliardScoreboard.asmx">
+      <publishTime>09/24/2015 00:20:24</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>09/23/2008 08:53:02</publishTime>
+    </File>
+    <File Include="bin/BilliardScoreboard.dll">
+      <publishTime>01/09/2016 00:05:50</publishTime>
+    </File>
+    <File Include="bin/en-US/BilliardScoreboard.resources.dll">
+      <publishTime>01/09/2016 00:05:50</publishTime>
+    </File>
+    <File Include="bin/it-IT/BilliardScoreboard.resources.dll">
+      <publishTime>01/09/2016 00:05:50</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.dll">
+      <publishTime>05/04/2015 11:44:05</publishTime>
+    </File>
+    <File Include="ClubRegistration.aspx">
+      <publishTime>01/07/2016 00:19:07</publishTime>
+    </File>
+    <File Include="css/components.css">
+      <publishTime>09/07/2015 00:36:13</publishTime>
+    </File>
+    <File Include="css/custom.css">
+      <publishTime>10/15/2015 00:13:10</publishTime>
+    </File>
+    <File Include="css/footable.min.css">
+      <publishTime>09/19/2015 00:57:13</publishTime>
+    </File>
+    <File Include="css/Game.css">
+      <publishTime>12/17/2015 22:05:45</publishTime>
+    </File>
+    <File Include="css/responsee.css">
+      <publishTime>10/13/2015 00:29:03</publishTime>
+    </File>
+    <File Include="css/ResponsiveGrid.css">
+      <publishTime>10/31/2015 00:43:07</publishTime>
+    </File>
+    <File Include="css/template-style.css">
+      <publishTime>12/12/2015 06:19:47</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>10/29/2015 23:04:58</publishTime>
+    </File>
+    <File Include="EmailTemplate/ClubRegistrationTemplate.html">
+      <publishTime>10/10/2015 00:10:13</publishTime>
+    </File>
+    <File Include="EmailTemplate/ForgetPasswordTemplate.html">
+      <publishTime>09/18/2015 21:49:49</publishTime>
+    </File>
+    <File Include="EmailTemplate/MailTemplate.html">
+      <publishTime>09/30/2015 00:31:06</publishTime>
+    </File>
+    <File Include="EmailTemplate/PlayerRegistrationTemplate.html">
+      <publishTime>10/10/2015 00:10:06</publishTime>
+    </File>
+    <File Include="EmailTemplate/RegistrationTemplate.html">
+      <publishTime>09/24/2015 01:02:10</publishTime>
+    </File>
+    <File Include="ErrorLog.txt">
+      <publishTime>09/14/2015 22:05:59</publishTime>
+    </File>
+    <File Include="Final.aspx">
+      <publishTime>09/24/2015 00:59:48</publishTime>
+    </File>
+    <File Include="font/mfglabsiconset-webfont.eot">
+      <publishTime>09/02/2015 00:48:21</publishTime>
+    </File>
+    <File Include="font/mfglabsiconset-webfont.svg">
+      <publishTime>09/02/2015 00:48:21</publishTime>
+    </File>
+    <File Include="font/mfglabsiconset-webfont.ttf">
+      <publishTime>09/02/2015 00:48:21</publishTime>
+    </File>
+    <File Include="font/mfglabsiconset-webfont.woff">
+      <publishTime>09/02/2015 00:48:21</publishTime>
+    </File>
+    <File Include="Game/Score.aspx">
+      <publishTime>01/09/2016 00:02:59</publishTime>
+    </File>
+    <File Include="Game/Setup.aspx">
+      <publishTime>12/17/2015 22:04:00</publishTime>
+    </File>
+    <File Include="img/Black.jpg">
+      <publishTime>11/06/2015 16:02:46</publishTime>
+    </File>
+    <File Include="img/et.eBottom.png">
+      <publishTime>09/08/2015 00:37:35</publishTime>
+    </File>
+    <File Include="img/icon-1.png">
+      <publishTime>09/06/2015 04:02:52</publishTime>
+    </File>
+    <File Include="img/icon-2.png">
+      <publishTime>09/06/2015 04:02:52</publishTime>
+    </File>
+    <File Include="img/imac-template.png">
+      <publishTime>10/13/2015 02:09:06</publishTime>
+    </File>
+    <File Include="img/imac.png">
+      <publishTime>10/16/2015 00:58:07</publishTime>
+    </File>
+    <File Include="img/logoscore.png">
+      <publishTime>11/09/2015 00:51:28</publishTime>
+    </File>
+    <File Include="img/logoscorenew.png">
+      <publishTime>12/14/2015 01:08:24</publishTime>
+    </File>
+    <File Include="img/logoTop.png">
+      <publishTime>09/06/2015 02:30:17</publishTime>
+    </File>
+    <File Include="img/NoImage.png">
+      <publishTime>09/30/2015 01:06:16</publishTime>
+    </File>
+    <File Include="js/custom.js">
+      <publishTime>10/12/2015 21:36:06</publishTime>
+    </File>
+    <File Include="js/footable.min.js">
+      <publishTime>09/19/2015 00:51:34</publishTime>
+    </File>
+    <File Include="js/jquery-1.8.3.min.js">
+      <publishTime>09/02/2015 00:49:29</publishTime>
+    </File>
+    <File Include="js/jquery-2.1.4.min.js">
+      <publishTime>11/14/2015 21:41:37</publishTime>
+    </File>
+    <File Include="js/jquery-ui.min.js">
+      <publishTime>09/02/2015 00:49:29</publishTime>
+    </File>
+    <File Include="js/modernizr.js">
+      <publishTime>09/02/2015 00:49:29</publishTime>
+    </File>
+    <File Include="js/responsee.js">
+      <publishTime>09/02/2015 00:49:30</publishTime>
+    </File>
+    <File Include="js/vkboard.js">
+      <publishTime>12/17/2015 00:40:17</publishTime>
+    </File>
+    <File Include="PlayerRegistration.aspx">
+      <publishTime>01/07/2016 00:10:13</publishTime>
+    </File>
+    <File Include="public/Upload/Club/5eu.png">
+      <publishTime>11/07/2015 00:43:18</publishTime>
+    </File>
+    <File Include="public/Upload/Player/Manjhi - The Mountain Man -  Ninja_Pirate® %28AKA%29 DGtalViolence®.jpg">
+      <publishTime>11/15/2015 00:55:33</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/09/2016 00:05:51</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\NBAGHEL\Desktop</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Booking.aspx">
+      <publishTime>04/10/2019 10:56:42</publishTime>
+    </File>
+    <File Include="ClubRegistration.aspx">
+      <publishTime>04/10/2019 11:03:13</publishTime>
+    </File>
+    <File Include="PlayerRegistration.aspx">
+      <publishTime>04/10/2019 11:02:05</publishTime>
+    </File>
+    <File Include="race.aspx">
+      <publishTime>04/07/2019 14:07:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

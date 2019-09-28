@@ -1,0 +1,401 @@
+c:\users\milan\documents\visual studio 2012\Projects\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll
+c:\users\milan\documents\visual studio 2012\Projects\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.pdb
+c:\users\milan\documents\visual studio 2012\Projects\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+c:\users\milan\documents\visual studio 2012\Projects\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb
+C:\Users\milan\Documents\Visual Studio 2012\Projects\BilliardScoreboard\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+C:\Users\milan\Documents\Visual Studio 2012\Projects\BilliardScoreboard\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+C:\Users\milan\Documents\Visual Studio 2012\Projects\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+C:\Users\milan\Documents\Visual Studio 2012\Projects\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+C:\Users\milan\Documents\Visual Studio 2012\Projects\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+C:\Users\milan\Documents\Visual Studio 2012\Projects\BilliardScoreboard\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+C:\Users\milan\Documents\Visual Studio 2012\Projects\BilliardScoreboard\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+C:\Users\BWS-New-2\Documents\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll
+C:\Users\BWS-New-2\Documents\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.pdb
+C:\Users\BWS-New-2\Documents\BilliardScoreboard\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+C:\Users\BWS-New-2\Documents\BilliardScoreboard\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+C:\Users\BWS-New-2\Documents\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csprojResolveAssemblyReference.cache
+C:\Users\BWS-New-2\Documents\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+C:\Users\BWS-New-2\Documents\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+C:\Users\BWS-New-2\Documents\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+C:\Users\BWS-New-2\Documents\BilliardScoreboard\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+C:\Users\BWS-New-2\Documents\BilliardScoreboard\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+C:\Users\BWS-New-2\Documents\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+C:\Users\BWS-New-2\Documents\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb
+F:\Clients\New\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll
+F:\Clients\New\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.pdb
+F:\Clients\New\BilliardScoreboard\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+F:\Clients\New\BilliardScoreboard\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+F:\Clients\New\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csprojResolveAssemblyReference.cache
+F:\Clients\New\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+F:\Clients\New\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+F:\Clients\New\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+F:\Clients\New\BilliardScoreboard\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+F:\Clients\New\BilliardScoreboard\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+F:\Clients\New\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+F:\Clients\New\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb
+C:\Users\milan\Documents\Visual Studio 2012\Projects\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csprojResolveAssemblyReference.cache
+F:\Clients\New\Sergio\Final Code\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll.config
+F:\Clients\New\Sergio\Final Code\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll
+F:\Clients\New\Sergio\Final Code\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.pdb
+F:\Clients\New\Sergio\Final Code\BilliardScoreboard\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+F:\Clients\New\Sergio\Final Code\BilliardScoreboard\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+F:\Clients\New\Sergio\Final Code\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csprojResolveAssemblyReference.cache
+F:\Clients\New\Sergio\Final Code\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+F:\Clients\New\Sergio\Final Code\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+F:\Clients\New\Sergio\Final Code\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+F:\Clients\New\Sergio\Final Code\BilliardScoreboard\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+F:\Clients\New\Sergio\Final Code\BilliardScoreboard\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+F:\Clients\New\Sergio\Final Code\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+F:\Clients\New\Sergio\Final Code\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll.config
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.pdb
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csprojResolveAssemblyReference.cache
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\AjaxControlToolkit.pdb
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\ar\AjaxControlToolkit.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\cs\AjaxControlToolkit.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\de\AjaxControlToolkit.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\es\AjaxControlToolkit.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\fr\AjaxControlToolkit.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\he\AjaxControlToolkit.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\hi\AjaxControlToolkit.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\it\AjaxControlToolkit.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\ja\AjaxControlToolkit.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\ko\AjaxControlToolkit.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\nl\AjaxControlToolkit.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\pt\AjaxControlToolkit.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\ru\AjaxControlToolkit.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\tr-TR\AjaxControlToolkit.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\zh-CHS\AjaxControlToolkit.resources.dll
+F:\Clients\New\Sergio\Integrated\BilliardScoreboard\BilliardScoreboard\bin\zh-CHT\AjaxControlToolkit.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll.config
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.pdb
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\AjaxControlToolkit.pdb
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\ar\AjaxControlToolkit.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\cs\AjaxControlToolkit.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\de\AjaxControlToolkit.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\es\AjaxControlToolkit.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\fr\AjaxControlToolkit.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\he\AjaxControlToolkit.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\hi\AjaxControlToolkit.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\it\AjaxControlToolkit.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\ja\AjaxControlToolkit.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\ko\AjaxControlToolkit.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\nl\AjaxControlToolkit.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\pt\AjaxControlToolkit.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\ru\AjaxControlToolkit.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\tr-TR\AjaxControlToolkit.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\zh-CHS\AjaxControlToolkit.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\bin\zh-CHT\AjaxControlToolkit.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csprojResolveAssemblyReference.cache
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+E:\Clients\New\Sergio\Integrated\Backup\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll.config
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.pdb
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\AjaxControlToolkit.pdb
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csprojResolveAssemblyReference.cache
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb
+C:\Users\aabir\Desktop\work things\App&DatabaseBackup\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll.licenses
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll.config
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.pdb
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\AjaxControlToolkit.pdb
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csprojResolveAssemblyReference.cache
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll.licenses
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+C:\Users\Tanvir\Desktop\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll.config
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.pdb
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\AjaxControlToolkit.pdb
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csprojResolveAssemblyReference.cache
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll.licenses
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\obj\Debug\RdlCompile.cache
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\obj\Debug\RdlCompile.compiled
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+C:\Users\Tanvir\Desktop\upl\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll.config
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.pdb
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\AjaxControlToolkit.pdb
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csprojResolveAssemblyReference.cache
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll.licenses
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\obj\Debug\RdlCompile.cache
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\obj\Debug\RdlCompile.compiled
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+C:\Users\Tanvir\Desktop\BiliardScoreBoard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll.config
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.pdb
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\AjaxControlToolkit.pdb
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\ar\AjaxControlToolkit.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\cs\AjaxControlToolkit.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\de\AjaxControlToolkit.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\es\AjaxControlToolkit.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\fr\AjaxControlToolkit.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\he\AjaxControlToolkit.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\hi\AjaxControlToolkit.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\it\AjaxControlToolkit.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\ja\AjaxControlToolkit.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\ko\AjaxControlToolkit.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\nl\AjaxControlToolkit.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\pt\AjaxControlToolkit.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\ru\AjaxControlToolkit.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csprojResolveAssemblyReference.cache
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll.licenses
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\RdlCompile.cache
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\RdlCompile.compiled
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+D:\New folder\projects\biliardoprofessionale\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll.config
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.pdb
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\AjaxControlToolkit.pdb
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csprojResolveAssemblyReference.cache
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll.licenses
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\RdlCompile.cache
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\RdlCompile.compiled
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+C:\Users\NBAGHEL\Desktop\BiliardScoreBoard-05-06-2017\BiliardScoreBoard-10.02.2017\BiliardScoreBoard-10.02.2017\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb
+C:\Users\NBAGHEL\Desktop\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll.config
+C:\Users\NBAGHEL\Desktop\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll
+C:\Users\NBAGHEL\Desktop\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.pdb
+C:\Users\NBAGHEL\Desktop\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+C:\Users\NBAGHEL\Desktop\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+C:\Users\NBAGHEL\Desktop\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+C:\Users\NBAGHEL\Desktop\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+C:\Users\NBAGHEL\Desktop\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+C:\Users\NBAGHEL\Desktop\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll.licenses
+C:\Users\NBAGHEL\Desktop\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\RdlCompile.cache
+C:\Users\NBAGHEL\Desktop\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\RdlCompile.compiled
+C:\Users\NBAGHEL\Desktop\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+C:\Users\NBAGHEL\Desktop\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+C:\Users\NBAGHEL\Desktop\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+C:\Users\NBAGHEL\Desktop\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb
+C:\Users\NBAGHEL\Desktop\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csprojResolveAssemblyReference.cache
+C:\Users\NBAGHEL\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll.config
+C:\Users\NBAGHEL\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll
+C:\Users\NBAGHEL\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.pdb
+C:\Users\NBAGHEL\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+C:\Users\NBAGHEL\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+C:\Users\NBAGHEL\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+C:\Users\NBAGHEL\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+C:\Users\NBAGHEL\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+C:\Users\NBAGHEL\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll.licenses
+C:\Users\NBAGHEL\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\RdlCompile.cache
+C:\Users\NBAGHEL\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\RdlCompile.compiled
+C:\Users\NBAGHEL\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+C:\Users\NBAGHEL\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+C:\Users\NBAGHEL\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+C:\Users\NBAGHEL\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb
+C:\Users\NBAGHEL\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csprojResolveAssemblyReference.cache
+F:\Downloads\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll.config
+F:\Downloads\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll
+F:\Downloads\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.pdb
+F:\Downloads\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+F:\Downloads\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+F:\Downloads\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+F:\Downloads\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+F:\Downloads\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+F:\Downloads\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll.licenses
+F:\Downloads\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\RdlCompile.cache
+F:\Downloads\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\RdlCompile.compiled
+F:\Downloads\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+F:\Downloads\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+F:\Downloads\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+F:\Downloads\Downloads\BilliardWindowsApplicatin    - swap\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb
+F:\Downloads\Desktop\All APP Neeraj\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll.config
+F:\Downloads\Desktop\All APP Neeraj\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.dll
+F:\Downloads\Desktop\All APP Neeraj\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\bin\BilliardScoreboard.pdb
+F:\Downloads\Desktop\All APP Neeraj\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+F:\Downloads\Desktop\All APP Neeraj\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+F:\Downloads\Desktop\All APP Neeraj\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\bin\Microsoft.QualityTools.Testing.Fakes.dll
+F:\Downloads\Desktop\All APP Neeraj\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csprojResolveAssemblyReference.cache
+F:\Downloads\Desktop\All APP Neeraj\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+F:\Downloads\Desktop\All APP Neeraj\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+F:\Downloads\Desktop\All APP Neeraj\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+F:\Downloads\Desktop\All APP Neeraj\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll.licenses
+F:\Downloads\Desktop\All APP Neeraj\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\RdlCompile.cache
+F:\Downloads\Desktop\All APP Neeraj\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\RdlCompile.compiled
+F:\Downloads\Desktop\All APP Neeraj\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+F:\Downloads\Desktop\All APP Neeraj\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+F:\Downloads\Desktop\All APP Neeraj\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+F:\Downloads\Desktop\All APP Neeraj\BilliardScoreboard\BilliardScoreboard\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb
+D:\Mywork\Freelancer\BilliardScoreboard290319\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+D:\Mywork\Freelancer\BilliardScoreboard290319\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+D:\Mywork\Freelancer\BilliardScoreboard290319\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+D:\Mywork\Freelancer\BilliardScoreboard290319\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll.licenses
+D:\Mywork\Freelancer\BilliardScoreboard290319\BilliardScoreboard\obj\Debug\BilliardScoreboard.csprojResolveAssemblyReference.cache
+D:\Mywork\Freelancer\BilliardScoreboard290319\BilliardScoreboard\bin\BilliardScoreboard.dll.config
+D:\Mywork\Freelancer\BilliardScoreboard290319\BilliardScoreboard\bin\BilliardScoreboard.dll
+D:\Mywork\Freelancer\BilliardScoreboard290319\BilliardScoreboard\bin\BilliardScoreboard.pdb
+D:\Mywork\Freelancer\BilliardScoreboard290319\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+D:\Mywork\Freelancer\BilliardScoreboard290319\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+D:\Mywork\Freelancer\BilliardScoreboard290319\BilliardScoreboard\bin\System.Web.Http.dll
+D:\Mywork\Freelancer\BilliardScoreboard290319\BilliardScoreboard\bin\System.Net.Http.Formatting.dll
+D:\Mywork\Freelancer\BilliardScoreboard290319\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+D:\Mywork\Freelancer\BilliardScoreboard290319\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+D:\Mywork\Freelancer\BilliardScoreboard290319\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+D:\Mywork\Freelancer\BilliardScoreboard290319\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\obj\Debug\BilliardScoreboard.csprojResolveAssemblyReference.cache
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\obj\Debug\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\obj\Debug\BilliardScoreboard.csproj.GenerateResource.Cache
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll.licenses
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\obj\Debug\RdlCompile.cache
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\obj\Debug\RdlCompile.compiled
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\obj\Debug\BilliardScoreboard.dll
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\bin\BilliardScoreboard.dll.config
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\bin\BilliardScoreboard.dll
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\bin\BilliardScoreboard.pdb
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\bin\Microsoft.QualityTools.Testing.Fakes.dll
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\bin\Newtonsoft.Json.dll
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\obj\Debug\en-US\BilliardScoreboard.resources.dll
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\obj\Debug\it-IT\BilliardScoreboard.resources.dll
+F:\Downloads\Downloads\BilliardScorboard10apr2019\BilliardScoreboard\obj\Debug\BilliardScoreboard.pdb

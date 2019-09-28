@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EB076824-7960-49CD-861E-625D645E3DCC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BilliardScoreboard</RootNamespace>
+    <AssemblyName>BilliardScoreboard</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AdvAdmin.aspx" />
+    <Content Include="advertaising.aspx" />
+    <Content Include="advertaisingold.aspx" />
+    <Content Include="advertisement.js" />
+    <Content Include="Booking.aspx" />
+    <Content Include="costexcelmail.aspx" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\components.css" />
+    <Content Include="css\custom.css" />
+    <Content Include="css\Game.css" />
+    <Content Include="css\jquery.loader.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\responsee.css" />
+    <Content Include="css\ResponsiveGrid.css" />
+    <Content Include="css\template-style.css" />
+    <Content Include="EmailTemplate\PlayerEmailConfirmation.html" />
+    <Content Include="img\swapposition.png" />
+    <Content Include="index.html" />
+    <Content Include="js\vivus.js" />
+    <Content Include="privacy.html" />
+    <Content Include="race.aspx" />
+    <Content Include="Renew.aspx" />
+    <Content Include="Admin\Dashboard.aspx" />
+    <Content Include="BilliardScoreboard.asmx" />
+    <Content Include="card.aspx" />
+    <Content Include="ClubRegistration.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="EmailTemplate\CardPrint.html" />
+    <Content Include="EmailTemplate\PlayerRegistrationTemplateCard.html" />
+    <Content Include="EmailTemplate\PlayerRemember.html" />
+    <Content Include="EmailTemplate\PlayerRegistrationTemplateForClub.html" />
+    <Content Include="EmailTemplate\PlayerRegistrationTemplate.html" />
+    <Content Include="EmailTemplate\MailTemplate.html" />
+    <Content Include="EmailTemplate\ForgetPasswordTemplate.html" />
+    <Content Include="EmailTemplate\ClubRegistrationTemplate.html" />
+    <Content Include="EmailTemplate\ResultEmail.html" />
+    <Content Include="Final.aspx" />
+    <Content Include="font\mfglabsiconset-webfont.svg" />
+    <Content Include="Game\Score.aspx" />
+    <Content Include="Game\Scorewithtracking.aspx" />
+    <Content Include="Game\Home.aspx" />
+    <Content Include="Game\Setup.aspx" />
+    <Content Include="Game\sounds\beep-07.wav" />
+    <Content Include="Game\sounds\button-16.wav" />
+    <Content Include="img\1_logo x S.png" />
+    <Content Include="img\2_text x S.png" />
+    <Content Include="img\animatedCircle.gif" />
+    <Content Include="img\Balls in circle.gif" />
+    <Content Include="img\BigLogo.png" />
+    <Content Include="img\biliard.png" />
+    <Content Include="img\Black.jpg" />
+    <Content Include="img\et.eBottom.png" />
+    <Content Include="img\GameStat.jpg" />
+    <Content Include="img\green.png" />
+    <Content Include="img\icon-1.png" />
+    <Content Include="img\icon-2.png" />
+    <Content Include="img\imac-template.png" />
+    <Content Include="img\imac.png" />
+    <Content Include="img\imgw.png" />
+    <Content Include="img\loading2.gif" />
+    <Content Include="img\logoscore.png" />
+    <Content Include="img\logoscorenew.png" />
+    <Content Include="img\logoTop.png" />
+    <Content Include="img\NoImage.png" />
+    <Content Include="img\red.png" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\jquery-1.8.3.min.js" />
+    <Content Include="js\jquery-1.9.1.js" />
+    <Content Include="js\jquery-2.1.4.min.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery-ui.min.js" />
+    <Content Include="js\jquery.confirm.js" />
+    <Content Include="js\jquery.confirm.min.js" />
+    <Content Include="js\jquery.loader.js" />
+    <Content Include="js\jquery.onScreenKeyboard.js" />
+    <Content Include="js\modernizr.js" />
+    <Content Include="js\project\score.js" />
+    <Content Include="js\responsee.js" />
+    <Content Include="js\vkboard.js" />
+    <Content Include="js\Zoom.js" />
+    <Content Include="PlayerRegistration.aspx" />
+    <Content Include="public\Upload\Club\1.png" />
+    <Content Include="public\Upload\Club\10816.jpg" />
+    <Content Include="public\Upload\Club\111 %282%29.png" />
+    <Content Include="public\Upload\Club\12670135_175892172778999_4029238309513932289_n.jpg" />
+    <Content Include="public\Upload\Club\2.png" />
+    <Content Include="public\Upload\Club\2_with PAINT is 1920 - 1080px.png" />
+    <Content Include="public\Upload\Club\3 frecce.png" />
+    <Content Include="public\Upload\Club\3.jpg" />
+    <Content Include="public\Upload\Club\5eu.png" />
+    <Content Include="public\Upload\Club\a.png" />
+    <Content Include="public\Upload\Club\ASD.jpg" />
+    <Content Include="public\Upload\Club\b.png" />
+    <Content Include="public\Upload\Club\bil ver 523-950-72dpi.png" />
+    <Content Include="public\Upload\Club\bile + stecc.JPG" />
+    <Content Include="public\Upload\Club\Bitcoin-icon.png" />
+    <Content Include="public\Upload\Club\bp1.jpg" />
+    <Content Include="public\Upload\Club\BTCGold.png" />
+    <Content Include="public\Upload\Club\CIMG0970.JPG" />
+    <Content Include="public\Upload\Club\et.eBottom.png" />
+    <Content Include="public\Upload\Club\images %283%29.jpg" />
+    <Content Include="public\Upload\Club\images99TR879L.jpg" />
+    <Content Include="public\Upload\Club\lg.png" />
+    <Content Include="public\Upload\Club\LOGO CON NASTRO.jpg" />
+    <Content Include="public\Upload\Club\Manjhi - The Mountain Man -  Ninja_Pirate® %28AKA%29 DGtalViolence®.jpg" />
+    <Content Include="public\Upload\Club\palabil.png" />
+    <Content Include="public\Upload\Club\Player.jpg" />
+    <Content Include="public\Upload\Player\1 Sergio - 73.png" />
+    <Content Include="public\Upload\Player\111 %282%29.png" />
+    <Content Include="public\Upload\Player\1PLY.png" />
+    <Content Include="public\Upload\Player\2PLY.jpg" />
+    <Content Include="public\Upload\Player\2ply.png" />
+    <Content Include="public\Upload\Player\3 frecce.png" />
+    <Content Include="public\Upload\Player\3PLY.png" />
+    <Content Include="public\Upload\Player\4PLY.png" />
+    <Content Include="public\Upload\Player\5eu.png" />
+    <Content Include="public\Upload\Player\6002_258480304294508_924319069_n.jpg" />
+    <Content Include="public\Upload\Player\AngB.png" />
+    <Content Include="public\Upload\Player\asaas.png" />
+    <Content Include="public\Upload\Player\b.png" />
+    <Content Include="public\Upload\Player\bil ver 523-950-72dpi.png" />
+    <Content Include="public\Upload\Player\Bitcoin-icon.png" />
+    <Content Include="public\Upload\Player\bp1.jpg" />
+    <Content Include="public\Upload\Player\BTCGold.png" />
+    <Content Include="public\Upload\Player\cn1.png" />
+    <Content Include="public\Upload\Player\Consagno.jpg" />
+    <Content Include="public\Upload\Player\download1.png" />
+    <Content Include="public\Upload\Player\et.eBottom.png" />
+    <Content Include="public\Upload\Player\images %283%29 - Copia.jpg" />
+    <Content Include="public\Upload\Player\images %283%29.jpg" />
+    <Content Include="public\Upload\Player\labs.png" />
+    <Content Include="public\Upload\Player\Manjhi - The Mountain Man -  Ninja_Pirate® %28AKA%29 DGtalViolence®.jpg" />
+    <Content Include="public\Upload\Player\nicolas.png" />
+    <Content Include="public\Upload\Player\Player.jpg" />
+    <Content Include="public\Upload\Player\Quarta.jpg" />
+    <Content Include="public\Upload\Player\Sergio - 73.png" />
+    <Content Include="public\Upload\Player\Sergio.png" />
+    <Content Include="public\Upload\Player\Zito.png" />
+    <Content Include="ScoreTracking.aspx" />
+    <Content Include="Teachers.aspx" />
+    <Content Include="testmail.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Activate.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\AdvAdmin.aspx.cs">
+      <DependentUpon>AdvAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdvAdmin.aspx.designer.cs">
+      <DependentUpon>AdvAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="advertaising.aspx.cs">
+      <DependentUpon>advertaising.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="advertaising.aspx.designer.cs">
+      <DependentUpon>advertaising.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="advertaisingold.aspx.cs">
+      <DependentUpon>advertaisingold.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="advertaisingold.aspx.designer.cs">
+      <DependentUpon>advertaisingold.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="advertisement.cs" />
+    <Compile Include="Booking.aspx.cs">
+      <DependentUpon>Booking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Booking.aspx.designer.cs">
+      <DependentUpon>Booking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="costexcelmail.aspx.cs">
+      <DependentUpon>costexcelmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="costexcelmail.aspx.designer.cs">
+      <DependentUpon>costexcelmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="race.aspx.cs">
+      <DependentUpon>race.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="race.aspx.designer.cs">
+      <DependentUpon>race.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Renew.aspx.cs">
+      <DependentUpon>Renew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Renew.aspx.designer.cs">
+      <DependentUpon>Renew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Lang.en-US.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Lang.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Lang.it-IT.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Lang.it-IT.resx</DependentUpon>
+    </Compile>
+    <Compile Include="BilliardScoreboard.asmx.cs">
+      <DependentUpon>BilliardScoreboard.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="card.aspx.cs">
+      <DependentUpon>card.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="card.aspx.designer.cs">
+      <DependentUpon>card.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClubRegistration.aspx.cs">
+      <DependentUpon>ClubRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClubRegistration.aspx.designer.cs">
+      <DependentUpon>ClubRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Final.aspx.cs">
+      <DependentUpon>Final.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Final.aspx.designer.cs">
+      <DependentUpon>Final.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Game\Report\RptScoreClass.cs" />
+    <Compile Include="Game\Score.aspx.cs">
+      <DependentUpon>Score.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Game\Score.aspx.designer.cs">
+      <DependentUpon>Score.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Game\Scorewithtracking.aspx.cs">
+      <DependentUpon>Scorewithtracking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Game\Scorewithtracking.aspx.designer.cs">
+      <DependentUpon>Scorewithtracking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Game\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Game\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Game\Setup.aspx.cs">
+      <DependentUpon>Setup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Game\Setup.aspx.designer.cs">
+      <DependentUpon>Setup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerRegistration.aspx.cs">
+      <DependentUpon>PlayerRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlayerRegistration.aspx.designer.cs">
+      <DependentUpon>PlayerRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Activate.aspx.cs">
+      <DependentUpon>Activate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activate.aspx.designer.cs">
+      <DependentUpon>Activate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ScoreTracking.aspx.cs">
+      <DependentUpon>ScoreTracking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ScoreTracking.aspx.designer.cs">
+      <DependentUpon>ScoreTracking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher.cs" />
+    <Compile Include="Teachers.aspx.cs">
+      <DependentUpon>Teachers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teachers.aspx.designer.cs">
+      <DependentUpon>Teachers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testmail.aspx.cs">
+      <DependentUpon>testmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testmail.aspx.designer.cs">
+      <DependentUpon>testmail.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="font\mfglabsiconset-webfont.eot" />
+    <Content Include="font\mfglabsiconset-webfont.ttf" />
+    <Content Include="font\mfglabsiconset-webfont.woff" />
+    <Content Include="img\Thumbs.db" />
+    <Content Include="Game\Report\ScoreRptDM.rdlc" />
+    <Content Include="Game\Report\ScoreRptSM.rdlc" />
+    <Content Include="font\ufonts.com_tw-cen-mt-condensed-medium.ttf" />
+    <Content Include="font\ufonts.com_tw-cen-mt-condensed-medium.woff" />
+    <Content Include="Game\ufonts.com_tw_cen_mt_condensed_medium_1_.eot" />
+    <Content Include="font\ufonts.com_tw_cen_mt_condensed_medium_1_.eot" />
+    <Content Include="font\ufonts.com_bodoni-mt-condensed-bold.ttf" />
+    <Content Include="font\ufonts.com_bodoni-mt-condensed-bold.woff" />
+    <Content Include="font\ufonts.com_bodoni_mt_condensed_bold_1_.eot" />
+    <None Include="job_scheduling_data_2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\Milan.pubxml" />
+    <None Include="Properties\PublishProfiles\nbaghel.pubxml" />
+    <None Include="Properties\PublishProfiles\nbaghel777.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App_GlobalResources\Lang.en-US.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Lang.en-US.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App_GlobalResources\Lang.it-IT.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Lang.it-IT.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3481/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

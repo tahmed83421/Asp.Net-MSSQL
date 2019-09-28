@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Tanvir\Desktop\balmarka</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Activate.aspx">
+      <publishTime>11/17/2016 22:47:07</publishTime>
+    </File>
+    <File Include="Admin/Dashboard.aspx">
+      <publishTime>11/15/2016 23:50:05</publishTime>
+    </File>
+    <File Include="BilliardScoreboard.asmx">
+      <publishTime>09/24/2015 00:20:24</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>01/24/2013 22:19:20</publishTime>
+    </File>
+    <File Include="bin/ar/AjaxControlToolkit.resources.dll">
+      <publishTime>01/24/2013 22:19:21</publishTime>
+    </File>
+    <File Include="bin/BilliardScoreboard.dll">
+      <publishTime>02/07/2017 09:57:41</publishTime>
+    </File>
+    <File Include="bin/cs/AjaxControlToolkit.resources.dll">
+      <publishTime>01/24/2013 22:19:21</publishTime>
+    </File>
+    <File Include="bin/de/AjaxControlToolkit.resources.dll">
+      <publishTime>01/24/2013 22:19:21</publishTime>
+    </File>
+    <File Include="bin/en-US/BilliardScoreboard.resources.dll">
+      <publishTime>02/07/2017 09:57:41</publishTime>
+    </File>
+    <File Include="bin/es/AjaxControlToolkit.resources.dll">
+      <publishTime>01/24/2013 22:19:21</publishTime>
+    </File>
+    <File Include="bin/fr/AjaxControlToolkit.resources.dll">
+      <publishTime>01/24/2013 22:19:21</publishTime>
+    </File>
+    <File Include="bin/he/AjaxControlToolkit.resources.dll">
+      <publishTime>01/24/2013 22:19:21</publishTime>
+    </File>
+    <File Include="bin/hi/AjaxControlToolkit.resources.dll">
+      <publishTime>01/24/2013 22:19:22</publishTime>
+    </File>
+    <File Include="bin/it-IT/BilliardScoreboard.resources.dll">
+      <publishTime>02/07/2017 09:57:41</publishTime>
+    </File>
+    <File Include="bin/it/AjaxControlToolkit.resources.dll">
+      <publishTime>01/24/2013 22:19:22</publishTime>
+    </File>
+    <File Include="bin/ja/AjaxControlToolkit.resources.dll">
+      <publishTime>01/24/2013 22:19:22</publishTime>
+    </File>
+    <File Include="bin/ko/AjaxControlToolkit.resources.dll">
+      <publishTime>01/24/2013 22:19:22</publishTime>
+    </File>
+    <File Include="bin/nl/AjaxControlToolkit.resources.dll">
+      <publishTime>01/24/2013 22:19:22</publishTime>
+    </File>
+    <File Include="bin/pt/AjaxControlToolkit.resources.dll">
+      <publishTime>01/24/2013 22:19:22</publishTime>
+    </File>
+    <File Include="bin/ru/AjaxControlToolkit.resources.dll">
+      <publishTime>01/24/2013 22:19:22</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.dll">
+      <publishTime>11/12/2016 23:35:50</publishTime>
+    </File>
+    <File Include="bin/tr-TR/AjaxControlToolkit.resources.dll">
+      <publishTime>01/24/2013 22:19:22</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/AjaxControlToolkit.resources.dll">
+      <publishTime>01/24/2013 22:19:22</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/AjaxControlToolkit.resources.dll">
+      <publishTime>01/24/2013 22:19:23</publishTime>
+    </File>
+    <File Include="ClubRegistration.aspx">
+      <publishTime>02/03/2017 11:52:30</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>01/11/2017 00:41:48</publishTime>
+    </File>
+    <File Include="css/components.css">
+      <publishTime>07/09/2015 00:36:13</publishTime>
+    </File>
+    <File Include="css/custom.css">
+      <publishTime>04/16/2016 00:43:10</publishTime>
+    </File>
+    <File Include="css/Game.css">
+      <publishTime>01/18/2017 09:35:58</publishTime>
+    </File>
+    <File Include="css/jquery.loader.css">
+      <publishTime>01/11/2017 21:20:05</publishTime>
+    </File>
+    <File Include="css/main.css">
+      <publishTime>01/27/2017 13:10:03</publishTime>
+    </File>
+    <File Include="css/responsee.css">
+      <publishTime>10/13/2015 00:29:03</publishTime>
+    </File>
+    <File Include="css/ResponsiveGrid.css">
+      <publishTime>10/31/2015 00:43:07</publishTime>
+    </File>
+    <File Include="css/template-style.css">
+      <publishTime>12/12/2015 06:19:47</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>04/13/2016 00:40:05</publishTime>
+    </File>
+    <File Include="EmailTemplate/ClubRegistrationTemplate.html">
+      <publishTime>11/22/2016 22:39:01</publishTime>
+    </File>
+    <File Include="EmailTemplate/ForgetPasswordTemplate.html">
+      <publishTime>09/18/2015 21:49:49</publishTime>
+    </File>
+    <File Include="EmailTemplate/MailTemplate.html">
+      <publishTime>11/22/2016 22:37:55</publishTime>
+    </File>
+    <File Include="EmailTemplate/PlayerRegistrationTemplate.html">
+      <publishTime>11/22/2016 22:38:44</publishTime>
+    </File>
+    <File Include="EmailTemplate/ResultEmail.html">
+      <publishTime>11/25/2016 18:07:12</publishTime>
+    </File>
+    <File Include="Final.aspx">
+      <publishTime>11/13/2016 11:43:14</publishTime>
+    </File>
+    <File Include="font/mfglabsiconset-webfont.eot">
+      <publishTime>02/09/2015 00:48:21</publishTime>
+    </File>
+    <File Include="font/mfglabsiconset-webfont.svg">
+      <publishTime>02/09/2015 00:48:21</publishTime>
+    </File>
+    <File Include="font/mfglabsiconset-webfont.ttf">
+      <publishTime>02/09/2015 00:48:21</publishTime>
+    </File>
+    <File Include="font/mfglabsiconset-webfont.woff">
+      <publishTime>02/09/2015 00:48:21</publishTime>
+    </File>
+    <File Include="font/ufonts.com_bodoni-mt-condensed-bold.ttf">
+      <publishTime>01/14/2017 11:55:31</publishTime>
+    </File>
+    <File Include="font/ufonts.com_bodoni-mt-condensed-bold.woff">
+      <publishTime>01/14/2017 11:55:31</publishTime>
+    </File>
+    <File Include="font/ufonts.com_bodoni_mt_condensed_bold_1_.eot">
+      <publishTime>01/14/2017 11:55:31</publishTime>
+    </File>
+    <File Include="font/ufonts.com_tw-cen-mt-condensed-medium.ttf">
+      <publishTime>01/14/2017 11:18:08</publishTime>
+    </File>
+    <File Include="font/ufonts.com_tw-cen-mt-condensed-medium.woff">
+      <publishTime>01/14/2017 11:18:09</publishTime>
+    </File>
+    <File Include="font/ufonts.com_tw_cen_mt_condensed_medium_1_.eot">
+      <publishTime>01/14/2017 11:18:06</publishTime>
+    </File>
+    <File Include="Game/Home.aspx">
+      <publishTime>11/17/2016 00:56:54</publishTime>
+    </File>
+    <File Include="Game/Report/ScoreRptDM.rdlc">
+      <publishTime>11/18/2016 01:05:34</publishTime>
+    </File>
+    <File Include="Game/Report/ScoreRptSM.rdlc">
+      <publishTime>11/18/2016 01:05:34</publishTime>
+    </File>
+    <File Include="Game/Score.aspx">
+      <publishTime>02/09/2017 03:00:28</publishTime>
+    </File>
+    <File Include="Game/Scorewithtracking.aspx">
+      <publishTime>12/18/2016 03:03:04</publishTime>
+    </File>
+    <File Include="Game/Setup.aspx">
+      <publishTime>01/31/2017 23:27:54</publishTime>
+    </File>
+    <File Include="Game/sounds/beep-07.wav">
+      <publishTime>11/18/2016 01:06:39</publishTime>
+    </File>
+    <File Include="Game/sounds/button-16.wav">
+      <publishTime>11/18/2016 01:06:39</publishTime>
+    </File>
+    <File Include="Game/ufonts.com_tw_cen_mt_condensed_medium_1_.eot">
+      <publishTime>06/12/2016 10:07:53</publishTime>
+    </File>
+    <File Include="Game/WebForm1.aspx">
+      <publishTime>11/15/2016 22:07:20</publishTime>
+    </File>
+    <File Include="img/1_logo x S.png">
+      <publishTime>11/17/2016 23:21:58</publishTime>
+    </File>
+    <File Include="img/2_text x S.png">
+      <publishTime>11/17/2016 23:21:58</publishTime>
+    </File>
+    <File Include="img/animatedCircle.gif">
+      <publishTime>11/17/2016 23:21:58</publishTime>
+    </File>
+    <File Include="img/Balls in circle.gif">
+      <publishTime>11/17/2016 23:21:58</publishTime>
+    </File>
+    <File Include="img/BigLogo.png">
+      <publishTime>11/17/2016 23:21:58</publishTime>
+    </File>
+    <File Include="img/Black.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/et.eBottom.png">
+      <publishTime>11/17/2016 23:22:03</publishTime>
+    </File>
+    <File Include="img/GameStat.jpg">
+      <publishTime>11/17/2016 23:22:03</publishTime>
+    </File>
+    <File Include="img/green.png">
+      <publishTime>11/17/2016 23:22:03</publishTime>
+    </File>
+    <File Include="img/icon-1.png">
+      <publishTime>11/17/2016 23:22:03</publishTime>
+    </File>
+    <File Include="img/icon-2.png">
+      <publishTime>11/17/2016 23:22:03</publishTime>
+    </File>
+    <File Include="img/imac-template.png">
+      <publishTime>11/17/2016 23:22:03</publishTime>
+    </File>
+    <File Include="img/imac.png">
+      <publishTime>11/17/2016 23:22:03</publishTime>
+    </File>
+    <File Include="img/imgw.png">
+      <publishTime>11/19/2016 15:45:50</publishTime>
+    </File>
+    <File Include="img/loading2.gif">
+      <publishTime>11/17/2016 23:22:03</publishTime>
+    </File>
+    <File Include="img/logoscore.png">
+      <publishTime>11/17/2016 23:22:03</publishTime>
+    </File>
+    <File Include="img/logoscorenew.png">
+      <publishTime>11/17/2016 23:22:03</publishTime>
+    </File>
+    <File Include="img/logoTop.png">
+      <publishTime>11/17/2016 23:22:03</publishTime>
+    </File>
+    <File Include="img/NoImage.png">
+      <publishTime>11/17/2016 23:22:03</publishTime>
+    </File>
+    <File Include="img/red.png">
+      <publishTime>11/17/2016 23:22:03</publishTime>
+    </File>
+    <File Include="img/Thumbs.db">
+      <publishTime>11/17/2016 00:32:14</publishTime>
+    </File>
+    <File Include="js/custom.js">
+      <publishTime>11/18/2016 11:48:57</publishTime>
+    </File>
+    <File Include="js/jquery-1.8.3.min.js">
+      <publishTime>11/18/2016 11:48:58</publishTime>
+    </File>
+    <File Include="js/jquery-1.9.1.js">
+      <publishTime>11/18/2016 11:48:58</publishTime>
+    </File>
+    <File Include="js/jquery-2.1.4.min.js">
+      <publishTime>11/18/2016 11:48:58</publishTime>
+    </File>
+    <File Include="js/jquery-ui.js">
+      <publishTime>11/18/2016 11:48:58</publishTime>
+    </File>
+    <File Include="js/jquery-ui.min.js">
+      <publishTime>11/18/2016 11:48:58</publishTime>
+    </File>
+    <File Include="js/jquery.confirm.js">
+      <publishTime>11/18/2016 11:48:57</publishTime>
+    </File>
+    <File Include="js/jquery.confirm.min.js">
+      <publishTime>11/18/2016 11:48:57</publishTime>
+    </File>
+    <File Include="js/jquery.loader.js">
+      <publishTime>11/18/2016 11:48:57</publishTime>
+    </File>
+    <File Include="js/jquery.onScreenKeyboard.js">
+      <publishTime>11/18/2016 11:48:57</publishTime>
+    </File>
+    <File Include="js/modernizr.js">
+      <publishTime>11/18/2016 11:48:58</publishTime>
+    </File>
+    <File Include="js/project/score.js">
+      <publishTime>11/18/2016 11:50:23</publishTime>
+    </File>
+    <File Include="js/responsee.js">
+      <publishTime>11/18/2016 11:48:58</publishTime>
+    </File>
+    <File Include="js/vkboard.js">
+      <publishTime>12/18/2016 03:09:25</publishTime>
+    </File>
+    <File Include="js/Zoom.js">
+      <publishTime>11/18/2016 11:48:58</publishTime>
+    </File>
+    <File Include="PlayerRegistration.aspx">
+      <publishTime>01/25/2017 15:45:24</publishTime>
+    </File>
+    <File Include="public/Upload/Club/1.png">
+      <publishTime>11/15/2016 11:12:26</publishTime>
+    </File>
+    <File Include="public/Upload/Club/10816.jpg">
+      <publishTime>04/07/2016 21:22:03</publishTime>
+    </File>
+    <File Include="public/Upload/Club/111 %282%29.png">
+      <publishTime>04/07/2016 21:22:06</publishTime>
+    </File>
+    <File Include="public/Upload/Club/12670135_175892172778999_4029238309513932289_n.jpg">
+      <publishTime>04/07/2016 21:22:06</publishTime>
+    </File>
+    <File Include="public/Upload/Club/2.png">
+      <publishTime>04/07/2016 21:22:07</publishTime>
+    </File>
+    <File Include="public/Upload/Club/2_with PAINT is 1920 - 1080px.png">
+      <publishTime>04/07/2016 21:22:12</publishTime>
+    </File>
+    <File Include="public/Upload/Club/3 frecce.png">
+      <publishTime>04/07/2016 21:22:07</publishTime>
+    </File>
+    <File Include="public/Upload/Club/3.jpg">
+      <publishTime>04/07/2016 21:22:09</publishTime>
+    </File>
+    <File Include="public/Upload/Club/5eu.png">
+      <publishTime>01/25/2017 15:43:14</publishTime>
+    </File>
+    <File Include="public/Upload/Club/a.png">
+      <publishTime>04/07/2016 21:22:19</publishTime>
+    </File>
+    <File Include="public/Upload/Club/ASD.jpg">
+      <publishTime>04/07/2016 21:22:19</publishTime>
+    </File>
+    <File Include="public/Upload/Club/b.png">
+      <publishTime>04/07/2016 21:22:21</publishTime>
+    </File>
+    <File Include="public/Upload/Club/bil ver 523-950-72dpi.png">
+      <publishTime>04/07/2016 21:22:20</publishTime>
+    </File>
+    <File Include="public/Upload/Club/bile + stecc.JPG">
+      <publishTime>04/07/2016 21:22:29</publishTime>
+    </File>
+    <File Include="public/Upload/Club/Bitcoin-icon.png">
+      <publishTime>01/10/2015 01:25:40</publishTime>
+    </File>
+    <File Include="public/Upload/Club/bp1.jpg">
+      <publishTime>04/07/2016 21:22:24</publishTime>
+    </File>
+    <File Include="public/Upload/Club/BTCGold.png">
+      <publishTime>10/15/2015 23:33:15</publishTime>
+    </File>
+    <File Include="public/Upload/Club/CIMG0970.JPG">
+      <publishTime>04/07/2016 21:23:17</publishTime>
+    </File>
+    <File Include="public/Upload/Club/et.eBottom.png">
+      <publishTime>09/10/2015 00:32:36</publishTime>
+    </File>
+    <File Include="public/Upload/Club/images %283%29.jpg">
+      <publishTime>04/07/2016 21:22:30</publishTime>
+    </File>
+    <File Include="public/Upload/Club/images99TR879L.jpg">
+      <publishTime>04/07/2016 21:22:31</publishTime>
+    </File>
+    <File Include="public/Upload/Club/lg.png">
+      <publishTime>10/15/2015 22:23:44</publishTime>
+    </File>
+    <File Include="public/Upload/Club/LOGO CON NASTRO.jpg">
+      <publishTime>04/07/2016 21:22:33</publishTime>
+    </File>
+    <File Include="public/Upload/Club/Manjhi - The Mountain Man -  Ninja_Pirate® %28AKA%29 DGtalViolence®.jpg">
+      <publishTime>09/25/2015 00:27:26</publishTime>
+    </File>
+    <File Include="public/Upload/Club/palabil.png">
+      <publishTime>04/07/2016 21:22:35</publishTime>
+    </File>
+    <File Include="public/Upload/Club/Player.jpg">
+      <publishTime>10/15/2015 22:29:55</publishTime>
+    </File>
+    <File Include="public/Upload/Player/1 Sergio - 73.png">
+      <publishTime>04/07/2016 21:23:32</publishTime>
+    </File>
+    <File Include="public/Upload/Player/111 %282%29.png">
+      <publishTime>04/07/2016 21:23:32</publishTime>
+    </File>
+    <File Include="public/Upload/Player/1PLY.png">
+      <publishTime>04/07/2016 21:23:36</publishTime>
+    </File>
+    <File Include="public/Upload/Player/2PLY.jpg">
+      <publishTime>01/25/2017 15:36:16</publishTime>
+    </File>
+    <File Include="public/Upload/Player/2ply.png">
+      <publishTime>04/07/2016 21:23:48</publishTime>
+    </File>
+    <File Include="public/Upload/Player/3 frecce.png">
+      <publishTime>04/07/2016 21:23:37</publishTime>
+    </File>
+    <File Include="public/Upload/Player/3PLY.png">
+      <publishTime>04/07/2016 21:23:49</publishTime>
+    </File>
+    <File Include="public/Upload/Player/4PLY.png">
+      <publishTime>01/25/2017 15:48:14</publishTime>
+    </File>
+    <File Include="public/Upload/Player/5eu.png">
+      <publishTime>04/07/2016 21:23:51</publishTime>
+    </File>
+    <File Include="public/Upload/Player/6002_258480304294508_924319069_n.jpg">
+      <publishTime>02/11/2015 21:53:16</publishTime>
+    </File>
+    <File Include="public/Upload/Player/AngB.png">
+      <publishTime>04/07/2016 21:23:53</publishTime>
+    </File>
+    <File Include="public/Upload/Player/asaas.png">
+      <publishTime>04/07/2016 21:23:59</publishTime>
+    </File>
+    <File Include="public/Upload/Player/b.png">
+      <publishTime>04/07/2016 21:24:00</publishTime>
+    </File>
+    <File Include="public/Upload/Player/bil ver 523-950-72dpi.png">
+      <publishTime>04/07/2016 21:24:00</publishTime>
+    </File>
+    <File Include="public/Upload/Player/Bitcoin-icon.png">
+      <publishTime>05/10/2015 23:27:27</publishTime>
+    </File>
+    <File Include="public/Upload/Player/bp1.jpg">
+      <publishTime>04/07/2016 21:24:02</publishTime>
+    </File>
+    <File Include="public/Upload/Player/BTCGold.png">
+      <publishTime>10/13/2015 00:40:48</publishTime>
+    </File>
+    <File Include="public/Upload/Player/cn1.png">
+      <publishTime>04/07/2016 21:24:04</publishTime>
+    </File>
+    <File Include="public/Upload/Player/Consagno.jpg">
+      <publishTime>01/25/2017 18:03:07</publishTime>
+    </File>
+    <File Include="public/Upload/Player/download1.png">
+      <publishTime>09/15/2015 01:07:05</publishTime>
+    </File>
+    <File Include="public/Upload/Player/et.eBottom.png">
+      <publishTime>09/10/2015 00:22:59</publishTime>
+    </File>
+    <File Include="public/Upload/Player/images %283%29 - Copia.jpg">
+      <publishTime>04/07/2016 21:24:04</publishTime>
+    </File>
+    <File Include="public/Upload/Player/images %283%29.jpg">
+      <publishTime>04/07/2016 21:24:08</publishTime>
+    </File>
+    <File Include="public/Upload/Player/labs.png">
+      <publishTime>11/12/2015 00:28:06</publishTime>
+    </File>
+    <File Include="public/Upload/Player/Manjhi - The Mountain Man -  Ninja_Pirate® %28AKA%29 DGtalViolence®.jpg">
+      <publishTime>04/07/2016 21:24:19</publishTime>
+    </File>
+    <File Include="public/Upload/Player/nicolas.png">
+      <publishTime>04/07/2016 21:24:12</publishTime>
+    </File>
+    <File Include="public/Upload/Player/Player.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="public/Upload/Player/Quarta.jpg">
+      <publishTime>04/07/2016 21:24:13</publishTime>
+    </File>
+    <File Include="public/Upload/Player/Sergio - 73.png">
+      <publishTime>04/07/2016 21:24:15</publishTime>
+    </File>
+    <File Include="public/Upload/Player/Sergio.png">
+      <publishTime>04/07/2016 21:24:54</publishTime>
+    </File>
+    <File Include="public/Upload/Player/Zito.png">
+      <publishTime>04/07/2016 21:24:24</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/18/2016 03:11:58</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
