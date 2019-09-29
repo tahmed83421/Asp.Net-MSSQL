@@ -20,6 +20,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -84,6 +85,7 @@
     <Content Include="css\ResponsiveGrid.css" />
     <Content Include="css\template-style.css" />
     <Content Include="EmailTemplate\PlayerEmailConfirmation.html" />
+    <Content Include="Game\StreamScoreData.aspx" />
     <Content Include="img\swapposition.png" />
     <Content Include="index.html" />
     <Content Include="js\vivus.js" />
@@ -250,6 +252,13 @@
     </Compile>
     <Compile Include="costexcelmail.aspx.designer.cs">
       <DependentUpon>costexcelmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Game\StreamScoreData.aspx.cs">
+      <DependentUpon>StreamScoreData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Game\StreamScoreData.aspx.designer.cs">
+      <DependentUpon>StreamScoreData.aspx</DependentUpon>
     </Compile>
     <Compile Include="race.aspx.cs">
       <DependentUpon>race.aspx</DependentUpon>
