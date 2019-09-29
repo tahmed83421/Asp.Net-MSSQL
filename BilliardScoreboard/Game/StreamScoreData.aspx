@@ -417,8 +417,9 @@
                 <tr style="color:white; border-bottom:solid; border-bottom-color:red" >
                     <td colspan="2" > 
                         <b> Punti-</b><asp:Label ID="Punti" runat="server" Text="Label"></asp:Label></td>
-                    <td> <b>Tiri-&nbsp;</b>1&nbsp;&nbsp;&nbsp; </td>
-                    <td><b>Alla fine -</b>&nbsp; 60&nbsp;&nbsp; </td>
+                    <td> <b>Tiri-&nbsp;</b><asp:Label ID="Tiri" runat="server" Text="Label"></asp:Label>
+                    </td>
+                    <td><b>Alla fine -</b><asp:Label ID="Allafine" runat="server" Text="Label"></asp:Label> </td>
                     <td><b>Set-&nbsp;&nbsp;&nbsp;<asp:Label ID="lblSet" runat="server" Text="Label"></asp:Label> &nbsp;&nbsp;&nbsp; </td> 
                 </tr>
                 

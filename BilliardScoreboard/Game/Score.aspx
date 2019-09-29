@@ -979,7 +979,12 @@
 hand = 1;
                             memory.push(cal + '&nbsp;' + enteredvalue + '%' + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + 0 + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
                             store2.push('<font  color=#D2691E>' + cal + '&nbsp;' + enteredvalue + cnt + lblp2.innerHTML + lbls2.innerHTML + "Y" + "%" + '</font>');
+                            PageMethods.InsertLiveScoreData();
+                          
+                            function OnSuccess(res) {
 
+                                alert("Success Tanvir");
+                            }
                             modal.style.display = "none";
                             document.getElementById("SbtnW").disabled = true;
                             document.getElementById("CbtnW").disabled = true;
@@ -1020,6 +1025,12 @@ hand = 1;
                         cnt = cnt + 1;
                         memory.push(cal + '&nbsp;' + enteredvalue + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
                         store2.push('<font  color=#D2691E>' + cal + '&nbsp;' + enteredvalue + cnt + lblp2.innerHTML + lbls2.innerHTML + "Y" + '</font>');
+                        PageMethods.InsertLiveScoreData();
+
+                        function OnSuccess(res) {
+
+                            alert("Success Tanvir");
+                        }
                     }
 
                   
@@ -1427,7 +1438,12 @@ hand = 1;
 
 
                 store2.push('<font  color=#000000>' + '+' + '&nbsp;' + '0' + lblt1.innerHTML.substr(1) + lblp1.innerHTML + lbls1.innerHTML + "W" + '@T1' + '</font>');
-                   
+                PageMethods.InsertLiveScoreData();
+
+                function OnSuccess(res) {
+
+                    alert("Success Tanvir");
+                }
                 store1.push (0);
                 timerStart('second');
 
@@ -1448,6 +1464,12 @@ hand = 1;
 
 
                 store2.push('<font  color=#D2691E>' + '+' + '&nbsp;' + '0' + lblt2.innerHTML.substr(1) + lblp1.innerHTML + lbls1.innerHTML + "Y" + '@T1' + '</font>');
+                PageMethods.InsertLiveScoreData();
+
+                function OnSuccess(res) {
+
+                    alert("Success Tanvir");
+                }
                 flgzro = 2;
                 store3.push (0);
                 timerStart('first');
@@ -1498,7 +1520,12 @@ hand = 1;
                           
                             store2.push('<font  color=#000000>' + '+' + '&nbsp;' + '2' + 't'+cnt + lblp1.innerHTML + lbls1.innerHTML + "W" + '@2T2X' + '</font>');
                             store2.push('<font  color=#000000>' + '+' + '&nbsp;' + '2' + result + lblp1.innerHTML + lbls1.innerHTML + "W" + '@2T2X' + '</font>');
+                            PageMethods.InsertLiveScoreData();
 
+                            function OnSuccess(res) {
+
+                                alert("Success Tanvir");
+                            }
                         }
                         else
                         {
@@ -1507,6 +1534,12 @@ hand = 1;
                           
                             store2.push('<font  color=#000000>' + '+' + '&nbsp;' + '2'+ 't'+cnt + lblp1.innerHTML + lbls1.innerHTML + "W" + '@2T1X' + '</font>');
                             store2.push('<font  color=#000000>' + '+' + '&nbsp;' + '2' + result + lblp1.innerHTML + lbls1.innerHTML + "W" + '@2T1X' + '</font>');
+                            PageMethods.InsertLiveScoreData();
+
+                            function OnSuccess(res) {
+
+                                alert("Success Tanvir");
+                            }
                         }
                         
                    
@@ -1520,6 +1553,12 @@ hand = 1;
 
                             store2.push('<font  color=#000000>' + '+' + '&nbsp;' + '2' + 't'+cnt + lblp1.innerHTML + lbls1.innerHTML + "W" + '@2T2' + '</font>');
                             store2.push('<font  color=#000000>' + '+' + '&nbsp;' + '2' + result + lblp1.innerHTML + lbls1.innerHTML + "W" + '@2T2' + '</font>');
+                            PageMethods.InsertLiveScoreData();
+
+                            function OnSuccess(res) {
+
+                                alert("Success Tanvir");
+                            }
                         }
                         else
                         {
@@ -1529,6 +1568,13 @@ hand = 1;
 
                             store2.push('<font  color=#000000>' + '+' + '&nbsp;' + '2' + 't'+cnt + lblp1.innerHTML + lbls1.innerHTML + "W" + '@2T1' + '</font>');
                             store2.push('<font  color=#000000>' + '+' + '&nbsp;' + '2' + result + lblp1.innerHTML + lbls1.innerHTML + "W" + '@2T1' + '</font>');
+
+                            PageMethods.InsertLiveScoreData();
+
+                            function OnSuccess(res) {
+
+                                alert("Success Tanvir");
+                            }
                         }
                     }
 
@@ -1555,6 +1601,13 @@ hand = 1;
 
                             store2.push('<font  color=#D2691E>' + '+' + '&nbsp;' + '2' + 't'+cnt +lblp2.innerHTML + lbls2.innerHTML + "Y" + '@2T2X' + '</font>');
                             store2.push('<font  color=#D2691E>' + '+' + '&nbsp;' + '2' + result + lblp1.innerHTML + lbls1.innerHTML + "Y" + '@2T2X' + '</font>');
+
+                            PageMethods.InsertLiveScoreData();
+
+                            function OnSuccess(res) {
+
+                                alert("Success Tanvir");
+                            }
                         }
                         else
                         {
@@ -1563,6 +1616,13 @@ hand = 1;
 
                             store2.push('<font  color=#D2691E>' + '+' + '&nbsp;' + '2'  + 't'+cnt + lblp2.innerHTML + lbls2.innerHTML + "Y" + '@2T1X' + '</font>');
                             store2.push('<font  color=#D2691E>' + '+' + '&nbsp;' + '2' + result + lblp1.innerHTML + lbls1.innerHTML + "Y" + '@2T1X' + '</font>');
+
+                            PageMethods.InsertLiveScoreData();
+
+                            function OnSuccess(res) {
+
+                                alert("Success Tanvir");
+                            }
                         }
                     }   
                             
@@ -1574,6 +1634,13 @@ hand = 1;
 
                             store2.push('<font  color=#D2691E>' + '+' + '&nbsp;' + '2' + 't'+cnt + lblp2.innerHTML + lbls2.innerHTML + "Y" + '@2T2' + '</font>');
                             store2.push('<font  color=#D2691E>' + '+' + '&nbsp;' + '2' + result + lblp1.innerHTML + lbls1.innerHTML + "Y" + '@2T2' + '</font>');
+
+                            PageMethods.InsertLiveScoreData();
+
+                            function OnSuccess(res) {
+
+                                alert("Success Tanvir");
+                            }
                         }
                         else
                         {
@@ -1582,6 +1649,13 @@ hand = 1;
 
                             store2.push('<font  color=#D2691E>' + '+' + '&nbsp;' + '2'  + 't'+cnt + lblp2.innerHTML + lbls2.innerHTML + "Y" + '@2T1' + '</font>');
                             store2.push('<font  color=#D2691E>' + '+' + '&nbsp;' + '2' + result + lblp1.innerHTML + lbls1.innerHTML + "Y" + '@2T1' + '</font>');
+
+                            PageMethods.InsertLiveScoreData();
+
+                            function OnSuccess(res) {
+
+                                alert("Success Tanvir");
+                            }
                         }
                     }
                    
@@ -1612,7 +1686,12 @@ hand = 1;
 
 
                     store2.push('<font  color=#000000>' + '+' + '&nbsp;' + '0' + lblt1.innerHTML.substr(1) + lblp1.innerHTML + lbls1.innerHTML + "W"  + '</font>');
-                   
+                    PageMethods.InsertLiveScoreData();
+
+                    function OnSuccess(res) {
+
+                        alert("Success Tanvir");
+                    }
                     passboard1 = 'first';
                     clearInterval(id);
                     move();
@@ -1635,6 +1714,14 @@ hand = 1;
 
 
                     store2.push('<font  color=#D2691E>' + '+' + '&nbsp;' + '0' + lblt1.innerHTML.substr(1) + lblp1.innerHTML + lbls1.innerHTML + "Y"  + '</font>');
+
+                    PageMethods.InsertLiveScoreData();
+
+                    function OnSuccess(res) {
+
+                        alert("Success Tanvir");
+                    }
+
                     passboard1 = 'second';
                     clearInterval(id);
                     move();
@@ -2316,6 +2403,14 @@ hand = 1;
                 lblPrev1.innerHTML = '';
                 store2.push('<font  color=#D2691E>' + cal + '&nbsp;' + enteredvalue + cnt + lblp2.innerHTML + lbls2.innerHTML + "Y" + '@' + '</font>');
 
+                    PageMethods.InsertLiveScoreData();
+
+                    function OnSuccess(res) {
+
+                        alert("Success Tanvir");
+                    }
+
+
                 if ('<%= Session["Game"] %>' == 'Italian') {
                     document.getElementById('secondboard').style.width = '0px';
                     document.getElementById('firstboard').style.width = '900px';
@@ -2552,7 +2647,14 @@ hand = 1;
                 memory.push('&nbsp;' +"@"+ lblTeamScore1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'white');
                
                 store2.push('<font  color=#000000>' + cal + '&nbsp;' + enteredvalue + cnt + lblp1.innerHTML + lbls1.innerHTML + "W" +'@'+ '</font>');
-                store3.push(lblTeamScore1.innerHTML);
+                    store3.push(lblTeamScore1.innerHTML);
+                    PageMethods.InsertLiveScoreData();
+
+                    function OnSuccess(res) {
+
+                        alert("Success Tanvir");
+                    }
+
                 lblPrev2.innerHTML = '';
 
                 if ('<%= Session["Game"] %>' == 'Italian') {
@@ -3089,6 +3191,14 @@ hand = 1;
                                store2.push('<font  color=#000000>' + cal + '&nbsp;' + same2 + cnt + lblp1.innerHTML + lbls1.innerHTML + "W" +"@"+ '</font>');
                         
                                store3.push(same2);
+
+                               PageMethods.InsertLiveScoreData();
+
+                               function OnSuccess(res) {
+
+                                   alert("Success Tanvir");
+                               }
+
                                exchch = 1;
 
                            }
@@ -3916,6 +4026,13 @@ hand = 1;
 
 
                         store2.push('<font  color=#D2691E>' + '+' + '&nbsp;' + '0' + result + lblp1.innerHTML + lbls1.innerHTML + "Y" + '@T1' + '</font>');
+
+                        PageMethods.InsertLiveScoreData();
+
+                        function OnSuccess(res) {
+
+                            alert("Success Tanvir");
+                        }
                         flgzro = 2;
                         store3.push (0);
 
@@ -3973,7 +4090,13 @@ hand = 1;
 
 
                                 store2.push('<font  color=#000000>' + '+' + '&nbsp;' + '0' + result + lblp1.innerHTML + lbls1.innerHTML + "W"  + '</font>');
-                   
+
+                                PageMethods.InsertLiveScoreData();
+
+                                function OnSuccess(res) {
+
+                                    alert("Success Tanvir");
+                                }
                            
 
                             }
@@ -3994,7 +4117,12 @@ hand = 1;
 
                                 store2.push('<font  color=#D2691E>' + '+' + '&nbsp;' + '0' + result + lblp1.innerHTML + lbls1.innerHTML + "Y"  + '</font>');
                          
+                                PageMethods.InsertLiveScoreData();
 
+                                function OnSuccess(res) {
+
+                                    alert("Success Tanvir");
+                                }
 
                             }
 

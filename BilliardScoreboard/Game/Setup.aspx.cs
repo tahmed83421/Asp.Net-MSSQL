@@ -113,7 +113,7 @@ namespace BilliardScoreboard.Game
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            this.Response.Redirect("~/Default.aspx");
+           // this.Response.Redirect("~/Default.aspx");
             //if (Convert.ToString(this.Request.QueryString["Game"]) == "Ita")
             //    this.Session["Game"] = (object)"Italian";
             //else if (Convert.ToString(this.Request.QueryString["Game"]) == "Carom")
@@ -179,6 +179,29 @@ namespace BilliardScoreboard.Game
             }
             return email;
         }
+
+        // Insert Live Score .. New 
+        [System.Web.Services.WebMethod]
+        public static void InsertLiveScoreData()
+        {
+
+            using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand())
+                {
+                    cmd.CommandText = "INSERT INTO RealTimeScoreDetails VALUES(666, 10,80,1,01,9,2020-08-03)";
+                    cmd.Connection = con;
+                    con.Open();
+                    cmd.ExecuteReader();
+
+
+                    con.Close();
+
+                }
+            }
+        }
+
+
 
         [SecuritySafeCritical]
         protected void btnEnter_Click(object sender, EventArgs e)

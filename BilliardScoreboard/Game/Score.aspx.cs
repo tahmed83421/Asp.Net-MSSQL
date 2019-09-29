@@ -24,7 +24,7 @@ namespace BilliardScoreboard.Game
         SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString);
         protected void Page_Load(object sender, EventArgs e)
         {
-            this.Response.Redirect("~/Default.aspx");
+           // this.Response.Redirect("~/Default.aspx");
             //if (!IsPostBack)
             //{
             //    if (Setup.s3.Equals(1)) ZZ.Value = "1";
@@ -348,6 +348,31 @@ namespace BilliardScoreboard.Game
             }
             return email;
         }
+
+        // Insert Live Score .. New 
+        [System.Web.Services.WebMethod]
+        public static void InsertLiveScoreData()
+        {
+
+            using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand())
+                {
+                    cmd.CommandText = "INSERT INTO RealTimeScoreDetails VALUES(178, 10,80,1,01,0/1," + DateTime.Now.ToString() + "); ";
+                    cmd.Connection = con;
+                    con.Open();
+                    cmd.ExecuteReader();
+
+
+                    con.Close();
+
+                }
+            }
+        }
+
+
+
+
         [System.Web.Services.WebMethod]
         public static string SomeMethod1(string pl1, string pl2, string pl3, string pl4)
         {

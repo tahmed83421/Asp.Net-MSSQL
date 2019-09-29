@@ -31,6 +31,8 @@ namespace BilliardScoreboard.Game
 
                     lblSet.Text = dtrow["SVal"].ToString();
                     Punti.Text = dtrow["Score"].ToString();
+                    Tiri.Text = dtrow["TVal"].ToString();
+                    Allafine.Text = dtrow["PVal"].ToString();
 
 
                 }

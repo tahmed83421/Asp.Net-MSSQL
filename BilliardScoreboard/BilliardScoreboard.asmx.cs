@@ -138,6 +138,31 @@ namespace BilliardScoreboard
             return details;
         }
 
+        // Stream Data into Xsplit 
+        [WebMethod]
+        [System.Web.Script.Services.ScriptMethod]
+        public void InsertLiveScoreData()
+        {
+            
+            using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand())
+                {
+                    cmd.CommandText = "INSERT INTO RealTimeScoreDetails VALUES(16, 10,80,1,01,0/1,"+DateTime.Now.ToString()+"); ";
+                    cmd.Connection = con;
+                    con.Open();
+                   cmd.ExecuteReader();
+                   
+                    
+                    con.Close();
+                   
+                }
+            }
+        }
+
+
+
+
         [WebMethod]
         [System.Web.Script.Services.ScriptMethod]
         public string UpdatePlayerLogin(string Email, string login)
