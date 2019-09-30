@@ -71,7 +71,9 @@ namespace BilliardScoreboard.Game
             //        lblp2.Text = "c" + Convert.ToString(Session["Point"]);
             //    }
             //}
+           
         }
+       
         protected void Timer1_Tick(object sender, EventArgs e)
         {
             if (Convert.ToString(Session["Time"]) == "True")
@@ -251,6 +253,7 @@ namespace BilliardScoreboard.Game
             p1 = p1 + "<strong></font>";
 
             string clb1= Convert.ToString(Session["C1"]);
+            
             string clb2= Convert.ToString(Session["C2"]);
             string clb3 = Convert.ToString(Session["C3"]);
             string clb4 = Convert.ToString(Session["C4"]);
@@ -349,17 +352,21 @@ namespace BilliardScoreboard.Game
             return email;
         }
 
+
         // Insert Live Score .. New 
         [System.Web.Services.WebMethod]
-        public static void InsertLiveScoreData()
+        public static void InsertLiveScoreData(string Score,string TVal)
         {
 
             using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
             {
                 using (SqlCommand cmd = new SqlCommand())
                 {
-                    cmd.CommandText = "INSERT INTO RealTimeScoreDetails VALUES(178, 10,80,1,01,0/1," + DateTime.Now.ToString() + "); ";
+                    //  cmd.CommandText = "update RealTimeScoreDetails set Score=" + Score + ", TVal=" + TVal + ",PVal=" + PVal + " , SVal= " + SVal + " where MatchId=" + Setup.MatchId + " AND TeamID=" + TeamID + '1';
+                    //                cmd.CommandText = "INSERT INTO PlayerDetails (LoggedIn) VALUES (1)";
+                    cmd.CommandText = "update RealTimeScoreDetails set Score= "+Score+", TVal='"+TVal+"',PVal='p60' , SVal= '0/2' where MatchId= "+Setup.MatchId+" AND TeamID=1";
                     cmd.Connection = con;
+
                     con.Open();
                     cmd.ExecuteReader();
 
@@ -369,6 +376,33 @@ namespace BilliardScoreboard.Game
                 }
             }
         }
+
+        [System.Web.Services.WebMethod]
+        public static string UpdateScoreData(string Score, string PVal, string TVal, string SVal,string TeamID)
+        {
+           
+           
+           
+
+                using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
+                {
+                    SqlCommand cmd2 = new SqlCommand();
+                    cmd2.CommandType = CommandType.Text;
+                    cmd2.CommandText = "update RealTimeScoreDetails set Score="+Score+", TVal='"+TVal+"',PVal='"+PVal+"' , SVal= '"+SVal+"' where MatchId=" +Setup.MatchId + " AND TeamID="+TeamID+"";
+                    //                cmd.CommandText = "INSERT INTO PlayerDetails (LoggedIn) VALUES (1)";
+                    cmd2.Connection = con;
+
+                    con.Open();
+                    cmd2.ExecuteNonQuery();
+                    con.Close();
+
+
+                }
+
+         
+            return "Succedd";
+            }
+            
 
 
 

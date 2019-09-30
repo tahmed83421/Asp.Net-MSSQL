@@ -543,6 +543,7 @@
                         modal.style.display = "block";
 
                         btnn.onclick = function () {
+                            alert("1");
                              handcal = cal;
                              hand = 1;
                              handp = enteredvalue;
@@ -552,6 +553,7 @@
 
 
                             store2.push('<font  color=#000000>' + cal + '&nbsp;' + enteredvalue + cnt + lblp1.innerHTML + lbls1.innerHTML + "W" + '%' + '</font>');
+
                             modal.style.display = "none";
                             document.getElementById("SbtnW").disabled = true;
                             document.getElementById("CbtnW").disabled = true;
@@ -654,14 +656,24 @@
                         modal.style.display = "block";
 
                         btnn.onclick = function () {
+                            alert("2");
                              handcal = cal;
                              hand = 1;
                              handp = enteredvalue;
 
                             memory.push(cal + '&nbsp;' + enteredvalue + '%' + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + 0 + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'white');
-
+                            
 
                             store2.push('<font  color=#000000>' + cal + '&nbsp;' + enteredvalue + cnt + lblp1.innerHTML + lbls1.innerHTML + "W" + '%' + '</font>');
+
+                            PageMethods.UpdateScoreData(lblTeamScore1.innerHTML, lblp1.innerHTML, lblt1.innerHTML, lbls1.innerHTML, '1', OnSuccess);
+                            alert("xoxoXO");
+                            function OnSuccess() {
+
+                                alert("pw os ");
+
+                            }
+
                             modal.style.display = "none";
                             document.getElementById("SbtnW").disabled = true;
                             document.getElementById("CbtnW").disabled = true;
@@ -694,10 +706,19 @@
                         }
                     }
                     else {
+                        alert("3");
                         cnt = cnt + 1;
                         memory.push(cal + '&nbsp;' + enteredvalue + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'white');
 
                         store2.push('<font  color=#000000>' + cal + '&nbsp;' + enteredvalue + cnt + lblp1.innerHTML + lbls1.innerHTML + "W" + '</font>');
+                       
+                        PageMethods.UpdateScoreData(lblTeamScore1.innerHTML, lblp1.innerHTML, lblt1.innerHTML, lbls1.innerHTML,'1', OnSuccess);
+                        alert("xoxoXO");
+                        function OnSuccess() {
+
+                            alert("pw os ");
+
+                        }
                     }
                     store1.push(enteredvalue);
                     lblPrev1.innerHTML = '';
@@ -976,14 +997,16 @@
                         modal.style.display = "block";
 
                         btnn.onclick = function () {
+                            alert("4");
 hand = 1;
                             memory.push(cal + '&nbsp;' + enteredvalue + '%' + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + 0 + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
                             store2.push('<font  color=#D2691E>' + cal + '&nbsp;' + enteredvalue + cnt + lblp2.innerHTML + lbls2.innerHTML + "Y" + "%" + '</font>');
-                            PageMethods.InsertLiveScoreData();
-                          
-                            function OnSuccess(res) {
+                            PageMethods.UpdateScoreData(lblTeamScore1.innerHTML, lblp1.innerHTML, lblt1.innerHTML, lbls1.innerHTML, '1', OnSuccess);
+                            alert("xoxoXO");
+                            function OnSuccess() {
 
-                                alert("Success Tanvir");
+                                alert("pw os ");
+
                             }
                             modal.style.display = "none";
                             document.getElementById("SbtnW").disabled = true;
@@ -1022,14 +1045,16 @@ hand = 1;
                    
                     }
                     else {
+                        alert("5");
                         cnt = cnt + 1;
                         memory.push(cal + '&nbsp;' + enteredvalue + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
                         store2.push('<font  color=#D2691E>' + cal + '&nbsp;' + enteredvalue + cnt + lblp2.innerHTML + lbls2.innerHTML + "Y" + '</font>');
-                        PageMethods.InsertLiveScoreData();
+                        PageMethods.UpdateScoreData(lblTeamScore1.innerHTML, lblp1.innerHTML, lblt1.innerHTML, lbls1.innerHTML, '1', OnSuccess);
+                        alert("xoxoXO");
+                        function OnSuccess() {
 
-                        function OnSuccess(res) {
+                            alert("pw os ");
 
-                            alert("Success Tanvir");
                         }
                     }
 
@@ -1432,18 +1457,13 @@ hand = 1;
                 lblt1.innerHTML = "t" + (eval(parseInt(result) + 1));
               
                 cnt = cnt + 1;
-
+                alert("6");
                         
                 memory.push('@T1'+'+' + '&nbsp;' + '0'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'white');
 
 
                 store2.push('<font  color=#000000>' + '+' + '&nbsp;' + '0' + lblt1.innerHTML.substr(1) + lblp1.innerHTML + lbls1.innerHTML + "W" + '@T1' + '</font>');
-                PageMethods.InsertLiveScoreData();
-
-                function OnSuccess(res) {
-
-                    alert("Success Tanvir");
-                }
+              
                 store1.push (0);
                 timerStart('second');
 
@@ -1458,7 +1478,7 @@ hand = 1;
                        
 
                 cnt = cnt + 1;
-                
+                alert("7");
 
                 memory.push('@T1'+'+' + '&nbsp;' + '0'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
 
@@ -1515,7 +1535,8 @@ hand = 1;
                        
                         if( twotime == 0)
                         {      
-                            twotime = 1 ;
+                            twotime = 1;
+                            alert("8");
                             memory.push('@2T2X'+'+' + '&nbsp;' + '2'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'white');
                           
                             store2.push('<font  color=#000000>' + '+' + '&nbsp;' + '2' + 't'+cnt + lblp1.innerHTML + lbls1.innerHTML + "W" + '@2T2X' + '</font>');
@@ -1529,6 +1550,7 @@ hand = 1;
                         }
                         else
                         {
+                            alert("9");
                             twotime = 0;
                             memory.push('@2T1X'+'+' + '&nbsp;' + '2'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'white');
                           
@@ -1547,7 +1569,8 @@ hand = 1;
                     else 
                     {
                         if( twotime == 0)
-                        {  
+                        {
+                            alert("10");
                             twotime = 1 ;
                             memory.push('@2T2'+'+' + '&nbsp;' + '2'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'white');
 
@@ -1564,6 +1587,7 @@ hand = 1;
                         {
                           //  store2.push('<font  color=#000000>' + '+' + '&nbsp;' + '2' + lblt1.innerHTML + lblp1.innerHTML + lbls1.innerHTML + "W" + '@2T1' + '</font>');
                             twotime = 0;
+                            alert("11");
                             memory.push('@2T1'+'+' + '&nbsp;' + '2'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'white');
 
                             store2.push('<font  color=#000000>' + '+' + '&nbsp;' + '2' + 't'+cnt + lblp1.innerHTML + lbls1.innerHTML + "W" + '@2T1' + '</font>');
@@ -1596,7 +1620,9 @@ hand = 1;
                     if(extrY == 1)
                     {
                         if( twotime == 0)
-                        {   twotime = 1 ;
+                        {
+                            twotime = 1;
+                            alert("12");
                             memory.push('@2T2X'+'+' + '&nbsp;' + '2'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
 
                             store2.push('<font  color=#D2691E>' + '+' + '&nbsp;' + '2' + 't'+cnt +lblp2.innerHTML + lbls2.innerHTML + "Y" + '@2T2X' + '</font>');
@@ -1612,6 +1638,7 @@ hand = 1;
                         else
                         {
                             twotime = 0;
+                            alert("13");
                             memory.push('@2T1X'+'+' + '&nbsp;' + '2'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
 
                             store2.push('<font  color=#D2691E>' + '+' + '&nbsp;' + '2'  + 't'+cnt + lblp2.innerHTML + lbls2.innerHTML + "Y" + '@2T1X' + '</font>');
@@ -1629,7 +1656,9 @@ hand = 1;
                     else 
                     {
                         if( twotime == 0)
-                        {   twotime = 1 ;
+                        {
+                            twotime = 1;
+                            alert("14");
                             memory.push('@2T2'+'+' + '&nbsp;' + '2'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
 
                             store2.push('<font  color=#D2691E>' + '+' + '&nbsp;' + '2' + 't'+cnt + lblp2.innerHTML + lbls2.innerHTML + "Y" + '@2T2' + '</font>');
@@ -1645,6 +1674,7 @@ hand = 1;
                         else
                         {
                             twotime = 0;
+                            alert("15");
                             memory.push('@2T1'+'+' + '&nbsp;' + '2'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
 
                             store2.push('<font  color=#D2691E>' + '+' + '&nbsp;' + '2'  + 't'+cnt + lblp2.innerHTML + lbls2.innerHTML + "Y" + '@2T1' + '</font>');
@@ -1681,7 +1711,7 @@ hand = 1;
               
                     cnt = cnt + 1;
 
-                        
+                    alert("16");
                     memory.push('+' + '&nbsp;' + '0'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'white');
 
 
@@ -1707,7 +1737,8 @@ hand = 1;
                     lblt2.innerHTML = "t" + (eval(parseInt(result) + 1));
                        
 
-                    cnt = cnt + 1 ;
+                    cnt = cnt + 1;
+                    alert("17");
                 
 
                     memory.push('+' + '&nbsp;' + '0'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
@@ -2396,7 +2427,8 @@ hand = 1;
                 else if ('<%= Session["Game"] %>' == 'Carom') {
                     lblt2.innerHTML = "i" + (eval(parseInt(result) + 1));
                 }
-                cnt = cnt + 1;
+                    cnt = cnt + 1;
+                    alert("18");
                 memory.push('&nbsp;' + "@" + lblTeamScore2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'darkorange');
                
                 store1.push(lblTeamScore2.innerHTML);
@@ -2643,7 +2675,8 @@ hand = 1;
                 var tick = lblt1.innerHTML;
                 var result = tick.substr(1);
                 lblt1.innerHTML = "t" + (eval(parseInt(result) + 1));
-                cnt = cnt + 1;
+                    cnt = cnt + 1;
+                    alert("19");
                 memory.push('&nbsp;' +"@"+ lblTeamScore1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'white');
                
                 store2.push('<font  color=#000000>' + cal + '&nbsp;' + enteredvalue + cnt + lblp1.innerHTML + lbls1.innerHTML + "W" +'@'+ '</font>');
@@ -3185,7 +3218,8 @@ hand = 1;
                            same1 = lblTeamScore1.innerHTML;
                            if(hand !=1) cnt = cnt + 1;
 
-                           if(exch == 1){
+                           if (exch == 1) {
+                               alert("20");
                                memory.push("@"+cal + '&nbsp;' + same2 + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'white');
 
                                store2.push('<font  color=#000000>' + cal + '&nbsp;' + same2 + cnt + lblp1.innerHTML + lbls1.innerHTML + "W" +"@"+ '</font>');
@@ -3203,19 +3237,31 @@ hand = 1;
 
                            }
                            
-                           if(hand == 1 && exch != 1){
+                           if (hand == 1 && exch != 1) {
+                               alert("21");
                                memory.push("%"+cal + '&nbsp;' + same2 + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'white');
 
                                store2.push('<font  color=#000000>' + cal + '&nbsp;' + same2 + cnt + lblp1.innerHTML + lbls1.innerHTML + "W" +"%"+ '</font>');
                            
                                store1.push(same2);
                            }
-                           else if(exch != 1 && hand != 1)
+                           else if (exch != 1 && hand != 1)
+
                            {
+                               alert("22");
                                memory.push(cal + '&nbsp;' + same2 + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'white');
 
                                store2.push('<font  color=#000000>' + cal + '&nbsp;' + same2 + cnt + lblp1.innerHTML + lbls1.innerHTML + "W" + '</font>');
                                store1.push(same2);
+                               // PageMethods.InsertLiveScoreData(lblTeamScore1.innerHTML, lblt1.innerHTML, OnSuccess);
+                               PageMethods.UpdateScoreData(lblTeamScore1.innerHTML, lblp1.innerHTML, lblt1.innerHTML, lbls1.innerHTML, '1', OnSuccess);
+                               alert("xoxo");
+                               function OnSuccess() {
+
+                                   alert("pw os " + lblt1.innerHTML);
+
+                               }
+
                            }
                            jog = 0;
                            jog1 = 0;
@@ -3514,17 +3560,22 @@ hand = 1;
                             if(hand != 1) cnt = cnt + 1;
 
                             if(exch == 1)
-                            { memory.push("@"+cal + '&nbsp;' + same2 + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
+                            {
+                                alert("23");
+                                memory.push("@" + cal + '&nbsp;' + same2 + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
                                 store2.push('<font  color=#D2691E>' + cal + '&nbsp;' + same2 + cnt + lblp2.innerHTML + lbls2.innerHTML + "Y" +"@"+ '</font>');
                                 store1.push(same2);
                                 exchch =1;
                             }
 
-                           else if(hand == 1 && exch != 1){ memory.push("%"+cal + '&nbsp;' + same2 + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
+                            else if (hand == 1 && exch != 1) {
+                                alert("24");
+                                memory.push("%" + cal + '&nbsp;' + same2 + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
                                 store2.push('<font  color=#D2691E>' + cal + '&nbsp;' + same2 + cnt + lblp2.innerHTML + lbls2.innerHTML + "Y" + '</font>');
                                 store3.push(same2);}
                             else 
                             {
+                                alert("25");
                                 memory.push(cal + '&nbsp;' + same2 + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
                                 store2.push('<font  color=#D2691E>' + cal + '&nbsp;' + same2 + cnt + lblp2.innerHTML + lbls2.innerHTML + "Y" + '</font>');
                                 store3.push(same2);
@@ -3836,6 +3887,7 @@ hand = 1;
 
                             if(extrW == 1)
                             {
+                                alert("26");
                                 memory.push('@2T2X'+'+' + '&nbsp;' + '2'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'white');
                           
 
@@ -3844,7 +3896,7 @@ hand = 1;
                             }
                             else 
                             {
-
+                                alert("27");
                                 memory.push('@2T2'+'+' + '&nbsp;' + '2'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'white');
                           
 
@@ -3866,6 +3918,7 @@ hand = 1;
 
                             if(extrY == 1)
                             {
+                                alert("28");
                                 memory.push('@2T2X'+'+' + '&nbsp;' + '2'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
 
 
@@ -3875,7 +3928,7 @@ hand = 1;
                             
                             else 
                             {
-
+                                alert("29");
                                 memory.push('@2T2'+'+' + '&nbsp;' + '2'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
 
 
@@ -3903,6 +3956,7 @@ hand = 1;
 
                             if(extrW == 1)
                             {
+                                alert("30");
                                 memory.push('@2T1X'+'+' + '&nbsp;' + '2'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'white');
                           
 
@@ -3911,6 +3965,7 @@ hand = 1;
                             }
                             else 
                             {
+                                alert("31");
                                 memory.push('@2T1'+'+' + '&nbsp;' + '2'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'white');
 
 
@@ -3936,6 +3991,7 @@ hand = 1;
                             
                             if(extrY == 1)
                             {
+                                alert("32");
                                 memory.push('@2T1X'+'+' + '&nbsp;' + '2'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
 
 
@@ -3945,7 +4001,7 @@ hand = 1;
                             
                             else 
                             {
-
+                                alert("33");
                                 memory.push('@2T1'+'+' + '&nbsp;' + '2'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
 
 
@@ -4000,7 +4056,7 @@ hand = 1;
               
                         cnt = cnt + 1;
 
-                        
+                        alert("34");
                         memory.push('@T1'+'+' + '&nbsp;' + '0'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'white');
 
 
@@ -4021,7 +4077,7 @@ hand = 1;
 
                         cnt = cnt + 1;
                 
-
+                        alert("35");
                         memory.push('@T1'+'+' + '&nbsp;' + '0'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
 
 
@@ -4085,7 +4141,7 @@ hand = 1;
               
                                 if(pnlt != 1) cnt = cnt + 1 ;
 
-                        
+                                alert("36");
                                 memory.push('+' + '&nbsp;' + '0'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp1.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls1.innerHTML + '||' + 'white');
 
 
@@ -4111,7 +4167,7 @@ hand = 1;
 
                                 if(pnlt != 1) cnt = cnt + 1 ;
                 
-
+                                alert("37");
                                 memory.push('+' + '&nbsp;' + '0'  + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
 
 

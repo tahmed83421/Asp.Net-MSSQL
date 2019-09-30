@@ -15,24 +15,28 @@ namespace BilliardScoreboard.Game
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            SetValues();
         }
 
         private void SetValues()
         {
-
+            string mid = Setup.MatchId.ToString();
             using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
             {
-                SqlDataAdapter ad = new SqlDataAdapter("SELECT TVal,PVal, SVal,Score from RealTimeScoreDetails where MatchID= 7", con);
+                SqlDataAdapter ad = new SqlDataAdapter("SELECT TVal,PVal, SVal,Score from RealTimeScoreDetails where MatchId="+mid+" AND TeamID=1", con) ;
                 DataSet ds = new DataSet();
                 ad.Fill(ds);
                 foreach (DataRow dtrow in ds.Tables[0].Rows)
                 {
 
-                    lblSet.Text = dtrow["SVal"].ToString();
+                    lblSet.Text = mid;
                     Punti.Text = dtrow["Score"].ToString();
                     Tiri.Text = dtrow["TVal"].ToString();
                     Allafine.Text = dtrow["PVal"].ToString();
+
+
+
+
 
 
                 }

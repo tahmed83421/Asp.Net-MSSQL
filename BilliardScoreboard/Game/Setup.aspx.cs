@@ -33,6 +33,7 @@ namespace BilliardScoreboard.Game
         public static int s3 = 0;
         public static int s4 = 0;
         public static int s5 = 0;
+        public static int MatchId;
 
         protected HtmlForm form1;
         protected HtmlGenericControl topLine;
@@ -113,6 +114,11 @@ namespace BilliardScoreboard.Game
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                MatchId = 0;
+            }
+            
            // this.Response.Redirect("~/Default.aspx");
             //if (Convert.ToString(this.Request.QueryString["Game"]) == "Ita")
             //    this.Session["Game"] = (object)"Italian";
@@ -307,6 +313,34 @@ namespace BilliardScoreboard.Game
                     con.Open();
                     cmd3.ExecuteNonQuery();
                     con.Close();
+                    // Inser Data When Match strats For Real Time Score initiatiating
+                    Random r = new Random();
+                    int randNum = r.Next(1000000);
+                    string MatchIdRand = randNum.ToString("D6");
+                    this.Session["MatchId"] = MatchIdRand.ToString();
+                    MatchId = Convert.ToInt32(MatchIdRand);
+                   
+
+                    SqlCommand RealTimeScoreIn = new SqlCommand();
+                    RealTimeScoreIn.CommandType = CommandType.Text;
+                    RealTimeScoreIn.CommandText = "insert into RealTimeScoreDetails (MatchId,TeamID) Values("+MatchId+",1); ";
+                    //                cmd.CommandText = "INSERT INTO PlayerDetails (LoggedIn) VALUES (1)";
+                    RealTimeScoreIn.Connection = con;
+
+                    con.Open();
+                    RealTimeScoreIn.ExecuteNonQuery();
+                    con.Close();
+
+                    SqlCommand RealTimeScoreIn2 = new SqlCommand();
+                    RealTimeScoreIn2.CommandType = CommandType.Text;
+                    RealTimeScoreIn2.CommandText = "insert into RealTimeScoreDetails (MatchId,TeamID) Values(" + MatchId + ",2); ";
+                    //                cmd.CommandText = "INSERT INTO PlayerDetails (LoggedIn) VALUES (1)";
+                    RealTimeScoreIn2.Connection = con;
+
+                    con.Open();
+                    RealTimeScoreIn2.ExecuteNonQuery();
+                    con.Close();
+
                 }
                  this.Response.Redirect("Score.aspx");
             }
