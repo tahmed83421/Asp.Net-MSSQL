@@ -230,6 +230,7 @@ namespace BilliardScoreboard.Game
                 this.Session["Penaltychk"] = s4;
                 if (chkId.Checked == true) s5 = 1;
                 else s5 = 0;
+               
                 this.Session["Point"] = (object)this.txtPoint.Text.Trim();
                 this.Session["Set"] = (object)this.txtSet.Text.Trim();
                 this.Session["Pins"] = (object)(this.txtPins.Text.Trim() + " " + this.lblPins.Text);
@@ -317,7 +318,8 @@ namespace BilliardScoreboard.Game
                     Random r = new Random();
                     int randNum = r.Next(1000000);
                     string MatchIdRand = randNum.ToString("D6");
-                    this.Session["MatchId"] = MatchIdRand.ToString();
+                    this.Session["MatchId"] = MatchIdRand.ToString().Trim();
+                  
                     MatchId = Convert.ToInt32(MatchIdRand);
                    
 

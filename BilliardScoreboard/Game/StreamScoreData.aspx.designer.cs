@@ -31,40 +31,40 @@ namespace BilliardScoreboard.Game {
         protected global::System.Web.UI.ScriptManager ScriptManager1;
         
         /// <summary>
-        /// Punti control.
+        /// Punti1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Punti;
+        protected global::System.Web.UI.WebControls.Label Punti1;
         
         /// <summary>
-        /// Tiri control.
+        /// Tiri1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Tiri;
+        protected global::System.Web.UI.WebControls.Label Tiri1;
         
         /// <summary>
-        /// Allafine control.
+        /// Allafine1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Allafine;
+        protected global::System.Web.UI.WebControls.Label Allafine1;
         
         /// <summary>
-        /// lblSet control.
+        /// lblSet1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSet;
+        protected global::System.Web.UI.WebControls.Label lblSet1;
         
         /// <summary>
         /// Player1Name control.
@@ -76,13 +76,49 @@ namespace BilliardScoreboard.Game {
         protected global::System.Web.UI.WebControls.Label Player1Name;
         
         /// <summary>
-        /// Label2 control.
+        /// imgPlayer1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Image imgPlayer1;
+        
+        /// <summary>
+        /// Club1Name control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Club1Name;
+        
+        /// <summary>
+        /// imgClub1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgClub1;
+        
+        /// <summary>
+        /// Player2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Player2;
+        
+        /// <summary>
+        /// Club2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Club2;
         
         /// <summary>
         /// Timer1 control.

@@ -16,6 +16,7 @@ namespace BilliardScoreboard.Game
         protected void Page_Load(object sender, EventArgs e)
         {
             SetValues();
+            if (Session["MatchID"] == null) Session["MatchID"] = string.Empty;
         }
 
         private void SetValues()
@@ -23,23 +24,32 @@ namespace BilliardScoreboard.Game
             string mid = Setup.MatchId.ToString();
             using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
             {
-                SqlDataAdapter ad = new SqlDataAdapter("SELECT TVal,PVal, SVal,Score from RealTimeScoreDetails where MatchId="+mid+" AND TeamID=1", con) ;
-                DataSet ds = new DataSet();
-                ad.Fill(ds);
-                foreach (DataRow dtrow in ds.Tables[0].Rows)
+                try
                 {
+                    SqlDataAdapter ad = new SqlDataAdapter("SELECT TVal,PVal, SVal,Score from RealTimeScoreDetails where MatchId=" + Session["MatchID"].ToString() + " AND TeamID=1", con);
+                    DataSet ds = new DataSet();
+                    ad.Fill(ds);
+                    foreach (DataRow dtrow in ds.Tables[0].Rows)
+                    {
 
-                    lblSet.Text = mid;
-                    Punti.Text = dtrow["Score"].ToString();
-                    Tiri.Text = dtrow["TVal"].ToString();
-                    Allafine.Text = dtrow["PVal"].ToString();
+                        lblSet1.Text = dtrow["SVal"].ToString();
+                        Punti1.Text = dtrow["Score"].ToString();
+                        Tiri1.Text = dtrow["TVal"].ToString();
+                        Allafine1.Text = dtrow["PVal"].ToString();
+                        Player1Name.Text = Convert.ToString(Session["P1"]);
+                        imgPlayer1.ImageUrl = Convert.ToString(Session["PP1"]);
+                        Club1Name.Text = Convert.ToString(Session["C1"]);
+                        imgClub1.ImageUrl = Convert.ToString(Session["CP1"]);
+                        Player2.Text = Session["MatchID"].ToString();
 
 
 
 
 
 
+                    }
                 }
+                catch { Response.Write("Please Start The Game First to see Score"); }
 
             }
 

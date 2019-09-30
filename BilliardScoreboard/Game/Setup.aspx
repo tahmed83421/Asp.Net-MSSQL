@@ -47,17 +47,7 @@
        $(function () {
           
            $('#txtn1PW').click(function () {
-               PageMethods.InsertLiveScoreData(OnSuccess);
-               alert("xoxo");
-               function OnSuccess() {
-
-                   alert("pw os ");
-
-               }
-
-               
-             
-              
+ 
                var status = $('#txtn1PW').is(":focus");
                if (status == true) {
                    document.getElementById('audiotag1').play();
@@ -960,6 +950,7 @@ var dont = document.getElementById('<%= txtn1PW.ClientID %>').value;
                     document.getElementById('<%= imgC1.ClientID %>').src = '../' + response.d[0].ClubPicture;
                     document.getElementById('<%= hdnClub1.ClientID %>').value = response.d[0].ClubEmail;
                     document.getElementById('<%= hdnPlay1.ClientID %>').value = response.d[0].PlayerEmail;
+         
 
                     
 
@@ -1335,6 +1326,9 @@ height:28px;
         <asp:HiddenField ID="hdnClub4" runat="server" Value="" />
          <asp:HiddenField ID="Zerochk" runat="server" Value="0"/>
          <asp:HiddenField ID="Penaltychk" runat="server" Value="0"/>
+
+
+        <asp:HiddenField ID="hdnPlayer1Id" runat="server"  Value="0"/>
 
 
     </div>

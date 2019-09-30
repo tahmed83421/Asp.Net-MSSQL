@@ -415,39 +415,44 @@
             <table border="1" style="background-color:black">
               
                 <tr style="color:white; border-bottom:solid; border-bottom-color:red" >
-                    <td colspan="2" > 
-                        <b> Punti-</b><asp:Label ID="Punti" runat="server" Text="Label"></asp:Label></td>
-                    <td> <b>Tiri-&nbsp;</b><asp:Label ID="Tiri" runat="server" Text="Label"></asp:Label>
+                    <td colspan="1" > 
+                        <b> Punti-</b><asp:Label ID="Punti1" runat="server" Text="000"></asp:Label></td>
+                    <td> <b>Tiri-&nbsp;</b><asp:Label ID="Tiri1" runat="server" Text="t00"></asp:Label>
                     </td>
-                    <td><b>Alla fine -</b><asp:Label ID="Allafine" runat="server" Text="Label"></asp:Label> </td>
-                    <td><b>Set-&nbsp;&nbsp;&nbsp;<asp:Label ID="lblSet" runat="server" Text="Label"></asp:Label> &nbsp;&nbsp;&nbsp; </td> 
+                    <td><b>Alla fine -</b><asp:Label ID="Allafine1" runat="server" Text="P000"></asp:Label> </td>
+                    <td><b>Set-&nbsp;&nbsp;&nbsp; </b><asp:Label ID="lblSet1" runat="server" Text="S0/0"></asp:Label> &nbsp;&nbsp;&nbsp; </td> 
                 </tr>
                 
               
 
                 <tr style="color:white">
                     <td>
-                        <asp:Label ID="Player1Name" runat="server" Text="Sergio&nbsp;&nbsp;&nbsp;"></asp:Label>
+                        <asp:Label ID="Player1Name" runat="server" Text="Player1"></asp:Label>
+                        
+                         <asp:Image ID="imgPlayer1" runat="server"   ImageUrl=""  Width="35px" style="border-radius:50%;" />
                     </td>
                     <td >
+                         <asp:Label ID="Club1Name" runat="server" Text="&nbsp;&nbsp;Club1"></asp:Label>
+                           <asp:Image ID="imgClub1" runat="server"   ImageUrl=""  Width="35px" style="border-radius:50%;" />
                         
-                        <img src="../public/Upload/Player/Sergio.png" alt="Avatar" style="width:30px;border-radius:50%;"/>
                     </td>
                     <td>
-                       
-                         <asp:Label ID="Label2" runat="server" Text="&nbsp;&nbsp;&nbsp;&nbsp;Biliardo Club"></asp:Label>
+                        <asp:Label ID="Player2" runat="server" Text="Player2"></asp:Label>
+                        <img src="../public/Upload/Player/Sergio.png" alt="Avatar" style="width:30px;border-radius:50%;"/>
+                        
                     </td>
                     <td >
-                    
-                         <img src="../public/Upload/Club/ASD.jpg" alt="Avatar" style="width:30px;border-radius:50%;"/>
+                     <asp:Label ID="Club2" runat="server" Text="&nbsp;&nbsp;Club2"></asp:Label>
+                          <img src="../public/Upload/Club/ASD.jpg" alt="Avatar" style="width:30px;border-radius:50%;"/>
+                       
                     </td>
-                    <td></td>
+                   
                 </tr>
              
 
             </table>
           
-              <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Timer1_Tick"></asp:Timer>
+              <asp:Timer ID="Timer1" runat="server" Interval="1500" OnTick="Timer1_Tick"></asp:Timer>
 
         </div>
     </form>

@@ -88,12 +88,13 @@ namespace BilliardScoreboard
             List<Details> details = new List<Details>();
             using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
             {
-                SqlDataAdapter ad = new SqlDataAdapter("SELECT PD.Name, PD.FamilyName, PD.PlayerPicture, CD.ClubName, CD.ClubLogo FROM PlayerDetails PD INNER JOIN ClubDetails CD ON CD.ClubId = PD.ClubId WHERE PD.Password Collate SQL_Latin1_General_CP1_CS_AS = '" + prefixText + "' AND CD.Status Collate SQL_Latin1_General_CP1_CS_AS ='Active' AND PD.Status Collate SQL_Latin1_General_CP1_CS_AS = 'Active' AND PD.login = '0'", con);
+                SqlDataAdapter ad = new SqlDataAdapter("SELECT  PD.PlayerId, PD.Name, PD.FamilyName, PD.PlayerPicture, CD.ClubName, CD.ClubLogo FROM PlayerDetails PD INNER JOIN ClubDetails CD ON CD.ClubId = PD.ClubId WHERE PD.Password Collate SQL_Latin1_General_CP1_CS_AS = '" + prefixText + "' AND CD.Status Collate SQL_Latin1_General_CP1_CS_AS ='Active' AND PD.Status Collate SQL_Latin1_General_CP1_CS_AS = 'Active' AND PD.login = '0'", con);
                 DataSet ds = new DataSet();
                 ad.Fill(ds);
                 foreach (DataRow dtrow in ds.Tables[0].Rows)
                 {
                     Details dtl = new Details();
+                    dtl.PlayerId = dtrow["PlayerId"].ToString();
                     dtl.Name = dtrow["Name"].ToString();
                     dtl.FamilyName = dtrow["FamilyName"].ToString();
                     dtl.PlayerPicture = dtrow["PlayerPicture"].ToString();
@@ -138,27 +139,8 @@ namespace BilliardScoreboard
             return details;
         }
 
-        // Stream Data into Xsplit 
-        [WebMethod]
-        [System.Web.Script.Services.ScriptMethod]
-        public void InsertLiveScoreData()
-        {
-            
-            using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
-            {
-                using (SqlCommand cmd = new SqlCommand())
-                {
-                    cmd.CommandText = "INSERT INTO RealTimeScoreDetails VALUES(16, 10,80,1,01,0/1,"+DateTime.Now.ToString()+"); ";
-                    cmd.Connection = con;
-                    con.Open();
-                   cmd.ExecuteReader();
-                   
-                    
-                    con.Close();
-                   
-                }
-            }
-        }
+ 
+ 
 
 
 

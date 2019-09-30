@@ -33,10 +33,10 @@ namespace BilliardScoreboard.Game
 
             //    if (Setup.s5.Equals(1)) II.Value = "1";         
 
-            //        lblPlayer1.Text = Convert.ToString(Session["P1"]);
-            //        imgPlayer1.ImageUrl = Convert.ToString(Session["PP1"]);
-            //        lblClub1.Text = Convert.ToString(Session["C1"]);
-            //        imgClub1.ImageUrl = Convert.ToString(Session["CP1"]);
+                   lblPlayer1.Text = Convert.ToString(Session["P1"]);
+                   imgPlayer1.ImageUrl = Convert.ToString(Session["PP1"]);
+                   lblClub1.Text = Convert.ToString(Session["C1"]);
+                  imgClub1.ImageUrl = Convert.ToString(Session["CP1"]);
             //        lblPlayer3.Text = Convert.ToString(Session["P2"]);
             //        imgPlayer3.ImageUrl = Convert.ToString(Session["PP2"]);
             //        lblClub3.Text = Convert.ToString(Session["C2"]);

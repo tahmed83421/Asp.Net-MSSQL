@@ -3579,6 +3579,15 @@ hand = 1;
                                 memory.push(cal + '&nbsp;' + same2 + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t' + cnt + '&nbsp;&nbsp;&nbsp;&nbsp;' + lblp2.innerHTML + '&nbsp;&nbsp;&nbsp;&nbsp;' + lbls2.innerHTML + '||' + 'darkorange');
                                 store2.push('<font  color=#D2691E>' + cal + '&nbsp;' + same2 + cnt + lblp2.innerHTML + lbls2.innerHTML + "Y" + '</font>');
                                 store3.push(same2);
+
+                                PageMethods.UpdateScoreData(lblTeamScore2.innerHTML, lblp2.innerHTML, lblt2.innerHTML, lbls2.innerHTML, '2', OnSuccess);
+                          
+                                function OnSuccess() {
+
+                                    alert("pw os22 " + lblPlayer1.innerHTML);
+
+                                }
+
                             }
                             if (parseInt(lblTeamScore2.innerHTML) >= parseInt(pointmain)) {
                                 var set = lbls2.innerHTML;

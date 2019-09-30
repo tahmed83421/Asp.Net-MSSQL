@@ -86,6 +86,7 @@
     <Content Include="css\template-style.css" />
     <Content Include="EmailTemplate\PlayerEmailConfirmation.html" />
     <Content Include="Game\StreamScoreData.aspx" />
+    <Content Include="Game\StreamScoreDataPl2.aspx" />
     <Content Include="Global.asax" />
     <Content Include="img\swapposition.png" />
     <Content Include="index.html" />
@@ -260,6 +261,13 @@
     </Compile>
     <Compile Include="Game\StreamScoreData.aspx.designer.cs">
       <DependentUpon>StreamScoreData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Game\StreamScoreDataPl2.aspx.cs">
+      <DependentUpon>StreamScoreDataPl2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Game\StreamScoreDataPl2.aspx.designer.cs">
+      <DependentUpon>StreamScoreDataPl2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
