@@ -16,19 +16,39 @@ namespace BilliardScoreboard.Game
         protected void Page_Load(object sender, EventArgs e)
         {
             SetValues();
-            if (Session["MatchID"] == null) Session["MatchID"] = string.Empty;
+            if (Session["MatchID"] == null) Session["MatchID"] = Setup.MatchId.ToString();
         }
 
         private void SetValues()
         {
+
+          
             string mid = Setup.MatchId.ToString();
             using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
             {
-                try
-                {
-                    SqlDataAdapter ad = new SqlDataAdapter("SELECT TVal,PVal, SVal,Score from RealTimeScoreDetails where MatchId=" + Session["MatchID"].ToString() + " AND TeamID=1", con);
+                    SqlDataAdapter ad = new SqlDataAdapter("SELECT TVal,PVal, SVal,Score from RealTimeScoreDetails where MatchId=" + mid + " AND TeamID=1", con);
                     DataSet ds = new DataSet();
                     ad.Fill(ds);
+
+                SqlDataAdapter sd = new SqlDataAdapter("select imgPlayer1,Player1Name,Club1Name,Club3Name,imgPlayer3,Player3Name,imgClub3,imgClub1 from MatchDetails where MatchIDD = " + mid+"", con);
+                DataSet dataSet = new DataSet();
+                sd.Fill(dataSet);
+
+
+                foreach (DataRow drow in dataSet.Tables[0].Rows)
+                {
+                    Player1Name.Text = drow["Player1Name"].ToString();
+                    imgPlayer1.ImageUrl = drow["imgPlayer1"].ToString();
+                    Club1Name.Text = drow["Club1Name"].ToString();
+                    imgClub1.ImageUrl = drow["imgClub1"].ToString();
+                    Player3Name.Text = drow["Player3Name"].ToString();
+                    ImgPlayer3.ImageUrl = drow["imgPlayer3"].ToString();
+                    Club3Name.Text = drow["Club3Name"].ToString();
+                    imgClub3.ImageUrl = drow["imgClub3"].ToString();
+                }
+
+
+
                     foreach (DataRow dtrow in ds.Tables[0].Rows)
                     {
 
@@ -36,20 +56,19 @@ namespace BilliardScoreboard.Game
                         Punti1.Text = dtrow["Score"].ToString();
                         Tiri1.Text = dtrow["TVal"].ToString();
                         Allafine1.Text = dtrow["PVal"].ToString();
-                        Player1Name.Text = Convert.ToString(Session["P1"]);
-                        imgPlayer1.ImageUrl = Convert.ToString(Session["PP1"]);
-                        Club1Name.Text = Convert.ToString(Session["C1"]);
-                        imgClub1.ImageUrl = Convert.ToString(Session["CP1"]);
-                        Player2.Text = Session["MatchID"].ToString();
+                       
+                       
 
 
 
 
 
 
-                    }
+
+
+                   
                 }
-                catch { Response.Write("Please Start The Game First to see Score"); }
+               
 
             }
 

@@ -103,22 +103,40 @@ namespace BilliardScoreboard.Game {
         protected global::System.Web.UI.WebControls.Image imgClub1;
         
         /// <summary>
-        /// Player2 control.
+        /// Player3Name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Player2;
+        protected global::System.Web.UI.WebControls.Label Player3Name;
         
         /// <summary>
-        /// Club2 control.
+        /// ImgPlayer3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Club2;
+        protected global::System.Web.UI.WebControls.Image ImgPlayer3;
+        
+        /// <summary>
+        /// Club3Name control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Club3Name;
+        
+        /// <summary>
+        /// imgClub3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgClub3;
         
         /// <summary>
         /// Timer1 control.

@@ -34,6 +34,7 @@ namespace BilliardScoreboard.Game
         public static int s4 = 0;
         public static int s5 = 0;
         public static int MatchId;
+       
 
         protected HtmlForm form1;
         protected HtmlGenericControl topLine;
@@ -207,11 +208,29 @@ namespace BilliardScoreboard.Game
             }
         }
 
+        private void InsertMatchProfiles()
+        {
+            SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString);
+            SqlCommand RealTimeGameProfiles = new SqlCommand();
+            RealTimeGameProfiles.CommandType = CommandType.Text;
+            /* RealTimeGameProfiles.CommandText = "Insert into MatchDetails (MatchIDD,Player1Name,Player2Name,Player3Name,Player4Name,Club1Name,Club2Name,Club3Name,Club4Name,imgPlayer1,imgPlayer2,imgPlayer3,imgPlayer4,imgClub1,imgClub2,imgClub3,imgClub4) Values(" + Setup.MatchId.ToString() + ",'" + Convert.ToString(Session["P1"]) + "','" + Convert.ToString(Session["P2"]) + "','" + Convert.ToString(Session["P3"]) + "','" + Convert.ToString(Session["P4"])
+             + "','" + Convert.ToString(Session["C1"]) + "','" + Convert.ToString(Session["C2"]) + "','" + Convert.ToString(Session["C3"]) + "','" + Convert.ToString(Session["C4"])+ "','" + Convert.ToString(Session["PP1"]) + "','" + Convert.ToString(Session["PP2"]) + "','" + Convert.ToString(Session["PP3"]) + "','" + Convert.ToString(Session["PP4"]) + "','" + Convert.ToString(Session["CP1"]) + "','" +
+                 Convert.ToString(Session["CP2"]) + "','" + Convert.ToString(Session["CP3"]) + "','" + Convert.ToString(Session["CP4"]) + "')";
+     */
+
+            RealTimeGameProfiles.CommandText = "insert into MatchDetails(MatchIDD,Player1Name,imgPlayer1)values(" + Setup.MatchId + ",'" + (object)this.Request.Form[this.P1.UniqueID] + "','"+ (object)this.Request.Form[this.IP1.UniqueID] + "')";
+            RealTimeGameProfiles.Connection = con;
+            con.Open();
+            RealTimeGameProfiles.ExecuteNonQuery();
+            con.Close();
+        }
+
 
 
         [SecuritySafeCritical]
         protected void btnEnter_Click(object sender, EventArgs e)
         {
+           
 
             String p12 = PW(this.lblPlayerName1.Text);
             String p11 = PW(this.lblPlayerName1.Text);
@@ -327,10 +346,12 @@ namespace BilliardScoreboard.Game
                     RealTimeScoreIn.CommandType = CommandType.Text;
                     RealTimeScoreIn.CommandText = "insert into RealTimeScoreDetails (MatchId,TeamID) Values("+MatchId+",1); ";
                     //                cmd.CommandText = "INSERT INTO PlayerDetails (LoggedIn) VALUES (1)";
+                  
                     RealTimeScoreIn.Connection = con;
 
                     con.Open();
                     RealTimeScoreIn.ExecuteNonQuery();
+                  
                     con.Close();
 
                     SqlCommand RealTimeScoreIn2 = new SqlCommand();

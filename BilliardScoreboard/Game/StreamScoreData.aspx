@@ -427,23 +427,23 @@
 
                 <tr style="color:white">
                     <td>
-                        <asp:Label ID="Player1Name" runat="server" Text="Player1"></asp:Label>
+                        <asp:Label ID="Player1Name" runat="server" Text="White-1"></asp:Label>
                         
                          <asp:Image ID="imgPlayer1" runat="server"   ImageUrl=""  Width="35px" style="border-radius:50%;" />
                     </td>
                     <td >
-                         <asp:Label ID="Club1Name" runat="server" Text="&nbsp;&nbsp;Club1"></asp:Label>
+                         <asp:Label ID="Club1Name" runat="server" Text="&nbsp;Club1"></asp:Label>
                            <asp:Image ID="imgClub1" runat="server"   ImageUrl=""  Width="35px" style="border-radius:50%;" />
                         
                     </td>
                     <td>
-                        <asp:Label ID="Player2" runat="server" Text="Player2"></asp:Label>
-                        <img src="../public/Upload/Player/Sergio.png" alt="Avatar" style="width:30px;border-radius:50%;"/>
+                        <asp:Label ID="Player3Name" runat="server" Text="White-2"></asp:Label>
+                      <asp:Image ID="ImgPlayer3" runat="server"   ImageUrl=""  Width="35px" style="border-radius:50%;" />
                         
                     </td>
                     <td >
-                     <asp:Label ID="Club2" runat="server" Text="&nbsp;&nbsp;Club2"></asp:Label>
-                          <img src="../public/Upload/Club/ASD.jpg" alt="Avatar" style="width:30px;border-radius:50%;"/>
+                     <asp:Label ID="Club3Name" runat="server" Text="&nbsp;Club2"></asp:Label>
+                          <asp:Image ID="imgClub3" runat="server"   ImageUrl=""  Width="35px" style="border-radius:50%;" />
                        
                     </td>
                    
