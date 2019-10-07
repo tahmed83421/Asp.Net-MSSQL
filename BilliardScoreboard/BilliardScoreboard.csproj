@@ -92,6 +92,7 @@
     <Content Include="index.html" />
     <Content Include="js\vivus.js" />
     <Content Include="privacy.html" />
+    <Content Include="public\Upload\Club\Manjhi - The Mountain Man -  Ninja_Pirate® %28AKA%29 DGtalViolence®.jpg" />
     <Content Include="race.aspx" />
     <Content Include="Renew.aspx" />
     <Content Include="Admin\Dashboard.aspx" />
@@ -176,7 +177,6 @@
     <Content Include="public\Upload\Club\images99TR879L.jpg" />
     <Content Include="public\Upload\Club\lg.png" />
     <Content Include="public\Upload\Club\LOGO CON NASTRO.jpg" />
-    <Content Include="public\Upload\Club\Manjhi - The Mountain Man -  Ninja_Pirate® %28AKA%29 DGtalViolence®.jpg" />
     <Content Include="public\Upload\Club\palabil.png" />
     <Content Include="public\Upload\Club\Player.jpg" />
     <Content Include="public\Upload\Player\1 Sergio - 73.png" />
@@ -420,9 +420,11 @@
       <SubType>Designer</SubType>
     </None>
     <Content Include="packages.config" />
-    <None Include="Properties\PublishProfiles\Milan.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\PublishProfiles\nbaghel.pubxml" />
     <None Include="Properties\PublishProfiles\nbaghel777.pubxml" />
+    <None Include="Properties\PublishProfiles\Tanvir.pubxml" />
+    <None Include="Properties\PublishProfiles\Tanvir1.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

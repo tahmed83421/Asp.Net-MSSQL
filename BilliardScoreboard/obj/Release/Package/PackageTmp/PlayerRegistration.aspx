@@ -477,6 +477,8 @@
                                     </asp:RadioButtonList>
                                 </div>
                                
+                                 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                        <ContentTemplate>
                                 <div class="s-12 l-5" style="background-color:black; left:-10px;width: 400px; padding:4px 100px 0px 10px;">
                                     <asp:Label ID="lblTermandcondition" runat="server" Text="" data-toggle="tooltip" data-placement="top"></asp:Label>
                                     <asp:RadioButtonList ID="rbTermandcondition" AutoPostBack="true" OnSelectedIndexChanged="onAckTypeChanged" runat="server" RepeatDirection="Horizontal" class="required" message="Please select Accept the contract">
@@ -484,6 +486,12 @@
                                         <asp:ListItem>No</asp:ListItem>
                                     </asp:RadioButtonList>
                                 </div>
+
+                                <iframe id="privacy" runat="server" src="privacy.html" style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
+        </ContentTemplate>
+
+
+                    </asp:UpdatePanel>
                                 <div class="s-4" style="background-color:black; left:-10px;width:400px; padding:4px 200px 0px 10px;">
                                     <asp:Button ID="btnSignup" runat="server" CssClass="submitbutton" OnClick="btnSignup_Click" OnClientClick="return statuscheck();" />
                                     <asp:Button ID="btnSave" runat="server" CssClass="submitbutton" OnClick="btnSave_Click" OnClientClick="return statuscheck();" Visible="false" />
@@ -502,8 +510,7 @@
                     </div>
                 </div>
             </div>
-            <iframe id="privacy" runat="server" src="privacy.html" style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
-        </section>
+          </section>
         <!-- FOOTER -->
         <footer>
             <div class="line">

@@ -53,10 +53,7 @@ namespace BilliardScoreboard.Game
                     Punti2.Text = dtrow["Score"].ToString();
                     Tiri2.Text = dtrow["TVal"].ToString();
                     Allafine2.Text = dtrow["PVal"].ToString();
-                    Player2Name.Text= Convert.ToString(Session["P2"]);
-                    imgPlayer2.ImageUrl = Convert.ToString(Session["PP2"]);
-                    Club4Name.Text = Convert.ToString(Session["C2"]);
-                    imgPlayer4.ImageUrl = Convert.ToString(Session["CP2"]);
+                
 
 
 

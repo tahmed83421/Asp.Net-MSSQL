@@ -7,6 +7,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_PublishTargetUrl>C:\Users\Tanvir\Desktop\balmarka</_PublishTargetUrl>
+    <EncryptedPassword />
   </PropertyGroup>
   <ItemGroup>
     <File Include="Activate.aspx">

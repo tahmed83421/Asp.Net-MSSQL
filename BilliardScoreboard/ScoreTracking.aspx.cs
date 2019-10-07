@@ -6,14 +6,23 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.UI.HtmlControls;
 
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
+using System.Drawing;
+using System.IO;
+
+
 namespace BilliardScoreboard
 {
+    
     public partial class Score_Tracking : System.Web.UI.Page
     {
         BilliardScoreboard bll = new BilliardScoreboard();
 
         string ggameid = "";
         int pg = 1;
+     
         protected void Page_Load(object sender, EventArgs e)
         {
             
@@ -31,7 +40,8 @@ namespace BilliardScoreboard
         }
         private void LoadddNation()
         {
-            List<string> ss = bll.GetScoreNationName();
+            
+        List<string> ss = bll.GetScoreNationName();
             ddNation.Items.Clear();
             ddNation.Items.Add("Select");
             foreach (string Data in ss)

@@ -46,11 +46,12 @@
    <script type="text/javascript">
        $(function () {
           
-           $('#txtn1PW').click( function () {
-              
+           $('#txtn1PW').click(function () {
+ 
                var status = $('#txtn1PW').is(":focus");
                if (status == true) {
                    document.getElementById('audiotag1').play();
+                  
                }
            });
            $('#txtn2PW').click(function () {
@@ -58,6 +59,7 @@
                var status = $('#txtn2PW').is(":focus");
                if (status == true) {
                    document.getElementById('audiotag1').play();
+                  
                }
            });
            $('#txtn3PW').click(function () {
@@ -168,7 +170,7 @@
 
        });
        */
-    </script>
+   </script>
 
 
     <script type="text/javascript">
@@ -948,6 +950,7 @@ var dont = document.getElementById('<%= txtn1PW.ClientID %>').value;
                     document.getElementById('<%= imgC1.ClientID %>').src = '../' + response.d[0].ClubPicture;
                     document.getElementById('<%= hdnClub1.ClientID %>').value = response.d[0].ClubEmail;
                     document.getElementById('<%= hdnPlay1.ClientID %>').value = response.d[0].PlayerEmail;
+         
 
                     
 
@@ -1053,6 +1056,7 @@ height:28px;
 </head>
 <body onload="init()">
     <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods ="true"></asp:ScriptManager>
     <div id="bg">
         <div id="topLine" runat="server" style="width: 100%; height: 100px; top:0px; margin:0 auto; text-align:center; vertical-align:bottom;">
             <asp:Label ID="lblGameName" runat="server" Font-Names="Arial" Font-Size="50pt" Font-Bold="true" style="line-height:97px;"></asp:Label>
@@ -1322,6 +1326,9 @@ height:28px;
         <asp:HiddenField ID="hdnClub4" runat="server" Value="" />
          <asp:HiddenField ID="Zerochk" runat="server" Value="0"/>
          <asp:HiddenField ID="Penaltychk" runat="server" Value="0"/>
+
+
+        <asp:HiddenField ID="hdnPlayer1Id" runat="server"  Value="0"/>
 
 
     </div>
