@@ -34,16 +34,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/24/2013 22:19:22</publishTime>
     </File>
     <File Include="bin/BilliardScoreboard.dll">
-      <publishTime>10/07/2019 03:14:52</publishTime>
+      <publishTime>10/11/2019 01:43:36</publishTime>
     </File>
     <File Include="bin/BilliardScoreboard.pdb">
-      <publishTime>10/07/2019 03:14:52</publishTime>
+      <publishTime>10/11/2019 01:43:36</publishTime>
     </File>
     <File Include="bin/en-US/BilliardScoreboard.resources.dll">
-      <publishTime>10/07/2019 03:14:52</publishTime>
+      <publishTime>10/11/2019 01:43:37</publishTime>
     </File>
     <File Include="bin/it-IT/BilliardScoreboard.resources.dll">
-      <publishTime>10/07/2019 03:14:53</publishTime>
+      <publishTime>10/11/2019 01:43:37</publishTime>
     </File>
     <File Include="bin/itextsharp.dll">
       <publishTime>05/24/2014 15:47:00</publishTime>
