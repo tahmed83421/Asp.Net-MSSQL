@@ -151,7 +151,7 @@ namespace BilliardScoreboard
             using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
             {
                 SqlCommand command = new SqlCommand("Insert into MatchDetails (MatchIDD,Player1Name,Player2Name,Player3Name,Player4Name,Club1Name,Club2Name,Club3Name,Club4Name,imgPlayer1,imgPlayer2,imgPlayer3,imgPlayer4,imgClub1,imgClub2,imgClub3,imgClub4) Values("+MatchIDD+","+Player1Name+","+Player2Name+","+Player3Name+","+Player4Name+","+Club1Name+","+Club2Name+ "," + Club3Name + "," + Club4Name + "," + imgPlayer1 + "," + imgPlayer2 + "," +
-                    imgPlayer3 + "," + imgPlayer4 + "," + imgClub1 + "," + imgClub2 + "," + imgClub3 + "," + imgClub4 + "", con);
+                    imgPlayer3 + "," + imgPlayer4 + "," + imgClub1 + "," + imgClub2 + "," + imgClub3 + "," + imgClub4 + ")", con);
                 if (con.State != ConnectionState.Open)
                     con.Open();
                 command.ExecuteNonQuery();
@@ -161,6 +161,33 @@ namespace BilliardScoreboard
             return "success";
         }
 
+
+        //webmethod for Setup details insert test 
+
+        [WebMethod]
+        [System.Web.Script.Services.ScriptMethod]
+        public string AddPlayerDetailsOnStreamTest(string MatchIDD,string Player1Name, string Player2Name, string Player3Name, string Player4Name)
+        {
+
+
+
+
+            using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
+            {
+                SqlCommand command = new SqlCommand("Insert into MatchDetails (MatchIDD,Player1Name,Player2Name,Player3Name,Player4Name) Values(@MatchIDD,@Player1Name,@Player2Name,@Player3Name,@Player4Name)", con);
+                command.Parameters.AddWithValue("@MatchIDD", MatchIDD);
+                command.Parameters.AddWithValue("@Player1Name", Player1Name);
+                command.Parameters.AddWithValue("@Player2Name", Player2Name);
+                command.Parameters.AddWithValue("@Player3Name", Player3Name);
+                command.Parameters.AddWithValue("@Player4Name", Player4Name);
+                if (con.State != ConnectionState.Open)
+                    con.Open();
+                command.ExecuteNonQuery();
+                con.Close();
+
+            }
+            return "success";
+        }
 
 
 
