@@ -166,7 +166,8 @@ namespace BilliardScoreboard
 
         [WebMethod]
         [System.Web.Script.Services.ScriptMethod]
-        public string AddPlayerDetailsOnStreamTest(string MatchIDD,string Player1Name, string Player2Name, string Player3Name, string Player4Name)
+        public string AddPlayerDetailsOnStreamTest(string MatchIDD,string Player1Name, string Player2Name, string Player3Name
+            , string Player4Name,string Club1Name,string Club2Name,string Club3Name,string Club4Name,string imgPlayer1,string imgPlayer2,string imgPlayer3,string imgPlayer4,string imgClub1,string imgClub2,string imgClub3,string imgClub4)
         {
 
 
@@ -174,12 +175,29 @@ namespace BilliardScoreboard
 
             using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
             {
-                SqlCommand command = new SqlCommand("Insert into MatchDetails (MatchIDD,Player1Name,Player2Name,Player3Name,Player4Name) Values(@MatchIDD,@Player1Name,@Player2Name,@Player3Name,@Player4Name)", con);
+                SqlCommand command = new SqlCommand("Insert into MatchDetails (MatchIDD,Player1Name,Player2Name,Player3Name,Player4Name,Club1Name,Club2Name,Club3Name,Club4Name,imgPlayer1,imgPlayer2,imgPlayer3,imgPlayer4,imgClub1,imgClub2,imgClub3,imgClub4) Values(@MatchIDD,@Player1Name,@Player2Name,@Player3Name,@Player4Name,@Club1Name,@Club2Name,@Club3Name,@Club4Name,@imgPlayer1,@imgPlayer2,@imgPlayer3,@imgPlayer4,@imgClub1,@imgClub2,@imgClub3,@imgClub4)", con);
                 command.Parameters.AddWithValue("@MatchIDD", MatchIDD);
                 command.Parameters.AddWithValue("@Player1Name", Player1Name);
                 command.Parameters.AddWithValue("@Player2Name", Player2Name);
                 command.Parameters.AddWithValue("@Player3Name", Player3Name);
                 command.Parameters.AddWithValue("@Player4Name", Player4Name);
+              
+                command.Parameters.AddWithValue("@Club1Name", Club1Name);
+                command.Parameters.AddWithValue("@Club2Name", Club2Name);
+               
+              command.Parameters.AddWithValue("@Club3Name", Club3Name);
+              command.Parameters.AddWithValue("@Club4Name", Club4Name);
+               
+             command.Parameters.AddWithValue("@imgPlayer1", imgPlayer1);
+             command.Parameters.AddWithValue("@imgPlayer2", imgPlayer2);
+             command.Parameters.AddWithValue("@imgPlayer3", imgPlayer3);
+             command.Parameters.AddWithValue("@imgPlayer4", imgPlayer4);
+                
+            command.Parameters.AddWithValue("@imgClub1", imgClub1);
+            command.Parameters.AddWithValue("@imgClub2", imgClub2);
+            command.Parameters.AddWithValue("@imgClub3", imgClub3);
+            command.Parameters.AddWithValue("@imgClub4", imgClub4);
+          
                 if (con.State != ConnectionState.Open)
                     con.Open();
                 command.ExecuteNonQuery();
@@ -189,6 +207,36 @@ namespace BilliardScoreboard
             return "success";
         }
 
+
+
+        // Insert Score Data During Game
+
+        [WebMethod]
+        [System.Web.Script.Services.ScriptMethod]
+        public  string UpdateScoreDataOnStream(string Score, string PVal, string TVal, string SVal, string TeamID)
+        {
+
+
+
+
+            using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
+            {
+                SqlCommand cmd= new SqlCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "update RealTimeScoreDetails set Score=" + Score + ", TVal='" + TVal + "',PVal='" + PVal + "' , SVal= '" + SVal + "' where MatchId=1111 AND TeamID=" + TeamID + "";
+                //                cmd.CommandText = "INSERT INTO PlayerDetails (LoggedIn) VALUES (1)";
+                cmd.Connection = con;
+
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+
+
+            }
+
+
+            return "Succedd";
+        }
 
 
 

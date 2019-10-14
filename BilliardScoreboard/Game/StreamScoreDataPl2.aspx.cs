@@ -24,6 +24,7 @@ namespace BilliardScoreboard.Game
             string mid = Setup.MatchId.ToString();
             using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
             {
+               
                 SqlDataAdapter ad = new SqlDataAdapter("SELECT TVal,PVal, SVal,Score from RealTimeScoreDetails where MatchId=" + mid + " AND TeamID=2", con);
                 DataSet ds = new DataSet();
                 ad.Fill(ds);
