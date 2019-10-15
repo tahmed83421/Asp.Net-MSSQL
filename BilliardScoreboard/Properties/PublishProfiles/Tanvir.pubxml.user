@@ -38,10 +38,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/24/2013 22:19:21</publishTime>
     </File>
     <File Include="bin/BilliardScoreboard.dll">
-      <publishTime>10/14/2019 02:58:29</publishTime>
+      <publishTime>10/15/2019 01:09:43</publishTime>
     </File>
     <File Include="bin/BilliardScoreboard.pdb">
-      <publishTime>10/14/2019 02:58:29</publishTime>
+      <publishTime>10/15/2019 01:09:43</publishTime>
     </File>
     <File Include="bin/cs/AjaxControlToolkit.resources.dll">
       <publishTime>01/24/2013 22:19:21</publishTime>
@@ -50,7 +50,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/24/2013 22:19:21</publishTime>
     </File>
     <File Include="bin/en-US/BilliardScoreboard.resources.dll">
-      <publishTime>10/14/2019 02:58:29</publishTime>
+      <publishTime>10/15/2019 01:09:43</publishTime>
     </File>
     <File Include="bin/es/AjaxControlToolkit.resources.dll">
       <publishTime>01/24/2013 22:19:21</publishTime>
@@ -65,7 +65,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/24/2013 22:19:22</publishTime>
     </File>
     <File Include="bin/it-IT/BilliardScoreboard.resources.dll">
-      <publishTime>10/14/2019 02:58:30</publishTime>
+      <publishTime>10/15/2019 01:09:44</publishTime>
     </File>
     <File Include="bin/it/AjaxControlToolkit.resources.dll">
       <publishTime>01/24/2013 22:19:22</publishTime>
@@ -242,7 +242,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/18/2016 01:06:40</publishTime>
     </File>
     <File Include="Game/StreamScoreData.aspx">
-      <publishTime>09/30/2019 11:44:45</publishTime>
+      <publishTime>10/14/2019 12:29:47</publishTime>
     </File>
     <File Include="Game/StreamScoreDataPl2.aspx">
       <publishTime>09/30/2019 11:55:58</publishTime>

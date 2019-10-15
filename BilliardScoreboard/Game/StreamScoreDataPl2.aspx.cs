@@ -25,24 +25,24 @@ namespace BilliardScoreboard.Game
             using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
             {
                
-                SqlDataAdapter ad = new SqlDataAdapter("SELECT TVal,PVal, SVal,Score from RealTimeScoreDetails where MatchId=" + mid + " AND TeamID=2", con);
+                SqlDataAdapter ad = new SqlDataAdapter("SELECT TVal,PVal, SVal,Score from RealTimeScoreDetails where MatchId=1111 AND TeamID=2", con);
                 DataSet ds = new DataSet();
                 ad.Fill(ds);
 
-                SqlDataAdapter sd = new SqlDataAdapter("select imgPlayer2,Player2Name,Club2Name,Club4Name,imgPlayer4,Player4Name,imgClub2,imgClub4 from MatchDetails where MatchIDD = " + mid + "", con);
+                SqlDataAdapter sd = new SqlDataAdapter("select imgPlayer2,Player2Name,Club2Name,Club4Name,imgPlayer4,Player4Name,imgClub2,imgClub4 from MatchDetails where MatchIDD =1111", con);
                 DataSet dataSet = new DataSet();
                 sd.Fill(dataSet);
 
                 foreach (DataRow drow in dataSet.Tables[0].Rows)
                 {
                     Player2Name.Text = drow["Player2Name"].ToString();
-                    imgPlayer2.ImageUrl = drow["imgPlayer2"].ToString();
+                    imgPlayer2.ImageUrl = "http://test.17207.it/" + drow["imgPlayer2"].ToString().Trim();
                     Club2Name.Text = drow["Club2Name"].ToString();
-                    imgClub2.ImageUrl = drow["imgClub2"].ToString();
+                    imgClub2.ImageUrl = "http://test.17207.it/" + drow["imgClub2"].ToString().Trim();
                     Player4Name.Text = drow["Player4Name"].ToString();
-                    imgPlayer4.ImageUrl = drow["imgPlayer4"].ToString();
+                    imgPlayer4.ImageUrl = "http://test.17207.it/" + drow["imgPlayer4"].ToString().Trim();
                     Club4Name.Text = drow["Club4Name"].ToString();
-                    imgClub4.ImageUrl = drow["imgClub4"].ToString();
+                    imgClub4.ImageUrl = "http://test.17207.it/" + drow["imgClub4"].ToString().Trim();
                 }
 
 

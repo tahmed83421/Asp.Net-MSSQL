@@ -161,6 +161,43 @@ namespace BilliardScoreboard
             return "success";
         }
 
+        [WebMethod]
+        [System.Web.Script.Services.ScriptMethod]
+        public string AddPlayerDetailsOnStreamTest2(string MatchIDD, string Player1Name, string Player2Name
+            ,  string Club1Name, string Club2Name,  string imgPlayer1, string imgPlayer2, string imgClub1, string imgClub2)
+        {
+
+
+
+
+            using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
+            {
+                SqlCommand command = new SqlCommand("Insert into MatchDetails (MatchIDD,Player1Name,Player2Name,Club1Name,Club2Name,imgPlayer1,imgPlayer2,imgClub1,imgClub2) Values(@MatchIDD,@Player1Name,@Player2Name,@Club1Name,@Club2Name,@imgPlayer1,@imgPlayer2,@imgClub1,@imgClub2)", con);
+                command.Parameters.AddWithValue("@MatchIDD", MatchIDD);
+                command.Parameters.AddWithValue("@Player1Name", Player1Name);
+                command.Parameters.AddWithValue("@Player2Name", Player2Name);
+              
+
+                command.Parameters.AddWithValue("@Club1Name", Club1Name);
+                command.Parameters.AddWithValue("@Club2Name", Club2Name);
+
+               
+                command.Parameters.AddWithValue("@imgPlayer1", imgPlayer1);
+                command.Parameters.AddWithValue("@imgPlayer2", imgPlayer2);
+              
+                command.Parameters.AddWithValue("@imgClub1", imgClub1);
+                command.Parameters.AddWithValue("@imgClub2", imgClub2);
+              
+
+                if (con.State != ConnectionState.Open)
+                    con.Open();
+                command.ExecuteNonQuery();
+                con.Close();
+
+            }
+            return "success";
+        }
+
 
         //webmethod for Setup details insert test 
 
@@ -169,7 +206,7 @@ namespace BilliardScoreboard
         public string AddPlayerDetailsOnStreamTest(string MatchIDD,string Player1Name, string Player2Name, string Player3Name
             , string Player4Name,string Club1Name,string Club2Name,string Club3Name,string Club4Name,string imgPlayer1,string imgPlayer2,string imgPlayer3,string imgPlayer4,string imgClub1,string imgClub2,string imgClub3,string imgClub4)
         {
-
+           
 
 
 

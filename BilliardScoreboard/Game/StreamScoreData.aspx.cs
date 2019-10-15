@@ -38,13 +38,13 @@ namespace BilliardScoreboard.Game
                 foreach (DataRow drow in dataSet.Tables[0].Rows)
                 {
                     Player1Name.Text = drow["Player1Name"].ToString();
-                    imgPlayer1.ImageUrl = "http://test.17207.it/" + drow["imgPlayer1"].ToString();
+                    imgPlayer1.ImageUrl = "http://test.17207.it/" + drow["imgPlayer1"].ToString().Trim();
                     Club1Name.Text = drow["Club1Name"].ToString();
-                    imgClub1.ImageUrl = "http://test.17207.it/" + drow["imgClub1"].ToString();
+                    imgClub1.ImageUrl = "http://test.17207.it/" + drow["imgClub1"].ToString().Trim();
                     Player3Name.Text = drow["Player3Name"].ToString();
-                    ImgPlayer3.ImageUrl = "http://test.17207.it/" + drow["imgPlayer3"].ToString();
+                    ImgPlayer3.ImageUrl = "http://test.17207.it/" + drow["imgPlayer3"].ToString().Trim();
                     Club3Name.Text = drow["Club3Name"].ToString();
-                    imgClub3.ImageUrl = "http://test.17207.it/" + drow["imgClub3"].ToString();
+                    imgClub3.ImageUrl = "http://test.17207.it/" + drow["imgClub3"].ToString().Trim();
                 }
 
 
