@@ -407,43 +407,77 @@
         #resultpopup::-webkit-scrollbar-thumb {
             background-color: #FF0000;
         }
+              .auto-style6 {
+                  width: 759px;
+                  margin-right: 0px;
+              }
+              .auto-style32 {
+                  width: 59px;
+              }
+              .auto-style33 {
+                  width: 59px;
+                  height: 70px;
+              }
+              .auto-style38 {
+                  width: 57px;
+              }
+              .auto-style40 {
+                  width: 57px;
+                  height: 70px;
+              }
+              .auto-style42 {
+                  width: 48px;
+                  height: 70px;
+              }
+              .auto-style43 {
+                  width: 48px;
+              }
+              .auto-style44 {
+                  width: 77px;
+              }
+              .auto-style45 {
+                  width: 77px;
+                  height: 70px;
+              }
               </style>
 <body>
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-        <div style="font-family:Arial;">
-            <table border="1" style="background-color:black">
+        <div style="font-family:Arial; font-size:large">
+            
+            <table border="1" style="background-color:black" class="auto-style6">
               
                 <tr style="color:white; border-bottom:solid; border-bottom-color:red" >
-                    <td colspan="1" > 
+                    <td colspan="1" class="auto-style38" > 
                         <b> Punti-</b><asp:Label ID="Punti1" runat="server" Text="000"></asp:Label></td>
-                    <td> <b>Tiri-&nbsp;</b><asp:Label ID="Tiri1" runat="server" Text="t00"></asp:Label>
+                    <td class="auto-style32"> <b>Tiri-&nbsp;</b><asp:Label ID="Tiri1" runat="server" Text="t00"></asp:Label>
                     </td>
-                    <td><b>Alla fine -</b><asp:Label ID="Allafine1" runat="server" Text="P000"></asp:Label> </td>
-                    <td><b>Set-&nbsp;&nbsp;&nbsp; </b><asp:Label ID="lblSet1" runat="server" Text="S0/0"></asp:Label> &nbsp;&nbsp;&nbsp; </td> 
+                    <td class="auto-style44"><b>Alla fine -</b><asp:Label ID="Allafine1" runat="server" Text="P000"></asp:Label> </td>
+                    <td class="auto-style43"><b>Set-&nbsp;&nbsp;&nbsp; </b><asp:Label ID="lblSet1" runat="server" Text="S0/0"></asp:Label> &nbsp;&nbsp;&nbsp; </td> 
                 </tr>
                 
               
 
                 <tr style="color:white">
-                    <td>
+                  
+                    <td class="auto-style40">
                         <asp:Label ID="Player1Name" runat="server" Text="White-1"></asp:Label>
                         
-                         <asp:Image ID="imgPlayer1" runat="server"   ImageUrl=""  Width="35px" style="border-radius:50%;" />
+                         <asp:Image ID="imgPlayer1" runat="server"   ImageUrl=""  Width="65px" style="border-radius:15%;" />
                     </td>
-                    <td >
+                    <td class="auto-style33" >
                          <asp:Label ID="Club1Name" runat="server" Text="&nbsp;Club1"></asp:Label>
-                           <asp:Image ID="imgClub1" runat="server"   ImageUrl=""  Width="35px" style="border-radius:50%;" />
+                           <asp:Image ID="imgClub1" runat="server"   ImageUrl=""  Width="65px" style="border-radius:15%;" />
                         
                     </td>
-                    <td>
+                    <td class="auto-style45">
                         <asp:Label ID="Player3Name" runat="server" Text="White-2"></asp:Label>
-                      <asp:Image ID="ImgPlayer3" runat="server"   ImageUrl=""  Width="35px" style="border-radius:50%;" />
+                      <asp:Image ID="ImgPlayer3" runat="server"   ImageUrl=""  Width="65px" style="border-radius:15%;" />
                         
                     </td>
-                    <td >
+                    <td class="auto-style42" >
                      <asp:Label ID="Club3Name" runat="server" Text="&nbsp;Club2"></asp:Label>
-                          <asp:Image ID="imgClub3" runat="server"   ImageUrl=""  Width="35px" style="border-radius:50%;" />
+                          <asp:Image ID="imgClub3" runat="server"   ImageUrl=""  Width="65px" style="border-radius:15%;" />
                        
                     </td>
                    
@@ -451,6 +485,7 @@
              
 
             </table>
+                 
           
               <asp:Timer ID="Timer1" runat="server" Interval="1500" OnTick="Timer1_Tick"></asp:Timer>
 
