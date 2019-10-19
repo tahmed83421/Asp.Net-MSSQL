@@ -210,7 +210,6 @@ C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\BilliardScorebo
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\BilliardScoreboard.csproj.GenerateResource.cache
-C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\BilliardScoreboard.dll.licenses
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\BilliardScoreboard.csproj.CoreCompileInputs.cache
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\en-US\BilliardScoreboard.resources.dll
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\it-IT\BilliardScoreboard.resources.dll

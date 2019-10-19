@@ -69,7 +69,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Admin\AdvAdmin.aspx" />
     <Content Include="advertaising.aspx" />
     <Content Include="advertaisingold.aspx" />
     <Content Include="advertisement.js" />
@@ -85,9 +84,11 @@
     <Content Include="css\ResponsiveGrid.css" />
     <Content Include="css\template-style.css" />
     <Content Include="EmailTemplate\PlayerEmailConfirmation.html" />
+    <Content Include="Game\StreamBoardNo.aspx" />
     <Content Include="Game\StreamScoreData.aspx" />
     <Content Include="Game\StreamScoreDataPl2.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="img\back.jpg" />
     <Content Include="img\swapposition.png" />
     <Content Include="index.html" />
     <Content Include="js\vivus.js" />
@@ -95,7 +96,6 @@
     <Content Include="public\Upload\Club\Manjhi - The Mountain Man -  Ninja_Pirate® %28AKA%29 DGtalViolence®.jpg" />
     <Content Include="race.aspx" />
     <Content Include="Renew.aspx" />
-    <Content Include="Admin\Dashboard.aspx" />
     <Content Include="BilliardScoreboard.asmx" />
     <Content Include="card.aspx" />
     <Content Include="ClubRegistration.aspx" />
@@ -219,13 +219,6 @@
     <Content Include="Activate.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin\AdvAdmin.aspx.cs">
-      <DependentUpon>AdvAdmin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\AdvAdmin.aspx.designer.cs">
-      <DependentUpon>AdvAdmin.aspx</DependentUpon>
-    </Compile>
     <Compile Include="advertaising.aspx.cs">
       <DependentUpon>advertaising.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -254,6 +247,13 @@
     </Compile>
     <Compile Include="costexcelmail.aspx.designer.cs">
       <DependentUpon>costexcelmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Game\StreamBoardNo.aspx.cs">
+      <DependentUpon>StreamBoardNo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Game\StreamBoardNo.aspx.designer.cs">
+      <DependentUpon>StreamBoardNo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Game\StreamScoreData.aspx.cs">
       <DependentUpon>StreamScoreData.aspx</DependentUpon>
@@ -285,13 +285,6 @@
     </Compile>
     <Compile Include="Renew.aspx.designer.cs">
       <DependentUpon>Renew.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\Dashboard.aspx.cs">
-      <DependentUpon>Dashboard.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\Dashboard.aspx.designer.cs">
-      <DependentUpon>Dashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_GlobalResources\Lang.en-US.designer.cs">
       <AutoGen>True</AutoGen>
@@ -438,7 +431,6 @@
       <LastGenOutput>Lang.en-US.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App_GlobalResources\Lang.it-IT.resx">

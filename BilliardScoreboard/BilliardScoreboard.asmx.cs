@@ -138,6 +138,29 @@ namespace BilliardScoreboard
             }
             return details;
         }
+
+        [WebMethod]
+        [System.Web.Script.Services.ScriptMethod]
+        public string AddBiliardNo(string ClubNo)
+        {
+
+
+
+
+            using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
+            {
+                SqlCommand command = new SqlCommand("update RealTimeScoreDetails set BoardNo=@Bnum where MatchId=1111 AND TeamID=1",con);
+             
+                command.Parameters.AddWithValue("@Bnum", ClubNo);
+                if (con.State != ConnectionState.Open)
+                    con.Open();
+                command.ExecuteNonQuery();
+                con.Close();
+
+            }
+            return "success";
+        }
+
         //webmethod for Setup details insert
 
         [WebMethod]
@@ -244,7 +267,7 @@ namespace BilliardScoreboard
             return "success";
         }
 
-
+        // >>>>>>>>>>>>>>>>>>>>>>>>>> FINAL Update on Streaming 
 
         // Insert Score Data During Game
 
