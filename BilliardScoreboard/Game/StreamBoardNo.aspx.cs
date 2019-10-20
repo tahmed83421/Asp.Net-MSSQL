@@ -16,6 +16,7 @@ namespace BilliardScoreboard.Game
         {
 
             SetValues();
+            
         }
 
 
@@ -37,7 +38,7 @@ namespace BilliardScoreboard.Game
 
                   
                   
-                    TextBox1.Text = drow["BoardNo"].ToString().Trim();
+                    Button1.Text = drow["BoardNo"].ToString().Trim();
                 }
 
 

@@ -89,6 +89,7 @@
     <Content Include="Game\StreamScoreDataPl2.aspx" />
     <Content Include="Global.asax" />
     <Content Include="img\back.jpg" />
+    <Content Include="img\back1.jpg" />
     <Content Include="img\swapposition.png" />
     <Content Include="index.html" />
     <Content Include="js\vivus.js" />

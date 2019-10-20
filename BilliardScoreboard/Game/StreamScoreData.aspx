@@ -417,7 +417,7 @@
               }
               .auto-style48 {
                   overflow: auto;
-                  height: 130px;
+                  height: 128px;
                   width: 665px;
               }
               </style>
