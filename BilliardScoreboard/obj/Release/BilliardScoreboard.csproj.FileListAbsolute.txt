@@ -216,3 +216,14 @@ C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\it-IT\BilliardS
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\BilliardScoreboard.csproj.CopyComplete
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\BilliardScoreboard.dll
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\BilliardScoreboard.pdb
+C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\bin\Microsoft.Web.Infrastructure.dll
+C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\bin\System.Web.Helpers.dll
+C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\bin\System.Web.Razor.dll
+C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\bin\System.Web.WebPages.Deployment.dll
+C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\bin\System.Web.WebPages.dll
+C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\bin\System.Web.WebPages.Razor.dll
+C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\bin\System.Web.Helpers.xml
+C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\bin\System.Web.Razor.xml
+C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\bin\System.Web.WebPages.xml
+C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\bin\System.Web.WebPages.Deployment.xml
+C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\bin\System.Web.WebPages.Razor.xml

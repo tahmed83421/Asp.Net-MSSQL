@@ -139,6 +139,29 @@ namespace BilliardScoreboard
             return details;
         }
 
+        // Getiing Board Number
+        [WebMethod]
+        [System.Web.Script.Services.ScriptMethod]
+        public string getBoardNo()
+        {
+            string bNo="";
+
+            using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
+            {
+                SqlDataAdapter ad = new SqlDataAdapter("SELECT BoardNo from RealTimeScoreDetails where MatchId=1111 AND TeamID=1", con);
+                DataSet ds = new DataSet();
+                ad.Fill(ds);
+                foreach (DataRow dtrow in ds.Tables[0].Rows)
+                {
+                   
+                    bNo = dtrow["BoardNo"].ToString();
+
+                }
+
+            }
+            return bNo;
+        }
+
         [WebMethod]
         [System.Web.Script.Services.ScriptMethod]
         public string AddBiliardNo(string ClubNo)
@@ -160,6 +183,9 @@ namespace BilliardScoreboard
             }
             return "success";
         }
+
+
+
 
         //webmethod for Setup details insert
 

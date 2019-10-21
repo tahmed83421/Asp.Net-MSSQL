@@ -14,6 +14,7 @@ namespace BilliardScoreboard.Game
     public partial class StreamScoreDataPl2 : System.Web.UI.Page
     {
         public bool vis;
+        
         protected void Page_Load(object sender, EventArgs e)
         {
             SetValues();
@@ -22,7 +23,7 @@ namespace BilliardScoreboard.Game
             imgClub4.Visible = vis;
 
         }
-
+        
         private void SetValues()
         {
             string mid = Setup.MatchId.ToString();

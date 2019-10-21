@@ -38,10 +38,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/24/2013 22:19:21</publishTime>
     </File>
     <File Include="bin/BilliardScoreboard.dll">
-      <publishTime>10/20/2019 01:36:58</publishTime>
+      <publishTime>10/21/2019 01:46:32</publishTime>
     </File>
     <File Include="bin/BilliardScoreboard.pdb">
-      <publishTime>10/20/2019 01:36:58</publishTime>
+      <publishTime>10/21/2019 01:46:32</publishTime>
     </File>
     <File Include="bin/cs/AjaxControlToolkit.resources.dll">
       <publishTime>01/24/2013 22:19:21</publishTime>
@@ -50,7 +50,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/24/2013 22:19:21</publishTime>
     </File>
     <File Include="bin/en-US/BilliardScoreboard.resources.dll">
-      <publishTime>10/20/2019 01:28:58</publishTime>
+      <publishTime>10/21/2019 01:46:32</publishTime>
     </File>
     <File Include="bin/es/AjaxControlToolkit.resources.dll">
       <publishTime>01/24/2013 22:19:21</publishTime>
@@ -65,7 +65,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/24/2013 22:19:22</publishTime>
     </File>
     <File Include="bin/it-IT/BilliardScoreboard.resources.dll">
-      <publishTime>10/20/2019 01:28:58</publishTime>
+      <publishTime>10/21/2019 01:46:32</publishTime>
     </File>
     <File Include="bin/it/AjaxControlToolkit.resources.dll">
       <publishTime>01/24/2013 22:19:22</publishTime>
@@ -82,6 +82,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/Microsoft.QualityTools.Testing.Fakes.dll">
       <publishTime>11/01/2014 00:46:48</publishTime>
     </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>10/20/2014 18:33:00</publishTime>
     </File>
@@ -97,8 +100,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>05/07/2013 13:09:16</publishTime>
     </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/28/2018 12:04:24</publishTime>
+    </File>
     <File Include="bin/System.Web.Http.dll">
       <publishTime>05/07/2013 13:09:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/28/2018 12:00:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/28/2018 12:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/28/2018 12:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/28/2018 12:04:24</publishTime>
     </File>
     <File Include="bin/Telerik.Web.UI.dll">
       <publishTime>11/12/2016 23:35:50</publishTime>
@@ -217,6 +235,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="font/ufonts.com_tw_cen_mt_condensed_medium_1_.eot">
       <publishTime>01/14/2017 11:18:08</publishTime>
     </File>
+    <File Include="Game/ContentPage1.cshtml">
+      <publishTime>10/21/2019 00:32:29</publishTime>
+    </File>
     <File Include="Game/Home.aspx">
       <publishTime>11/17/2016 00:56:56</publishTime>
     </File>
@@ -242,10 +263,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/18/2016 01:06:40</publishTime>
     </File>
     <File Include="Game/StreamBoardNo.aspx">
-      <publishTime>10/20/2019 01:48:32</publishTime>
+      <publishTime>10/21/2019 01:45:02</publishTime>
     </File>
     <File Include="Game/StreamScoreData.aspx">
-      <publishTime>10/16/2019 22:44:42</publishTime>
+      <publishTime>10/21/2019 00:33:13</publishTime>
     </File>
     <File Include="Game/StreamScoreDataPl2.aspx">
       <publishTime>10/16/2019 22:43:09</publishTime>
@@ -258,6 +279,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Global.asax">
       <publishTime>09/29/2019 14:27:29</publishTime>
+    </File>
+    <File Include="HtmlPage1.html">
+      <publishTime>10/21/2019 00:12:33</publishTime>
     </File>
     <File Include="img/1_logo x S.png">
       <publishTime>11/17/2016 23:22:00</publishTime>
@@ -386,7 +410,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/18/2016 11:49:00</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>09/17/2017 19:50:24</publishTime>
+      <publishTime>10/21/2019 00:06:45</publishTime>
     </File>
     <File Include="PlayerRegistration.aspx">
       <publishTime>04/10/2019 11:02:05</publishTime>
@@ -581,7 +605,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/10/2017 00:23:02</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/18/2016 03:11:58</publishTime>
+      <publishTime>10/21/2019 01:46:47</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -12,6 +12,9 @@ namespace BilliardScoreboard.Game
 {
     public partial class StreamBoardNo : System.Web.UI.Page
     {
+        public string Bbno_;
+     
+        
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -28,7 +31,7 @@ namespace BilliardScoreboard.Game
 
                 SqlDataAdapter ad = new SqlDataAdapter("SELECT BoardNo from RealTimeScoreDetails where MatchId=1111 AND TeamID=1", con);
                 DataSet ds = new DataSet();
-                ad.Fill(ds);
+               ad.Fill(ds);
 
               
 
@@ -37,8 +40,8 @@ namespace BilliardScoreboard.Game
 
 
                   
-                  
-                    Button1.Text = drow["BoardNo"].ToString().Trim();
+
+                    Button2.Text = drow["BoardNo"].ToString().Trim();
                 }
 
 
