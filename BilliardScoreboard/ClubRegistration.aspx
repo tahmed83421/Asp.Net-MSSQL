@@ -190,6 +190,19 @@
         }
     }
         
+    .auto-style1 {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 1012px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: 999999;
+        margin-right: 0;
+    }
+        
 </style>
 
 
@@ -422,7 +435,7 @@
                             
                         </div>
 
-                              <iframe id="privacy" runat="server" src="privacy.html" style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
+                              <iframe id="privacy" runat="server" src="privacy.html" style="border-style: none; border-color: inherit; border-width: medium; padding: 0; margin-left: 0; margin-top: 0; margin-bottom: 0;" class="auto-style1"></iframe>
      
                              </ContentTemplate>
 

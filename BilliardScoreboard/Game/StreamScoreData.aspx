@@ -475,7 +475,7 @@
 
                  
           
-              <asp:Timer ID="Timer1" runat="server" Interval="1500" OnTick="Timer1_Tick"></asp:Timer>
+              <asp:Timer ID="Timer1" runat="server" Interval="1800" OnTick="Timer1_Tick"></asp:Timer>
 
  
     </form>

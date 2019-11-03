@@ -430,12 +430,12 @@
        
           
             <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-        <asp:Button ID="Button2" runat="server" Text="22"  style="border-radius:50%; width:140px; height:140px; background-image:url('../img/black.jpg'); border-color:darkgray;border-style:solid; text-align:center;color:white; border-width:8px; font-size:80px;"   />
+        <asp:Button ID="Button2" runat="server" Text="22" BorderColor="white" BorderWidth="2"  style="border-radius:50%; width:90px; height:90px; background-image:url('../img/black.jpg'); border-color:darkgray; border:1; text-align:center;color:white;  font-size:60px;"   />
             
            
        
             
-           &nbsp;<asp:Timer ID="Timer1" runat="server" OnTick="Timer1_Tick" Interval="1000"></asp:Timer>
+           &nbsp;<asp:Timer ID="Timer1" runat="server" OnTick="Timer1_Tick" Interval="1800"></asp:Timer>
        
       
     </form>

@@ -109,7 +109,11 @@
     <Content Include="HtmlPage1.html" />
     <Content Include="img\back.jpg" />
     <Content Include="img\back1.jpg" />
+    <Content Include="img\bill.jpg" />
+    <Content Include="img\billActive.png" />
     <Content Include="img\swapposition.png" />
+    <Content Include="img\vedi.png" />
+    <Content Include="img\vediInactive.png" />
     <Content Include="index.html" />
     <Content Include="js\vivus.js" />
     <Content Include="privacy.html" />
@@ -231,8 +235,12 @@
     <Content Include="public\Upload\Player\Sergio.png" />
     <Content Include="public\Upload\Player\Zito.png" />
     <Content Include="ScoreTracking.aspx" />
+    <Content Include="Survey-admin.aspx" />
+    <Content Include="survey-statistic.aspx" />
+    <Content Include="survey.aspx" />
     <Content Include="Teachers.aspx" />
     <Content Include="testmail.aspx" />
+    <Content Include="Vote.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -400,6 +408,27 @@
     <Compile Include="ScoreTracking.aspx.designer.cs">
       <DependentUpon>ScoreTracking.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Survey-admin.aspx.cs">
+      <DependentUpon>Survey-admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Survey-admin.aspx.designer.cs">
+      <DependentUpon>Survey-admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="survey-statistic.aspx.cs">
+      <DependentUpon>survey-statistic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="survey-statistic.aspx.designer.cs">
+      <DependentUpon>survey-statistic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="survey.aspx.cs">
+      <DependentUpon>survey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="survey.aspx.designer.cs">
+      <DependentUpon>survey.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Teacher.cs" />
     <Compile Include="Teachers.aspx.cs">
       <DependentUpon>Teachers.aspx</DependentUpon>
@@ -414,6 +443,13 @@
     </Compile>
     <Compile Include="testmail.aspx.designer.cs">
       <DependentUpon>testmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vote.aspx.cs">
+      <DependentUpon>Vote.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vote.aspx.designer.cs">
+      <DependentUpon>Vote.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
