@@ -18,11 +18,42 @@ namespace BilliardScoreboard
         {
             if (GetValue(GetMACAddress())) { ImageButtonBill.ImageUrl = "../img/billActive.png";
                 ImageButtonVedi.ImageUrl = "../img/Vedi.png";
+
+            }
+            LoadValues();
+        }
+
+
+
+        public void LoadValues()
+
+        {
+            using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
+            {
+
+                SqlDataAdapter ad = new SqlDataAdapter("SELECT ID,Topic,Yes,No,Expire,Ore from Vote", con);
+                DataSet ds = new DataSet();
+                ad.Fill(ds);
+
+
+
+                foreach (DataRow drow in ds.Tables[0].Rows)
+                {
+
+                    Ore.Text = drow["Ore"].ToString().Trim();
+                    DateTime.Text = drow["Expire"].ToString().Trim();
+                    TopicNo.Text= "00" + drow["ID"].ToString().Trim();
+                    Question.Text = drow["Topic"].ToString().Trim();
+
+                 
+                }
+
+
             }
         }
 
 
-        private bool  GetValue( string MAC)
+            private bool  GetValue( string MAC)
         {
 
             using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
@@ -86,7 +117,7 @@ namespace BilliardScoreboard
             ConfirmVote.Visible = true;
             ConfirmVote.Enabled = true;
             byes = 1;
-            Label1.Text = GetMACAddress();
+          
 
 
            
@@ -111,8 +142,10 @@ namespace BilliardScoreboard
                 con.Close();
                 ImageButtonBill.ImageUrl = "../img/billActive.png";
                 ImageButtonVedi.ImageUrl = "../img/Vedi.png";
+                ConfirmVote.Visible = false;
             }
 
+           
         }
     }
 }

@@ -16,8 +16,39 @@ namespace BilliardScoreboard
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            Yess.Text = GetMACAddress().ToString();
 
+            LoadValues();
+
+        }
+
+
+        public void LoadValues()
+
+        {
+            using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
+            {
+
+                SqlDataAdapter ad = new SqlDataAdapter("SELECT ID,Topic,Yes,No,Expire,Ore from Vote", con);
+                DataSet ds = new DataSet();
+                ad.Fill(ds);
+
+
+
+                foreach (DataRow drow in ds.Tables[0].Rows)
+                {
+
+                    Ore.Text = drow["Ore"].ToString().Trim();
+                    DateTime.Text = drow["Expire"].ToString().Trim();
+                    TopicNo.Text = "00" + drow["ID"].ToString().Trim();
+                    Question.Text = drow["Topic"].ToString().Trim();
+                    CountSI.Text= "n°" + drow["Yes"].ToString().Trim();
+                    CountNO.Text = "n°" + drow["No"].ToString().Trim();
+
+
+                }
+
+
+            }
         }
         public string GetMACAddress()
         {

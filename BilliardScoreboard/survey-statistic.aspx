@@ -14,69 +14,65 @@
         <div style="border-bottom-style:groove; margin-top:100px; border-bottom-color:white"; ></div>
 
 
-        <img  width="50%" style="margin-left:360px; margin-top:50px;" src="img/BigLogo.png" /><br /><br /><br />
-        <div style="color:white;margin-left:350px; text-align:center; font-size:21px">
-        <asp:Label ID="Label1" runat="server" style="color:white; " Text="Votate con 1 click questo argomento"></asp:Label>
-          &nbsp;&nbsp;  <asp:Label ID="Label2" runat="server"  Text="n° 0001"></asp:Label>
-           &nbsp;&nbsp;che si chiude il : &nbsp;&nbsp;
-            <asp:Label ID="Label3" runat="server" Text="  29 /10/ 2019"></asp:Label>
-            &nbsp;&nbsp;&nbsp;&nbsp;  <asp:Label ID="Label4" runat="server" Text="ore 24:00 "></asp:Label>
-
-             <h1  style="margin-left:150px;"> <asp:Label ID="Question" runat="server" Text="preferite i panni verdi ?"></asp:Label></h1>
-            <asp:Label ID="Yess" runat="server" style="color:green; font-size:40px;"  Text="Label"></asp:Label>
-              <asp:Button ID="Button2" runat="server" Text="SI"  BorderWidth="5"  style="border-radius:50%; width:70px; margin-left:220px; height:70px; background-image:url('../img/black.jpg'); border-color:green;  border:4; text-align:center;color:white;  font-size:25px;" OnClick="Button2_Click"   />
-             <asp:Button ID="Button1" runat="server" Text="NO"  BorderWidth="5"  style="border-radius:50%; width:70px; margin-left:100px; height:70px; background-image:url('../img/black.jpg'); border-color:red; border:4; text-align:center;color:white;  font-size:25px;"   />
+        <img  width="50%" style="margin-left:560px; margin-top:50px;" src="img/BigLogo.png" /><br /><br /><br />
+           <div style="color:white;margin-left:550px; font-size:35px">
+                <b>Votate con 1 click questo argomento  &nbsp;&nbsp;  n° 
+                    <asp:Label ID="TopicNo" runat="server" Text="000"></asp:Label>
+                     &nbsp;&nbsp;&nbsp;&nbsp;che si chiude il :
+                    <asp:Label ID="DateTime" runat="server" Text="00/00/00"></asp:Label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;ore
+                    <asp:Label ID="Ore" runat="server" Text="24"></asp:Label>
+                </b>
+                 <h1  style="margin-left:180px;"> <asp:Label ID="Question" runat="server" Text="preferite i panni verdi ?"></asp:Label></h1>
+               <asp:Label ID="CountSI" runat="server"  style="color:green; margin-left:300px;"  Text="n°1235"></asp:Label>
+                 <asp:Button ID="SI" runat="server" Text="SI"  BorderWidth="5"  style="border-radius:50%; width:70px; margin-left:00px; height:70px; background-image:url('../img/black.jpg'); border-color:green;  border:4; text-align:center;color:white;  font-size:25px;"     />
+             <asp:Button ID="NO" runat="server" Text="NO"  BorderWidth="5"  style="border-radius:50%; width:70px; margin-left:100px; height:70px; background-image:url('../img/black.jpg'); border-color:red; border:4; text-align:center;color:white;  font-size:25px;"   />
+              
+                <asp:Label ID="CountNO" runat="server"  style="color:red;"  Text="n°355"></asp:Label>
+               <asp:ImageButton ID="ImageButtonBill" style="margin-left:100px;" ImageUrl="../img/billActive.png" runat="server" />
+                <br />
+              </div>
+        <br />
+              <h3 style="text-align:center; margin-right:200px; font-size:35px; color:white;">Elenco argomenti chiusi</h3><br />
+               
+           
             
-            <h2 style="text-align:center;">Elenco argomenti chiusi</h2>
-            </div>
-      <div style="text-align:center; font-size:35px; margin-left:600px;">
+      <div style="text-align:center; font-size:35px; margin-left:400px;">
+           
 
-         
-          <asp:ListView ID="ListView1" runat="server" DataKeyNames="Id" DataSourceID="SqlDataSource1" InsertItemPosition="LastItem">
+          <asp:ListView ID="ListView1" runat="server" DataKeyNames="ID" DataSourceID="SqlDataSource1">
               <AlternatingItemTemplate>
-                  <tr style="background-color: #FFFFFF;color: #284775;">
-                    
+                  <tr style="background-color: black;color: white;">
                       <td>
-                          <asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Delete" />
-                          <asp:Button ID="EditButton" runat="server" CommandName="Edit" Text="Edit" />
+                        n°  <asp:Label ID="IDLabel" runat="server" Text='<%# Eval("ID") %>' />
                       </td>
                       <td>
-                          <asp:Label ID="IdLabel" runat="server" Text='<%# Eval("Id") %>' />
+                    &nbsp;&nbsp;chiuso&nbsp;&nbsp;   <asp:Label ID="ExpireLabel" runat="server" Text='<%# Eval("Expire") %>' />&nbsp;&nbsp;&nbsp;&nbsp;
                       </td>
                       <td>
-                          <asp:Label ID="TopicNumberLabel" runat="server" Text='<%# Eval("TopicNumber") %>' />
+                          <asp:Label ID="TopicLabel" runat="server" Text='<%# Eval("Topic") %>' />&nbsp;&nbsp;
+                      <td>
+                          <asp:Label ID="YesLabel" runat="server" Text='<%# Eval("Yes") %>' />&nbsp; SI &nbsp;&nbsp;
                       </td>
                       <td>
-                          <asp:Label ID="TopicLabel" runat="server" Text='<%# Eval("Topic") %>' />
-                      </td>
-                      <td>
-                          <asp:Label ID="DateTimeLabel" runat="server" Text='<%# Eval("DateTime") %>' />
-                      </td>
-                      <td>
-                          <asp:Label ID="YesLabel" runat="server" Text='<%# Eval("Yes") %>' />
-                      </td>
-                        <td>
-                            <asp:Label ID="NoLabel" runat="server" Text='<%# Eval("No") %>' />
+                          <asp:Label ID="NoLabel" runat="server" Text='<%# Eval("No") %>' />&nbsp; NO
                       </td>
                   </tr>
               </AlternatingItemTemplate>
               <EditItemTemplate>
-                  <tr style="background-color: #999999;">
+                  <tr style="background-color: black; color:white;">
                       <td>
                           <asp:Button ID="UpdateButton" runat="server" CommandName="Update" Text="Update" />
                           <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" />
                       </td>
                       <td>
-                          <asp:Label ID="IdLabel1" runat="server" Text='<%# Eval("Id") %>' />
+                       n°   <asp:Label ID="IDLabel1" runat="server" Text='<%# Eval("ID") %>' />
                       </td>
                       <td>
-                          <asp:TextBox ID="TopicNumberTextBox" runat="server" Text='<%# Bind("TopicNumber") %>' />
+                          <asp:TextBox ID="ExpireTextBox" runat="server" Text='<%# Bind("Expire") %>' />
                       </td>
                       <td>
                           <asp:TextBox ID="TopicTextBox" runat="server" Text='<%# Bind("Topic") %>' />
-                      </td>
-                      <td>
-                          <asp:TextBox ID="DateTimeTextBox" runat="server" Text='<%# Bind("DateTime") %>' />
                       </td>
                       <td>
                           <asp:TextBox ID="YesTextBox" runat="server" Text='<%# Bind("Yes") %>' />
@@ -87,7 +83,7 @@
                   </tr>
               </EditItemTemplate>
               <EmptyDataTemplate>
-                  <table runat="server" style="background-color: #FFFFFF;border-collapse: collapse;border-color: #999999;border-style:none;border-width:1px;">
+                  <table runat="server" style="background-color: black;border-collapse: collapse;border-color: white;border-style:none;border-width:1px;">
                       <tr>
                           <td>No data was returned.</td>
                       </tr>
@@ -99,17 +95,12 @@
                           <asp:Button ID="InsertButton" runat="server" CommandName="Insert" Text="Insert" />
                           <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Clear" />
                       </td>
+                      <td>&nbsp;</td>
                       <td>
-                          <asp:TextBox ID="IdTextBox" runat="server" Text='<%# Bind("Id") %>' />
-                      </td>
-                      <td>
-                          <asp:TextBox ID="TopicNumberTextBox" runat="server" Text='<%# Bind("TopicNumber") %>' />
+                          <asp:TextBox ID="ExpireTextBox" runat="server" Text='<%# Bind("Expire") %>' />
                       </td>
                       <td>
                           <asp:TextBox ID="TopicTextBox" runat="server" Text='<%# Bind("Topic") %>' />
-                      </td>
-                      <td>
-                          <asp:TextBox ID="DateTimeTextBox" runat="server" Text='<%# Bind("DateTime") %>' />
                       </td>
                       <td>
                           <asp:TextBox ID="YesTextBox" runat="server" Text='<%# Bind("Yes") %>' />
@@ -120,29 +111,21 @@
                   </tr>
               </InsertItemTemplate>
               <ItemTemplate>
-                  <tr style="background-color: #E0FFFF;color: #333333;">
-                     
+                  <tr style="background-color: black;color: white;">
                       <td>
-                          <asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Delete" />
-                          <asp:Button ID="EditButton" runat="server" CommandName="Edit" Text="Edit" />
+                       n°   <asp:Label ID="IDLabel" runat="server" Text='<%# Eval("ID") %>' />
                       </td>
                       <td>
-                          <asp:Label ID="IdLabel" runat="server" Text='<%# Eval("Id") %>' />
+                         &nbsp;&nbsp;chiuso&nbsp;&nbsp; <asp:Label ID="ExpireLabel" runat="server" Text='<%# Eval("Expire") %>' />&nbsp;&nbsp;&nbsp;&nbsp;
                       </td>
                       <td>
-                          <asp:Label ID="TopicNumberLabel" runat="server" Text='<%# Eval("TopicNumber") %>' />
+                          <asp:Label ID="TopicLabel" runat="server" Text='<%# Eval("Topic") %>' />&nbsp;&nbsp;
                       </td>
                       <td>
-                          <asp:Label ID="TopicLabel" runat="server" Text='<%# Eval("Topic") %>' />
+                          <asp:Label ID="YesLabel" runat="server" Text='<%# Eval("Yes") %>' />&nbsp; SI &nbsp;&nbsp;
                       </td>
                       <td>
-                          <asp:Label ID="DateTimeLabel" runat="server" Text='<%# Eval("DateTime") %>' />
-                      </td>
-                      <td>
-                          <asp:Label ID="YesLabel" runat="server" Text='<%# Eval("Yes") %>' />
-                      </td>
-                       <td>
-                           <asp:Label ID="NoLabel" runat="server" Text='<%# Eval("No") %>' />
+                          <asp:Label ID="NoLabel" runat="server" Text='<%# Eval("No") %>' />&nbsp; NO
                       </td>
                   </tr>
               </ItemTemplate>
@@ -150,15 +133,13 @@
                   <table runat="server">
                       <tr runat="server">
                           <td runat="server">
-                              <table id="itemPlaceholderContainer" runat="server" border="1" style="background-color: #FFFFFF;border-collapse: collapse;border-color: #999999;border-style:none;border-width:1px;font-family: Verdana, Arial, Helvetica, sans-serif;">
-                                  <tr runat="server" style="background-color: #E0FFFF;color: #333333;">
-                                      <th runat="server"></th>
-                                      <th runat="server">Id</th>
-                                      <th runat="server">TopicNumber</th>
-                                      <th runat="server">Topic</th>
-                                      <th runat="server">DateTime</th>
-                                      <th runat="server">Yes</th>
-                                      <th runat="server">No</th>
+                              <table id="itemPlaceholderContainer" runat="server" border="0" style="background-color: black; color:white; border-collapse: collapse;border-color: #999999;border-style:none;border-width:0px;font-family: Verdana, Arial, Helvetica, sans-serif;">
+                                  <tr runat="server" style="background-color: black;color: black">
+                                      <th  runat="server">ID&nbsp;&nbsp</th>
+                                      <th runat="server">Expire&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                                      <th runat="server">Topic&nbsp;&nbsp;</th>
+                                      <th runat="server">Yes&nbsp;&nbsp;</th>
+                                      <th runat="server">No&nbsp;&nbsp;</th>
                                   </tr>
                                   <tr id="itemPlaceholder" runat="server">
                                   </tr>
@@ -166,63 +147,37 @@
                           </td>
                       </tr>
                       <tr runat="server">
-                          <td runat="server" style="text-align: center;background-color: #5D7B9D;font-family: Verdana, Arial, Helvetica, sans-serif;color: #FFFFFF"></td>
+                          <td runat="server" style="text-align: center;background-color: black;font-family: Verdana, Arial, Helvetica, sans-serif;color: #FFFFFF">
+                              <asp:DataPager ID="DataPager1" runat="server">
+                                  <Fields>
+                                      <asp:NextPreviousPagerField ButtonType="Button" ShowFirstPageButton="True" ShowLastPageButton="True" />
+                                  </Fields>
+                              </asp:DataPager>
+                          </td>
                       </tr>
                   </table>
               </LayoutTemplate>
               <SelectedItemTemplate>
-                  <tr style="background-color: #E2DED6;font-weight: bold;color: #333333;">
-                     
+                  <tr style="background-color: black;font-weight: bold;color: white;">
                       <td>
-                          <asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Delete" />
-                          <asp:Button ID="EditButton" runat="server" CommandName="Edit" Text="Edit" />
+                         n° <asp:Label ID="IDLabel" runat="server" Text='<%# Eval("ID") %>' />
                       </td>
                       <td>
-                          <asp:Label ID="IdLabel" runat="server" Text='<%# Eval("Id") %>' />
-                      </td>
-                      <td>
-                          <asp:Label ID="TopicNumberLabel" runat="server" Text='<%# Eval("TopicNumber") %>' />
+                        &nbsp;&nbsp;  <asp:Label ID="ExpireLabel" runat="server" Text='<%# Eval("Expire") %>' />&nbsp;&nbsp;&nbsp;&nbsp;
                       </td>
                       <td>
                           <asp:Label ID="TopicLabel" runat="server" Text='<%# Eval("Topic") %>' />
                       </td>
                       <td>
-                          <asp:Label ID="DateTimeLabel" runat="server" Text='<%# Eval("DateTime") %>' />
-                      </td>
-                      <td>
                           <asp:Label ID="YesLabel" runat="server" Text='<%# Eval("Yes") %>' />
                       </td>
-                       <td>
-                           <asp:Label ID="NoLabel" runat="server" Text='<%# Eval("No") %>' />
+                      <td>
+                          <asp:Label ID="NoLabel" runat="server" Text='<%# Eval("No") %>' />
                       </td>
                   </tr>
               </SelectedItemTemplate>
           </asp:ListView>
-
-     
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:sqlcon %>" DeleteCommand="DELETE FROM [Vote] WHERE [Id] = @Id" InsertCommand="INSERT INTO [Vote] ([Id], [TopicNumber], [Topic], [DateTime], [Yes], [No]) VALUES (@Id, @TopicNumber, @Topic, @DateTime, @Yes, @No)" SelectCommand="SELECT [Id], [TopicNumber], [Topic], [DateTime], [Yes], [No] FROM [Vote]" UpdateCommand="UPDATE [Vote] SET [TopicNumber] = @TopicNumber, [Topic] = @Topic, [DateTime] = @DateTime, [Yes] = @Yes, [No] = @No WHERE [Id] = @Id">
-                <DeleteParameters>
-                    <asp:Parameter Name="Id" Type="Int32" />
-                </DeleteParameters>
-                <InsertParameters>
-                    <asp:Parameter Name="Id" Type="Int32" />
-                    <asp:Parameter Name="TopicNumber" Type="String" />
-                    <asp:Parameter Name="Topic" Type="String" />
-                    <asp:Parameter Name="DateTime" Type="Object" />
-                    <asp:Parameter Name="Yes" Type="String" />
-                    <asp:Parameter Name="No" Type="String" />
-                </InsertParameters>
-                <UpdateParameters>
-                    <asp:Parameter Name="TopicNumber" Type="String" />
-                    <asp:Parameter Name="Topic" Type="String" />
-                    <asp:Parameter Name="DateTime" Type="Object" />
-                    <asp:Parameter Name="Yes" Type="String" />
-                    <asp:Parameter Name="No" Type="String" />
-                    <asp:Parameter Name="Id" Type="Int32" />
-                </UpdateParameters>
-          </asp:SqlDataSource>
-
-     
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:sqlcon %>" SelectCommand="SELECT [ID], [Expire], [Topic], [Yes], [No] FROM [Vote]"></asp:SqlDataSource>
             </div>
      
         <div style="border-bottom-style:groove;  margin-top:130px; border-bottom-color:white"; ></div>

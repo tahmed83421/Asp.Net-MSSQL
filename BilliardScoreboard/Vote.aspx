@@ -19,20 +19,20 @@
                      &nbsp;&nbsp;&nbsp;&nbsp;che si chiude il :
                     <asp:Label ID="DateTime" runat="server" Text="00/00/00"></asp:Label>
                     &nbsp;&nbsp;&nbsp;&nbsp;ore
-                    <asp:Label ID="Label1" runat="server" Text="24"></asp:Label>
+                    <asp:Label ID="Ore" runat="server" Text="24"></asp:Label>
                 </b>
-                 <h1  style="margin-left:250px;"> <asp:Label ID="Question" runat="server" Text="preferite i panni verdi ?"></asp:Label></h1>
+                 <h1  style="margin-left:180px;"> <asp:Label ID="Question" runat="server" Text="preferite i panni verdi ?"></asp:Label></h1>
 
                  <asp:Button ID="SI" runat="server" Text="SI"  BorderWidth="5"  style="border-radius:50%; width:70px; margin-left:400px; height:70px; background-image:url('../img/black.jpg'); border-color:green;  border:4; text-align:center;color:white;  font-size:25px;" OnClick="SI_Click"    />
              <asp:Button ID="NO" runat="server" Text="NO"  BorderWidth="5"  style="border-radius:50%; width:70px; margin-left:100px; height:70px; background-image:url('../img/black.jpg'); border-color:red; border:4; text-align:center;color:white;  font-size:25px;" OnClick="NO_Click"   />
-                <asp:ImageButton ID="ImageButtonBill" style="margin-left:800px;" ImageUrl="../img/bill.jpg" runat="server" />
+                <asp:ImageButton ID="ImageButtonBill" style="margin-left:100px;" ImageUrl="../img/bill.jpg" runat="server" />
                 <br />
                 <asp:ImageButton ID="ImageButtonVedi" style="margin-left:800px;" ImageUrl="../img/vediInactive.png" runat="server" />
-                <br /> <br /> <asp:Button ID="ConfirmVote"  Visible="false"  style=" margin-left:460px; background-image:url('../img/black.jpg');border-radius:15%; color:white; font-size:25px;" runat="server" Text="conferma" OnClick="ConfirmVote_Click" />
+                <br /> <br /> <asp:Button ID="ConfirmVote"  Visible="false"  style=" margin-left:500px; background-image:url('../img/black.jpg');border-radius:15%; color:white; font-size:25px;" runat="server" Text="conferma" OnClick="ConfirmVote_Click" />
                 </div>
             
 
-            <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+            <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> 
 
               <div style="border-bottom-style:groove;  margin-top:130px; border-bottom-color:white"; ></div>
         </div>

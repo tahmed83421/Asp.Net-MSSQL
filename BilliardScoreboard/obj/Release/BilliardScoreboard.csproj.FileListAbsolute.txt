@@ -204,8 +204,6 @@ C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\bin\BilliardScoreboard.dll
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\bin\BilliardScoreboard.pdb
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\bin\en-US\BilliardScoreboard.resources.dll
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\bin\it-IT\BilliardScoreboard.resources.dll
-C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\bin\System.Net.Http.Formatting.dll
-C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\bin\Newtonsoft.Json.dll
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\BilliardScoreboard.csprojAssemblyReference.cache
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\BilliardScoreboard.App_GlobalResources.Lang.en-US.resources
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\BilliardScoreboard.App_GlobalResources.Lang.it-IT.resources

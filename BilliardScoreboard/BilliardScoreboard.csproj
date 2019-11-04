@@ -236,8 +236,8 @@
     <Content Include="public\Upload\Player\Zito.png" />
     <Content Include="ScoreTracking.aspx" />
     <Content Include="Survey-admin.aspx" />
+    <Content Include="Survey-adminLogin.aspx" />
     <Content Include="survey-statistic.aspx" />
-    <Content Include="survey.aspx" />
     <Content Include="Teachers.aspx" />
     <Content Include="testmail.aspx" />
     <Content Include="Vote.aspx" />
@@ -415,19 +415,19 @@
     <Compile Include="Survey-admin.aspx.designer.cs">
       <DependentUpon>Survey-admin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Survey-adminLogin.aspx.cs">
+      <DependentUpon>Survey-adminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Survey-adminLogin.aspx.designer.cs">
+      <DependentUpon>Survey-adminLogin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="survey-statistic.aspx.cs">
       <DependentUpon>survey-statistic.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="survey-statistic.aspx.designer.cs">
       <DependentUpon>survey-statistic.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="survey.aspx.cs">
-      <DependentUpon>survey.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="survey.aspx.designer.cs">
-      <DependentUpon>survey.aspx</DependentUpon>
     </Compile>
     <Compile Include="Teacher.cs" />
     <Compile Include="Teachers.aspx.cs">
