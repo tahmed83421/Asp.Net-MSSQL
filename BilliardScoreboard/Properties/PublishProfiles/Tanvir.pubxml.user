@@ -38,10 +38,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/24/2013 22:19:21</publishTime>
     </File>
     <File Include="bin/BilliardScoreboard.dll">
-      <publishTime>10/21/2019 01:46:32</publishTime>
+      <publishTime>11/07/2019 02:14:14</publishTime>
     </File>
     <File Include="bin/BilliardScoreboard.pdb">
-      <publishTime>10/21/2019 01:46:32</publishTime>
+      <publishTime>11/07/2019 02:14:14</publishTime>
     </File>
     <File Include="bin/cs/AjaxControlToolkit.resources.dll">
       <publishTime>01/24/2013 22:19:21</publishTime>
@@ -50,7 +50,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/24/2013 22:19:21</publishTime>
     </File>
     <File Include="bin/en-US/BilliardScoreboard.resources.dll">
-      <publishTime>10/21/2019 01:46:32</publishTime>
+      <publishTime>11/07/2019 02:14:15</publishTime>
     </File>
     <File Include="bin/es/AjaxControlToolkit.resources.dll">
       <publishTime>01/24/2013 22:19:21</publishTime>
@@ -65,7 +65,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/24/2013 22:19:22</publishTime>
     </File>
     <File Include="bin/it-IT/BilliardScoreboard.resources.dll">
-      <publishTime>10/21/2019 01:46:32</publishTime>
+      <publishTime>11/07/2019 02:14:15</publishTime>
     </File>
     <File Include="bin/it/AjaxControlToolkit.resources.dll">
       <publishTime>01/24/2013 22:19:22</publishTime>
@@ -137,7 +137,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/09/2017 23:47:10</publishTime>
     </File>
     <File Include="ClubRegistration.aspx">
-      <publishTime>04/10/2019 11:03:13</publishTime>
+      <publishTime>10/31/2019 00:37:58</publishTime>
     </File>
     <File Include="costexcelmail.aspx">
       <publishTime>01/01/2018 11:34:52</publishTime>
@@ -170,7 +170,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/21/2018 07:42:46</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>03/21/2019 08:37:14</publishTime>
+      <publishTime>11/07/2019 01:56:50</publishTime>
     </File>
     <File Include="EmailTemplate/CardPrint.html">
       <publishTime>10/09/2017 23:48:18</publishTime>
@@ -271,6 +271,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Game/StreamScoreDataPl2.aspx">
       <publishTime>10/21/2019 14:21:01</publishTime>
     </File>
+    <File Include="Game/testtest.aspx">
+      <publishTime>11/06/2019 15:20:23</publishTime>
+    </File>
     <File Include="Game/ufonts.com_tw_cen_mt_condensed_medium_1_.eot">
       <publishTime>12/06/2016 10:07:54</publishTime>
     </File>
@@ -306,6 +309,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="img/biliard.png">
       <publishTime>09/24/2017 15:20:08</publishTime>
+    </File>
+    <File Include="img/bill.jpg">
+      <publishTime>11/01/2019 16:54:33</publishTime>
+    </File>
+    <File Include="img/billActive.png">
+      <publishTime>11/01/2019 17:18:07</publishTime>
     </File>
     <File Include="img/Black.jpg">
       <publishTime>11/17/2016 23:22:02</publishTime>
@@ -357,6 +366,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="img/Thumbs.db">
       <publishTime>11/17/2016 00:32:16</publishTime>
+    </File>
+    <File Include="img/vedi.png">
+      <publishTime>11/01/2019 17:07:13</publishTime>
+    </File>
+    <File Include="img/vediInactive.png">
+      <publishTime>11/01/2019 17:15:20</publishTime>
     </File>
     <File Include="index.html">
       <publishTime>03/23/2019 15:25:48</publishTime>
@@ -413,7 +428,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/21/2019 00:06:45</publishTime>
     </File>
     <File Include="PlayerRegistration.aspx">
-      <publishTime>04/10/2019 11:02:05</publishTime>
+      <publishTime>11/07/2019 01:57:22</publishTime>
     </File>
     <File Include="privacy.html">
       <publishTime>01/15/2019 10:27:00</publishTime>
@@ -598,14 +613,29 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="ScoreTracking.aspx">
       <publishTime>03/30/2019 21:06:48</publishTime>
     </File>
+    <File Include="Survey-admin.aspx">
+      <publishTime>11/07/2019 02:12:14</publishTime>
+    </File>
+    <File Include="Survey-adminLogin.aspx">
+      <publishTime>11/06/2019 21:39:19</publishTime>
+    </File>
+    <File Include="survey-statistic.aspx">
+      <publishTime>11/06/2019 14:43:43</publishTime>
+    </File>
     <File Include="Teachers.aspx">
       <publishTime>03/07/2019 00:49:04</publishTime>
     </File>
     <File Include="testmail.aspx">
       <publishTime>10/10/2017 00:23:02</publishTime>
     </File>
+    <File Include="testtanvir.aspx">
+      <publishTime>11/06/2019 15:13:49</publishTime>
+    </File>
+    <File Include="Vote.aspx">
+      <publishTime>11/07/2019 01:56:32</publishTime>
+    </File>
     <File Include="Web.config">
-      <publishTime>10/21/2019 01:46:47</publishTime>
+      <publishTime>11/06/2019 15:45:42</publishTime>
     </File>
   </ItemGroup>
 </Project>

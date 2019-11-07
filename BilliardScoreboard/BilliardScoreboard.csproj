@@ -105,6 +105,7 @@
     <Content Include="Game\StreamBoardNo.aspx" />
     <Content Include="Game\StreamScoreData.aspx" />
     <Content Include="Game\StreamScoreDataPl2.aspx" />
+    <Content Include="Game\testtest.aspx" />
     <Content Include="Global.asax" />
     <Content Include="HtmlPage1.html" />
     <Content Include="img\back.jpg" />
@@ -240,6 +241,7 @@
     <Content Include="survey-statistic.aspx" />
     <Content Include="Teachers.aspx" />
     <Content Include="testmail.aspx" />
+    <Content Include="testtanvir.aspx" />
     <Content Include="Vote.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -297,6 +299,13 @@
     </Compile>
     <Compile Include="Game\StreamScoreDataPl2.aspx.designer.cs">
       <DependentUpon>StreamScoreDataPl2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Game\testtest.aspx.cs">
+      <DependentUpon>testtest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Game\testtest.aspx.designer.cs">
+      <DependentUpon>testtest.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -443,6 +452,13 @@
     </Compile>
     <Compile Include="testmail.aspx.designer.cs">
       <DependentUpon>testmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testtanvir.aspx.cs">
+      <DependentUpon>testtanvir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testtanvir.aspx.designer.cs">
+      <DependentUpon>testtanvir.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vote.aspx.cs">
       <DependentUpon>Vote.aspx</DependentUpon>

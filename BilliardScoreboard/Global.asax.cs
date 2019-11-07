@@ -17,7 +17,7 @@ namespace BilliardScoreboard
 
         protected void Session_Start(object sender, EventArgs e)
         {
-            Response.Write("Session Started");
+           // Response.Write("Session Started");
 
         }
 

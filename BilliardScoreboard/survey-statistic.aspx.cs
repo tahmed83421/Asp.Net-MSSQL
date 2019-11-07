@@ -50,6 +50,31 @@ namespace BilliardScoreboard
 
             }
         }
+        private bool GetValue(string MAC)
+        {
+
+            using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
+            {
+
+                SqlDataAdapter sd = new SqlDataAdapter("SELECT COUNT(*) from VoteStatistic where MAC = '" + MAC + "' ", con);
+                DataTable dt = new DataTable();
+
+                sd.Fill(dt);
+
+
+                if (dt.Rows[0][0].ToString() == "1")
+                {
+
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+
+        }
+
         public string GetMACAddress()
         {
             string mac_src = "";
@@ -104,6 +129,13 @@ namespace BilliardScoreboard
         protected void ListView1_SelectedIndexChanged(object sender, EventArgs e)
         {
             Response.Write("ok");
+        }
+
+        protected void ImageButtonBill_Click(object sender, ImageClickEventArgs e)
+        {
+            
+                Response.Redirect("https://www.biliardoprofessionale.it/");
+            
         }
     }
 }
