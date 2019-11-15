@@ -5,18 +5,30 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+     <style>
+        .center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+    </style>
     <script src="js/jquery-1.8.3.min.js"></script>
    
 </head>
 <body style="background-color:black">
     <form id="form1" runat="server">
        
-        <div style="border-bottom-style:groove; margin-top:100px; border-bottom-color:white"; ></div>
+          <div class="center-screen">
+          
 
 
-        <img  width="50%" style="margin-left:530px; margin-top:50px;" src="img/BigLogo.png" /><br /><br /><br />
+
+        <img  width="50%" style=" margin-top:50px;" src="img/BigLogo.png" /><br /><br /><br />
        
-        
+        <div style="text-align:center">
        <u style="color:white"> <h1 style="text-align:center; color:white"> Vote Login</h1></u>
         <br /><br /><br /><br />
 
@@ -27,12 +39,13 @@
           
            
 
-            <asp:Button ID="btnLogin" runat="server" style="font-size:35px; border-radius:20%; background-color:black;color:white;" Text="Login" OnClick="btnLogin_Click" />
+            <asp:Button ID="btnLogin" runat="server" style="font-size:25px; border-radius:15%; background-color:black;color:white;" Text="Conferma" OnClick="btnLogin_Click" />
         </div>
         
    
-      
-        <div style="border-bottom-style:groove;  margin-top:130px; border-bottom-color:white"; ></div>
+   </div>
+              </div>
+       
        
     </form>
 </body>

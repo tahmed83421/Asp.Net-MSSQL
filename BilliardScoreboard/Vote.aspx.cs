@@ -16,11 +16,18 @@ namespace BilliardScoreboard
        
         protected void Page_Load(object sender, EventArgs e)
         {
-
+          
             if (Request.Cookies["State"] != null)
             {
                 ImageButtonBill.ImageUrl = "../img/billActive.png";
-                ImageButtonVedi.ImageUrl = "../img/Vedi.png";
+                // ImageButtonVedi.ImageUrl = "../img/vedi.png";
+                Button1.Visible = true;
+               
+            }
+            else
+            {
+                // ImageButtonVedi.Visible = false;
+                Button1.Visible = false;
             }
           
             LoadValues();
@@ -85,8 +92,9 @@ namespace BilliardScoreboard
                     DateTime.Text = drow["Expire"].ToString().Trim();
                     TopicNo.Text= "00" + drow["ID"].ToString().Trim();
                     Question.Text = drow["Topic"].ToString().Trim();
+                    if ( drow["Yes"].ToString() == null || drow["No"].ToString() == null) VoteInit();
 
-                 
+
                 }
 
 
@@ -157,6 +165,10 @@ namespace BilliardScoreboard
         {
             if (Request.Cookies["State"] == null)
             {
+                SI.BackColor = System.Drawing.Color.Green;
+
+                NO.BackColor = System.Drawing.Color.Black;
+
                 ConfirmVote.Visible = true;
                 ConfirmVote.Enabled = true;
                 ViewState["V"] = "yes";
@@ -173,6 +185,8 @@ namespace BilliardScoreboard
 
         protected void NO_Click(object sender, EventArgs e)
         {
+            NO.BackColor = System.Drawing.Color.Red;
+            SI.BackColor = System.Drawing.Color.Black;
             if (Request.Cookies["State"] == null)
             {
                 ConfirmVote.Visible = true;
@@ -201,7 +215,7 @@ namespace BilliardScoreboard
                     ad.ExecuteReader();
                     con.Close();
                     ImageButtonBill.ImageUrl = "../img/billActive.png";
-                    ImageButtonVedi.ImageUrl = "../img/Vedi.png";
+                    
                     ConfirmVote.Visible = false;
                 }
 
@@ -239,9 +253,11 @@ namespace BilliardScoreboard
                 HttpCookie HC = new HttpCookie("State");
                 HC.Values["State"] = "Set";
                 HC.Expires = 
-                    System.DateTime.Now.AddDays(2); //Added cookies Expires time  
+                    System.DateTime.Now.AddDays(20); //Added cookies Expires time  
                 Response.Cookies.Add(HC);
-            
+                Response.Redirect("survey-statistic.aspx");
+
+
             }
 
            
@@ -261,17 +277,26 @@ namespace BilliardScoreboard
             }
         }
 
-        protected void ImageButtonVedi_Click(object sender, ImageClickEventArgs e)
+        public void VoteInit()
+
         {
-            if (Request.Cookies["State"] != null)
+            using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
             {
-                Response.Redirect("survey-statistic.aspx");
+
+                SqlCommand ad = new SqlCommand("update Vote set Yes='0',No='0'  where ID=" + Convert.ToInt32(TopicNo.Text) + "", con);
+
+                ad.CommandType = CommandType.Text;
+                con.Open();
+                ad.ExecuteReader();
+                con.Close();
+
+
             }
-            else
-            {
-                string script = "alert('Please Vote to Leave the page');";
-                System.Web.UI.ScriptManager.RegisterClientScriptBlock(ImageButtonVedi, this.GetType(), "Test", script, true);
-            }
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("survey-statistic.aspx");
         }
     }
 }

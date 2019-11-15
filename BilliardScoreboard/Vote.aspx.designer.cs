@@ -58,6 +58,15 @@ namespace BilliardScoreboard {
         protected global::System.Web.UI.WebControls.Label Question;
         
         /// <summary>
+        /// ImageButtonBill control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton ImageButtonBill;
+        
+        /// <summary>
         /// SI control.
         /// </summary>
         /// <remarks>
@@ -76,22 +85,13 @@ namespace BilliardScoreboard {
         protected global::System.Web.UI.WebControls.Button NO;
         
         /// <summary>
-        /// ImageButtonBill control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButtonBill;
-        
-        /// <summary>
-        /// ImageButtonVedi control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButtonVedi;
+        protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
         /// ConfirmVote control.

@@ -6,44 +6,87 @@
 <head runat="server">
     <title></title>
     <script src="js/jquery-1.8.3.min.js"></script>
+     <style>
+        .center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
 
+         .Button-Bigger {
+ text-align:center;
+ font-size:25px;
+ background-color:black;
+ color:white;
+ margin-top:20px;
+}
+    </style>
 </head>
 <body style="background-color:black">
     <form id="form1" runat="server">
-       
-        <div style="border-bottom-style:groove; margin-top:100px; border-bottom-color:white"; ></div>
 
-
-        <img  width="50%" style="margin-left:560px; margin-top:50px;" src="img/BigLogo.png" /><br /><br /><br />
-           <div style="color:white;margin-left:400px; font-size:35px">
+    <div class="center-screen" style="color:white; font-size:35px">
+             <table style="margin-left:200px;" >
+                 <tr>
+                     <td>
+             
+       <img  width="50%" style=" margin-top:50px;" src="img/BigLogo.png" />
+                         </td>
+                     </tr>
+          <tr>
+              <td>
                 <b>Votate con 1 click questo argomento  &nbsp;&nbsp;  n° 
+                  
+         
                     <asp:Label ID="TopicNo" runat="server" Text="000"></asp:Label>
-                     &nbsp;&nbsp;&nbsp;&nbsp;che si chiude il :
+                     che si chiude il :
+                   
+           
                     <asp:Label ID="DateTime" runat="server" Text="00/00/00"></asp:Label>
                     &nbsp;&nbsp;&nbsp;&nbsp;ore
                     <asp:Label ID="Ore" runat="server" Text="24"></asp:Label>
+                  </td>
                 </b>
-                 <h1  style="margin-left:180px;"> <asp:Label ID="Question" runat="server" Text="preferite i panni verdi ?"></asp:Label></h1>
-               <asp:Label ID="CountSI" runat="server"  style="color:green; margin-left:300px;"  Text="n°1235"></asp:Label>
-                 <asp:Button ID="SI" runat="server" Text="SI"  BorderWidth="5"  style="border-radius:50%; width:70px; margin-left:00px; height:70px; background-image:url('../img/black.jpg'); border-color:green;  border:4; text-align:center;color:white;  font-size:25px;"     />
-             <asp:Button ID="NO" runat="server" Text="NO"  BorderWidth="5"  style="border-radius:50%; width:70px; margin-left:100px; height:70px; background-image:url('../img/black.jpg'); border-color:red; border:4; text-align:center;color:white;  font-size:25px;"   />
+              </tr>
+                 <tr>
+                     <td>
+                 <h1  style=""> <asp:Label ID="Question" runat="server" Text="preferite i panni verdi ?"></asp:Label></h1>
+                         </td>
+                     </tr>
+                 <tr>
+             <td>
+               <asp:Label ID="CountSI" runat="server"   style="color:green;margin-left:00px; "  Text="n°1235"></asp:Label>
+                 <asp:Button ID="SI" runat="server" Text="SI"  BorderWidth="5"  style="border-radius:50%; width:70px;   height:70px; background-image:url('../img/black.jpg'); border-color:green;  border:4; text-align:center;color:white;  font-size:25px;"     />
+             <asp:Button ID="NO" runat="server" Text="NO"  BorderWidth="5"  style="border-radius:50%; width:70px; margin-left:60px; height:70px; background-image:url('../img/black.jpg'); border-color:red; border:4; text-align:center;color:white;  font-size:25px;"   />
               
                 <asp:Label ID="CountNO" runat="server"  style="color:red;"  Text="n°355"></asp:Label>
-               <asp:ImageButton ID="ImageButtonBill" style="margin-left:100px;" ImageUrl="../img/billActive.png" runat="server" OnClick="ImageButtonBill_Click" />
-                <br />
-              </div>
-        <br />
-              <h3 style="text-align:center; margin-right:200px; font-size:35px; color:white;">Elenco argomenti chiusi</h3><br />
+                 
+            </td>
+                     <td>
+                          <asp:ImageButton ID="ImageButtonBill" style="" ImageUrl="../img/billActive.png" runat="server" OnClick="ImageButtonBill_Click" />
+                     </td>
+           
+                
+          
+    </tr>
+                 <tr>
+                     <td>
+              <p style="text-align:center;  font-size:35px; color:white;">Elenco argomenti chiusi</p>
+                     </td>
+                     </tr>
                
-           
-            
-      <div style="text-align:center; font-size:35px; margin-left:300px;">
-           
+                                       <!--    Statistics Table Start -->
 
+              
+          <tr style="text-align:center;align-items:center;justify-content:center; display:flex;flex-direction:column">
+           <td>
           <asp:ListView ID="ListView1" runat="server" DataKeyNames="ID" DataSourceID="SqlDataSource1">
               <AlternatingItemTemplate>
-                  <tr style="background-color: black;color: white;">
-                      <td>
+                  <tr style="background-color: black;color: white; text-align:center; ">
+                      <td >
                         n°  <asp:Label ID="IDLabel" runat="server" Text='<%# Eval("ID") %>' />
                       </td>
                       <td>
@@ -60,7 +103,7 @@
                   </tr>
               </AlternatingItemTemplate>
               <EditItemTemplate>
-                  <tr style="background-color: black; color:white;">
+                  <tr style="background-color: black;text-align:center;  color:white;">
                       <td>
                           <asp:Button ID="UpdateButton" runat="server" CommandName="Update" Text="Update" />
                           <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" />
@@ -129,11 +172,11 @@
                       </td>
                   </tr>
               </ItemTemplate>
-              <LayoutTemplate>
+              <LayoutTemplate >
                   <table runat="server">
                       <tr runat="server">
                           <td runat="server">
-                              <table id="itemPlaceholderContainer" runat="server" border="0" style="background-color: black; color:white; border-collapse: collapse;border-color: #999999;border-style:none;border-width:0px;font-family: Verdana, Arial, Helvetica, sans-serif;">
+                              <table id="itemPlaceholderContainer"  runat="server" border="0" style="background-color: black; text-align:center;  color:white; border-collapse: collapse;border-color: #999999;border-style:none;border-width:0px;font-family: Verdana, Arial, Helvetica, sans-serif;">
                                   <tr runat="server" style="background-color: black;color: black">
                                       <th  runat="server">ID&nbsp;&nbsp</th>
                                       <th runat="server">Expire&nbsp;&nbsp;&nbsp;&nbsp;</th>
@@ -147,10 +190,10 @@
                           </td>
                       </tr>
                       <tr runat="server">
-                          <td runat="server" style="text-align: center;background-color: black;font-family: Verdana, Arial, Helvetica, sans-serif;color: #FFFFFF">
+                          <td runat="server" style="text-align: center;background-color: black;font-size:xx-large; font-family: Verdana, Arial, Helvetica, sans-serif;color: #FFFFFF">
                               <asp:DataPager ID="DataPager1" runat="server">
                                   <Fields>
-                                      <asp:NextPreviousPagerField ButtonType="Button" ShowFirstPageButton="True" ShowLastPageButton="True" />
+                                      <asp:NextPreviousPagerField ButtonType="Button"  ShowFirstPageButton="True" ShowLastPageButton="True" ButtonCssClass="Button-Bigger" />
                                   </Fields>
                               </asp:DataPager>
                           </td>
@@ -158,7 +201,7 @@
                   </table>
               </LayoutTemplate>
               <SelectedItemTemplate>
-                  <tr style="background-color: black;font-weight: bold;color: white;">
+                  <tr style="background-color: black;font-weight: bold; text-align:center; color: white;">
                       <td>
                          n° <asp:Label ID="IDLabel" runat="server" Text='<%# Eval("ID") %>' />
                       </td>
@@ -178,9 +221,19 @@
               </SelectedItemTemplate>
           </asp:ListView>
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:sqlcon %>" SelectCommand="SELECT [ID], [Expire], [Topic], [Yes], [No] FROM [Vote]"></asp:SqlDataSource>
-            </div>
+          </td>
+              </tr>
+                   </table>
+                
+        </div>
+
+                <!-- statistic Table END   -->
+            
+      
      
-        <div style="border-bottom-style:groove;  margin-top:130px; border-bottom-color:white"; ></div>
+      
+           
+           
        
     </form>
 </body>

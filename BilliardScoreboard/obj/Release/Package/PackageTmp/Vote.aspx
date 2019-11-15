@@ -5,15 +5,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <style>
+        .center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+    </style>
 </head>
-<body style="background-color:black">
+<body  style="background-color:black">
     <form id="form1" runat="server">
-        <div>
-              <div style="border-bottom-style:groove; margin-top:100px; border-bottom-color:white"; ></div>
+        <div class="center-screen" style="text-align:center;">
+              <div >
+                  <br />
+                   <img  width="50%" style=" margin-top:50px;" src="img/BigLogo.png" /><br /><br /><br /><br /><br />
 
-                   <img  width="50%" style="margin-left:560px; margin-top:50px;" src="img/BigLogo.png" /><br /><br /><br /><br /><br />
-
-            <div style="color:white;margin-left:400px; font-size:35px">
+            <div style="color:white; text-align:center; font-size:35px">
                 <b>Votate con 1 click questo argomento  &nbsp;&nbsp;  n° 
                     <asp:Label ID="TopicNo" runat="server" Text="000"></asp:Label>
                      &nbsp;&nbsp;&nbsp;&nbsp;che si chiude il :
@@ -21,21 +31,28 @@
                     &nbsp;&nbsp;&nbsp;&nbsp;ore
                     <asp:Label ID="Ore" runat="server" Text="24"></asp:Label>
                 </b>
-                 <h1  style="margin-left:180px;"> <asp:Label ID="Question" runat="server" Text="preferite i panni verdi ?"></asp:Label></h1>
-
-                 <asp:Button ID="SI" runat="server" Text="SI"  BorderWidth="5"  style="border-radius:50%; width:70px; margin-left:400px; height:70px; background-image:url('../img/black.jpg'); border-color:green;  border:4; text-align:center;color:white;  font-size:25px;" OnClick="SI_Click"    />
-             <asp:Button ID="NO" runat="server" Text="NO"  BorderWidth="5"  style="border-radius:50%; width:70px; margin-left:100px; height:70px; background-image:url('../img/black.jpg'); border-color:red; border:4; text-align:center;color:white;  font-size:25px;" OnClick="NO_Click"   />
-                <asp:ImageButton ID="ImageButtonBill" style="margin-left:100px;" ImageUrl="../img/bill.jpg" runat="server" OnClick="ImageButtonBill_Click" />
-                <br />
-                <asp:ImageButton ID="ImageButtonVedi" style="margin-left:800px;" ImageUrl="../img/vediInactive.png" runat="server" OnClick="ImageButtonVedi_Click" />
-                <br /> <br /> <asp:Button ID="ConfirmVote"  Visible="false"  style=" margin-left:450px; background-image:url('../img/black.jpg');border-radius:15%; color:white; font-size:25px;" runat="server" Text="conferma" OnClick="ConfirmVote_Click" />
+                 <h1  style=""> <asp:Label ID="Question" runat="server" Text="preferite i panni verdinjikkjijiuiu ?"></asp:Label></h1>
+                 <asp:ImageButton ID="ImageButtonBill" style="float:right;  margin-right:0px;" ImageUrl="../img/bill.jpg" runat="server" OnClick="ImageButtonBill_Click" />
+                <br /><br />
+                
+               <asp:Button ID="SI" runat="server" Text="SI"  BackColor="black" BorderWidth="5"  style="border-radius:50%; width:70px;   height:70px;  border-color:green;  border:4; text-align:center;color:white;  font-size:25px;" OnClick="SI_Click"    />
+            
+                <asp:Button ID="NO" runat="server" Text="NO" BackColor="Black"  BorderWidth="5"  style="border-radius:50%; width:70px; margin-left:100px; height:70px; border-color:red; border:4; text-align:center;color:white;  font-size:25px;" OnClick="NO_Click"   />
+               <br />
+                 <asp:Button ID="Button1" runat="server" style="float:right; background-image:url('../img//vedi.png'); border:none;" Text="" Width="226px" Height="55px" OnClick="Button1_Click" />
+                
+               <br /> <asp:Button ID="ConfirmVote"  Visible="false" BackColor="Black"  style="  border-radius:15%; color:white; font-size:25px;" runat="server" Text="conferma" OnClick="ConfirmVote_Click" />
                 </div>
+
+                  
+               
             
 
             <br /> 
 
-              <div style="border-bottom-style:groove;  margin-top:130px; border-bottom-color:white"; ></div>
+              
         </div>
+            </div>
     </form>
 </body>
 </html>
