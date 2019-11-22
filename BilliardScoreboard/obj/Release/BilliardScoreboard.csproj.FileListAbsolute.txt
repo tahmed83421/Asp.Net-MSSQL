@@ -224,3 +224,4 @@ C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\it-IT\BilliardS
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\BilliardScoreboard.csproj.CopyComplete
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\BilliardScoreboard.dll
 C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\BilliardScoreboard.pdb
+C:\BilliardoGit\BilliardScorboard\BilliardScoreboard\obj\Release\BilliardScoreboard.csprojAssemblyReference.cache

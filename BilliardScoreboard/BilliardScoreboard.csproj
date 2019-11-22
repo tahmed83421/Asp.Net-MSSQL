@@ -87,6 +87,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\AdvAdmin.aspx" />
+    <Content Include="Admin\Dashboard.aspx" />
     <Content Include="advertaising.aspx" />
     <Content Include="advertaisingold.aspx" />
     <Content Include="advertisement.js" />
@@ -249,6 +251,20 @@
     <Content Include="Activate.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\AdvAdmin.aspx.cs">
+      <DependentUpon>AdvAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdvAdmin.aspx.designer.cs">
+      <DependentUpon>AdvAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="advertaising.aspx.cs">
       <DependentUpon>advertaising.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
