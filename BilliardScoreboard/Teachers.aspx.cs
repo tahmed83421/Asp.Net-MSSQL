@@ -136,5 +136,9 @@ namespace BilliardScoreboard
             //Page.ClientScript.RegisterStartupScript(this.GetType(), "CallMyFunction", "setsvg()", true);
         }
 
+        protected void btnCancle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
