@@ -14,10 +14,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/26/2017 11:02:26</publishTime>
     </File>
     <File Include="Admin/AdvAdmin.aspx">
-      <publishTime>02/11/2019 14:10:30</publishTime>
+      <publishTime>11/22/2019 02:01:05</publishTime>
     </File>
     <File Include="Admin/Dashboard.aspx">
-      <publishTime>03/28/2019 16:13:38</publishTime>
+      <publishTime>11/22/2019 02:01:05</publishTime>
     </File>
     <File Include="advertaising.aspx">
       <publishTime>03/23/2019 06:45:18</publishTime>
@@ -38,10 +38,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/24/2013 22:19:21</publishTime>
     </File>
     <File Include="bin/BilliardScoreboard.dll">
-      <publishTime>11/14/2019 21:16:12</publishTime>
+      <publishTime>01/30/2020 01:32:05</publishTime>
     </File>
     <File Include="bin/BilliardScoreboard.pdb">
-      <publishTime>11/14/2019 21:16:12</publishTime>
+      <publishTime>01/30/2020 01:32:05</publishTime>
     </File>
     <File Include="bin/cs/AjaxControlToolkit.resources.dll">
       <publishTime>01/24/2013 22:19:21</publishTime>
@@ -50,7 +50,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/24/2013 22:19:21</publishTime>
     </File>
     <File Include="bin/en-US/BilliardScoreboard.resources.dll">
-      <publishTime>11/14/2019 21:16:12</publishTime>
+      <publishTime>01/30/2020 01:32:06</publishTime>
     </File>
     <File Include="bin/es/AjaxControlToolkit.resources.dll">
       <publishTime>01/24/2013 22:19:21</publishTime>
@@ -65,7 +65,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/24/2013 22:19:22</publishTime>
     </File>
     <File Include="bin/it-IT/BilliardScoreboard.resources.dll">
-      <publishTime>11/14/2019 21:16:12</publishTime>
+      <publishTime>01/30/2020 01:32:06</publishTime>
     </File>
     <File Include="bin/it/AjaxControlToolkit.resources.dll">
       <publishTime>01/24/2013 22:19:22</publishTime>
@@ -266,7 +266,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/21/2019 22:30:11</publishTime>
     </File>
     <File Include="Game/StreamScoreData.aspx">
-      <publishTime>10/21/2019 14:20:37</publishTime>
+      <publishTime>01/29/2020 00:06:32</publishTime>
     </File>
     <File Include="Game/StreamScoreDataPl2.aspx">
       <publishTime>10/21/2019 14:21:01</publishTime>
@@ -437,133 +437,133 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/14/2016 21:12:26</publishTime>
     </File>
     <File Include="public/Upload/Club/10816.jpg">
-      <publishTime>04/07/2016 21:22:03</publishTime>
+      <publishTime>07/04/2016 08:22:03</publishTime>
     </File>
     <File Include="public/Upload/Club/111 %282%29.png">
-      <publishTime>04/07/2016 21:22:06</publishTime>
+      <publishTime>07/04/2016 08:22:06</publishTime>
     </File>
     <File Include="public/Upload/Club/12670135_175892172778999_4029238309513932289_n.jpg">
-      <publishTime>04/07/2016 21:22:06</publishTime>
+      <publishTime>07/04/2016 08:22:06</publishTime>
     </File>
     <File Include="public/Upload/Club/2.png">
-      <publishTime>04/07/2016 21:22:07</publishTime>
+      <publishTime>07/04/2016 08:22:07</publishTime>
     </File>
     <File Include="public/Upload/Club/2_with PAINT is 1920 - 1080px.png">
-      <publishTime>04/07/2016 21:22:12</publishTime>
+      <publishTime>07/04/2016 08:22:12</publishTime>
     </File>
     <File Include="public/Upload/Club/3 frecce.png">
-      <publishTime>04/07/2016 21:22:07</publishTime>
+      <publishTime>07/04/2016 08:22:07</publishTime>
     </File>
     <File Include="public/Upload/Club/3.jpg">
-      <publishTime>04/07/2016 21:22:09</publishTime>
+      <publishTime>07/04/2016 08:22:09</publishTime>
     </File>
     <File Include="public/Upload/Club/5eu.png">
       <publishTime>07/04/2016 08:22:18</publishTime>
     </File>
     <File Include="public/Upload/Club/a.png">
-      <publishTime>04/07/2016 21:22:19</publishTime>
+      <publishTime>07/04/2016 08:22:19</publishTime>
     </File>
     <File Include="public/Upload/Club/ASD.jpg">
-      <publishTime>04/07/2016 21:22:19</publishTime>
+      <publishTime>07/04/2016 08:22:19</publishTime>
     </File>
     <File Include="public/Upload/Club/b.png">
-      <publishTime>04/07/2016 21:22:21</publishTime>
+      <publishTime>07/04/2016 08:22:21</publishTime>
     </File>
     <File Include="public/Upload/Club/bil ver 523-950-72dpi.png">
-      <publishTime>04/07/2016 21:22:20</publishTime>
+      <publishTime>07/04/2016 08:22:20</publishTime>
     </File>
     <File Include="public/Upload/Club/bile + stecc.JPG">
-      <publishTime>04/07/2016 21:22:29</publishTime>
+      <publishTime>07/04/2016 08:22:29</publishTime>
     </File>
     <File Include="public/Upload/Club/Bitcoin-icon.png">
-      <publishTime>01/10/2015 01:25:40</publishTime>
+      <publishTime>09/30/2015 12:25:40</publishTime>
     </File>
     <File Include="public/Upload/Club/bp1.jpg">
-      <publishTime>04/07/2016 21:22:24</publishTime>
+      <publishTime>07/04/2016 08:22:24</publishTime>
     </File>
     <File Include="public/Upload/Club/BTCGold.png">
       <publishTime>10/15/2015 10:33:15</publishTime>
     </File>
     <File Include="public/Upload/Club/CIMG0970.JPG">
-      <publishTime>04/07/2016 21:23:17</publishTime>
+      <publishTime>07/04/2016 08:23:17</publishTime>
     </File>
     <File Include="public/Upload/Club/et.eBottom.png">
-      <publishTime>09/10/2015 00:32:36</publishTime>
+      <publishTime>10/08/2015 11:32:36</publishTime>
     </File>
     <File Include="public/Upload/Club/images %283%29.jpg">
-      <publishTime>04/07/2016 21:22:30</publishTime>
+      <publishTime>07/04/2016 08:22:30</publishTime>
     </File>
     <File Include="public/Upload/Club/images99TR879L.jpg">
-      <publishTime>04/07/2016 21:22:31</publishTime>
+      <publishTime>07/04/2016 08:22:31</publishTime>
     </File>
     <File Include="public/Upload/Club/lg.png">
       <publishTime>10/15/2015 09:23:44</publishTime>
     </File>
     <File Include="public/Upload/Club/LOGO CON NASTRO.jpg">
-      <publishTime>04/07/2016 21:22:33</publishTime>
+      <publishTime>07/04/2016 08:22:33</publishTime>
     </File>
     <File Include="public/Upload/Club/Manjhi - The Mountain Man -  Ninja_Pirate® %28AKA%29 DGtalViolence®.jpg">
       <publishTime>09/24/2015 11:27:26</publishTime>
     </File>
     <File Include="public/Upload/Club/palabil.png">
-      <publishTime>04/07/2016 21:22:35</publishTime>
+      <publishTime>07/04/2016 08:22:35</publishTime>
     </File>
     <File Include="public/Upload/Club/Player.jpg">
       <publishTime>10/15/2015 09:29:55</publishTime>
     </File>
     <File Include="public/Upload/Player/1 Sergio - 73.png">
-      <publishTime>04/07/2016 21:23:32</publishTime>
+      <publishTime>07/04/2016 08:23:32</publishTime>
     </File>
     <File Include="public/Upload/Player/111 %282%29.png">
-      <publishTime>04/07/2016 21:23:32</publishTime>
+      <publishTime>07/04/2016 08:23:32</publishTime>
     </File>
     <File Include="public/Upload/Player/1PLY.png">
-      <publishTime>04/07/2016 21:23:36</publishTime>
+      <publishTime>07/04/2016 08:23:36</publishTime>
     </File>
     <File Include="public/Upload/Player/2PLY.jpg">
       <publishTime>07/04/2016 08:23:33</publishTime>
     </File>
     <File Include="public/Upload/Player/2ply.png">
-      <publishTime>04/07/2016 21:23:48</publishTime>
+      <publishTime>07/04/2016 08:23:48</publishTime>
     </File>
     <File Include="public/Upload/Player/3 frecce.png">
-      <publishTime>04/07/2016 21:23:37</publishTime>
+      <publishTime>07/04/2016 08:23:37</publishTime>
     </File>
     <File Include="public/Upload/Player/3PLY.png">
-      <publishTime>04/07/2016 21:23:49</publishTime>
+      <publishTime>07/04/2016 08:23:49</publishTime>
     </File>
     <File Include="public/Upload/Player/4PLY.png">
       <publishTime>07/04/2016 08:23:58</publishTime>
     </File>
     <File Include="public/Upload/Player/5eu.png">
-      <publishTime>04/07/2016 21:23:51</publishTime>
+      <publishTime>07/04/2016 08:23:51</publishTime>
     </File>
     <File Include="public/Upload/Player/6002_258480304294508_924319069_n.jpg">
-      <publishTime>02/11/2015 21:53:16</publishTime>
+      <publishTime>11/02/2015 07:53:16</publishTime>
     </File>
     <File Include="public/Upload/Player/AngB.png">
-      <publishTime>04/07/2016 21:23:53</publishTime>
+      <publishTime>07/04/2016 08:23:53</publishTime>
     </File>
     <File Include="public/Upload/Player/asaas.png">
-      <publishTime>04/07/2016 21:23:59</publishTime>
+      <publishTime>07/04/2016 08:23:59</publishTime>
     </File>
     <File Include="public/Upload/Player/b.png">
-      <publishTime>04/07/2016 21:24:00</publishTime>
+      <publishTime>07/04/2016 08:24:00</publishTime>
     </File>
     <File Include="public/Upload/Player/bil ver 523-950-72dpi.png">
-      <publishTime>04/07/2016 21:24:00</publishTime>
+      <publishTime>07/04/2016 08:24:00</publishTime>
     </File>
     <File Include="public/Upload/Player/Bitcoin-icon.png">
-      <publishTime>05/10/2015 23:27:27</publishTime>
+      <publishTime>10/05/2015 10:27:27</publishTime>
     </File>
     <File Include="public/Upload/Player/bp1.jpg">
-      <publishTime>04/07/2016 21:24:02</publishTime>
+      <publishTime>07/04/2016 08:24:02</publishTime>
     </File>
     <File Include="public/Upload/Player/BTCGold.png">
       <publishTime>10/12/2015 11:40:48</publishTime>
     </File>
     <File Include="public/Upload/Player/cn1.png">
-      <publishTime>04/07/2016 21:24:04</publishTime>
+      <publishTime>07/04/2016 08:24:04</publishTime>
     </File>
     <File Include="public/Upload/Player/Consagno.jpg">
       <publishTime>07/04/2016 08:24:03</publishTime>
@@ -572,37 +572,37 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/14/2015 12:07:05</publishTime>
     </File>
     <File Include="public/Upload/Player/et.eBottom.png">
-      <publishTime>09/10/2015 00:22:59</publishTime>
+      <publishTime>10/08/2015 11:22:59</publishTime>
     </File>
     <File Include="public/Upload/Player/images %283%29 - Copia.jpg">
-      <publishTime>04/07/2016 21:24:04</publishTime>
+      <publishTime>07/04/2016 08:24:04</publishTime>
     </File>
     <File Include="public/Upload/Player/images %283%29.jpg">
-      <publishTime>04/07/2016 21:24:08</publishTime>
+      <publishTime>07/04/2016 08:24:08</publishTime>
     </File>
     <File Include="public/Upload/Player/labs.png">
-      <publishTime>11/12/2015 00:28:06</publishTime>
+      <publishTime>12/10/2015 10:28:06</publishTime>
     </File>
     <File Include="public/Upload/Player/Manjhi - The Mountain Man -  Ninja_Pirate® %28AKA%29 DGtalViolence®.jpg">
-      <publishTime>04/07/2016 21:24:19</publishTime>
+      <publishTime>07/04/2016 08:24:19</publishTime>
     </File>
     <File Include="public/Upload/Player/nicolas.png">
-      <publishTime>04/07/2016 21:24:12</publishTime>
+      <publishTime>07/04/2016 08:24:12</publishTime>
     </File>
     <File Include="public/Upload/Player/Player.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/15/2015 12:43:00</publishTime>
     </File>
     <File Include="public/Upload/Player/Quarta.jpg">
-      <publishTime>04/07/2016 21:24:13</publishTime>
+      <publishTime>07/04/2016 08:24:13</publishTime>
     </File>
     <File Include="public/Upload/Player/Sergio - 73.png">
-      <publishTime>04/07/2016 21:24:15</publishTime>
+      <publishTime>07/04/2016 08:24:15</publishTime>
     </File>
     <File Include="public/Upload/Player/Sergio.png">
-      <publishTime>04/07/2016 21:24:54</publishTime>
+      <publishTime>07/04/2016 08:24:54</publishTime>
     </File>
     <File Include="public/Upload/Player/Zito.png">
-      <publishTime>04/07/2016 21:24:24</publishTime>
+      <publishTime>07/04/2016 08:24:24</publishTime>
     </File>
     <File Include="race.aspx">
       <publishTime>04/07/2019 14:07:00</publishTime>
@@ -632,10 +632,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/06/2019 15:13:49</publishTime>
     </File>
     <File Include="Vote.aspx">
-      <publishTime>11/14/2019 00:13:01</publishTime>
+      <publishTime>01/15/2020 01:22:20</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/14/2019 21:16:20</publishTime>
+      <publishTime>01/29/2020 03:53:14</publishTime>
     </File>
   </ItemGroup>
 </Project>

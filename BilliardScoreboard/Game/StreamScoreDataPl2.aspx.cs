@@ -17,10 +17,14 @@ namespace BilliardScoreboard.Game
         
         protected void Page_Load(object sender, EventArgs e)
         {
-            SetValues();
-            imgPlayer4.Visible = vis;
 
-            imgClub4.Visible = vis;
+            if (Request.QueryString["ClubID"].ToString() != "")
+            {
+                SetValues();
+                imgPlayer4.Visible = vis;
+
+                imgClub4.Visible = vis;
+            }
 
         }
         
@@ -30,11 +34,11 @@ namespace BilliardScoreboard.Game
             using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
             {
                
-                SqlDataAdapter ad = new SqlDataAdapter("SELECT TVal,PVal, SVal,Score from RealTimeScoreDetails where MatchId=1111 AND TeamID=2", con);
+                SqlDataAdapter ad = new SqlDataAdapter("SELECT TVal,PVal, SVal,Score from RealTimeScoreDetails where MatchId='"+ Request.QueryString["ClubID"].ToString() + "' AND TeamID=2", con);
                 DataSet ds = new DataSet();
                 ad.Fill(ds);
 
-                SqlDataAdapter sd = new SqlDataAdapter("select imgPlayer2,Player2Name,Club2Name,Club4Name,imgPlayer4,Player4Name,imgClub2,imgClub4 from MatchDetails where MatchIDD =1111", con);
+                SqlDataAdapter sd = new SqlDataAdapter("select imgPlayer2,Player2Name,Club2Name,Club4Name,imgPlayer4,Player4Name,imgClub2,imgClub4 from MatchDetails where MatchIDD ='"+ Request.QueryString["ClubID"].ToString() + "'", con);
                 DataSet dataSet = new DataSet();
                 sd.Fill(dataSet);
 

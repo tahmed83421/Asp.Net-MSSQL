@@ -424,14 +424,18 @@
 <body>
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-       
-            
+        <div>
+             <asp:TextBox ID="ClubIDD" Visible="true" style="" BorderColor="blue" Placeholder="Type Club ID to START" runat="server" ></asp:TextBox>
+            <asp:Button ID="Button1" runat="server" Text="Submit" />
+            </div>
             <table border="1" style="background-color:black; border-color:white; "; class="auto-style48" >
-              
+          
                 <tr style="color:white; border-bottom:solid; border-bottom-color:red; border-color:white" >
+                     
                     <td colspan="" class="auto-style46" style="text-align:center;">
                    
-                         &nbsp; &nbsp;&nbsp;&nbsp;Punti&nbsp;&nbsp;<asp:Label ID="Punti1" runat="server"  Font-Size="23"  Text="000" ></asp:Label>
+                         &nbsp; &nbsp;
+                         &nbsp;&nbsp;Punti&nbsp;&nbsp;<asp:Label ID="Punti1" runat="server"  Font-Size="23"  Text="000" ></asp:Label>
                &nbsp; - &nbsp;&nbsp;Tiri&nbsp;&nbsp;&nbsp;<asp:Label ID="Tiri1" runat="server" Font-Size="23" Text="00"></asp:Label>
                   
                    &nbsp; -&nbsp;&nbsp;alla fine&nbsp;&nbsp;&nbsp;<asp:Label ID="Allafine1" Font-Size="23" runat="server" Text="P000"></asp:Label> 

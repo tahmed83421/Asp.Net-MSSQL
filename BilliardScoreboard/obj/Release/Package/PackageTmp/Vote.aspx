@@ -23,7 +23,7 @@
                   <br />
                    <img  width="50%" style=" margin-top:50px;" src="img/BigLogo.png" /><br /><br /><br /><br /><br />
 
-            <div style="color:white; text-align:center; font-size:35px">
+            <div style="color:white; text-align:center; font-size:25px">
                 <b>Votate con 1 click questo argomento  &nbsp;&nbsp;  n° 
                     <asp:Label ID="TopicNo" runat="server" Text="000"></asp:Label>
                      &nbsp;&nbsp;&nbsp;&nbsp;che si chiude il :

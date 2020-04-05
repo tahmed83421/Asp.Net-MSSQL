@@ -16,7 +16,19 @@ namespace BilliardScoreboard.Game
         public bool vis;
         protected void Page_Load(object sender, EventArgs e)
         {
-            SetValues();
+            Timer1.Enabled = false;
+            
+
+
+        if (Request.QueryString["ClubID"].ToString() != "")
+            {
+                 SetValues();
+                Timer1.Enabled = true;
+
+                ClubIDD.Visible= false;
+                Button1.Visible = false;
+            }
+
             ImgPlayer3.Visible = vis;
 
             imgClub3.Visible = vis;
@@ -30,11 +42,11 @@ namespace BilliardScoreboard.Game
             string mid = Setup.MatchId.ToString();
             using (SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["sqlcon"].ConnectionString))
             {
-                 SqlDataAdapter ad = new SqlDataAdapter("SELECT TVal,PVal, SVal,Score from RealTimeScoreDetails where MatchId='1111' AND TeamID=1", con);
+                 SqlDataAdapter ad = new SqlDataAdapter("SELECT TVal,PVal, SVal,Score from RealTimeScoreDetails where MatchId='"+ Request.QueryString["ClubID"].ToString() + "' AND TeamID=1", con);
                     DataSet ds = new DataSet();
                     ad.Fill(ds);
                     
-                SqlDataAdapter sd = new SqlDataAdapter("select imgPlayer1,Player1Name,Club1Name,Club3Name,imgPlayer3,Player3Name,imgClub3,imgClub1 from MatchDetails where MatchIDD =1111", con);
+                SqlDataAdapter sd = new SqlDataAdapter("select imgPlayer1,Player1Name,Club1Name,Club3Name,imgPlayer3,Player3Name,imgClub3,imgClub1 from MatchDetails where MatchIDD ='"+ Request.QueryString["ClubID"].ToString() + "'", con);
                 DataSet dataSet = new DataSet();
                 sd.Fill(dataSet);
 
@@ -90,7 +102,11 @@ namespace BilliardScoreboard.Game
 
         protected void Timer1_Tick(object sender, EventArgs e)
         {
-            SetValues();
+            if (ClubIDD.Text != "")
+            {
+                SetValues();
+            }
+
         }
 
     }

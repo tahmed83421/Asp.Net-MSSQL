@@ -11,7 +11,7 @@
             height: 130px;
         }
         .auto-style17 {
-            width: 644px;
+            width: 645px;
         }
     </style>
 </head>

@@ -297,9 +297,13 @@ namespace BilliardScoreboard
 
         // Insert Score Data During Game
 
+
+
+
+
         [WebMethod]
         [System.Web.Script.Services.ScriptMethod]
-        public  string UpdateScoreDataOnStream(string Score, string PVal, string TVal, string SVal, string TeamID)
+        public  string UpdateScoreDataOnStream(string Score, string PVal, string TVal, string SVal, string TeamID, string match_Id)
         {
 
 
@@ -309,7 +313,7 @@ namespace BilliardScoreboard
             {
                 SqlCommand cmd= new SqlCommand();
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "update RealTimeScoreDetails set Score=" + Score + ", TVal='" + TVal + "',PVal='" + PVal + "' , SVal= '" + SVal + "' where MatchId=1111 AND TeamID=" + TeamID + "";
+                cmd.CommandText = "update RealTimeScoreDetails set Score=" + Score + ", TVal='" + TVal + "',PVal='" + PVal + "' , SVal= '" + SVal + "' where MatchId="+match_Id+" AND TeamID=" + TeamID + "";
                 //                cmd.CommandText = "INSERT INTO PlayerDetails (LoggedIn) VALUES (1)";
                 cmd.Connection = con;
 
